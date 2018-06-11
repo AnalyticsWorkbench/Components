@@ -1,4 +1,4 @@
-# Install Analytics Workbench with netbeans using postgresSQL
+# Analytics Workbench Setup with netbeans using postgresSQL
 
 ## Components
 
