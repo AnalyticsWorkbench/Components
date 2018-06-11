@@ -1,0 +1,93 @@
+{
+	"input_encoding": {
+		"rank": 0,
+		"type": "AutoComplete",
+		"label": "Identifier",
+		"multi": true,
+		"allowCreate": true,
+		"default": ["verb", "object.objectType"],
+		"required": true,
+		"options": [
+			"published",
+			"actor.id",
+			"actor.objectType",
+			"verb",
+			"object.id",
+			"object.objectType",
+			"target.id",
+			"target.objectType"
+		]
+	},
+	"group_by": {
+		"rank": 1,
+		"type": "AutoComplete",
+		"label": "Group by",
+		"multi": true,
+		"allowCreate": true,
+		"default": ["actor.id"],
+		"required": true,
+		"options": [
+			"published",
+			"actor.id",
+			"actor.objectType",
+			"verb",
+			"object.id",
+			"object.objectType",
+			"target.id",
+			"target.objectType"
+		]
+	},
+	"split_at_property": {
+		"rank": 2,
+		"type": "AutoComplete",
+		"label": "Split at property",
+		"allowCreate": true,
+		"default": "verb",
+		"required": true,
+		"options": [
+			"published",
+			"actor.id",
+			"actor.objectType",
+			"verb",
+			"object.id",
+			"object.objectType",
+			"target.id",
+			"target.objectType"
+		]
+	},
+	"split_at_value": {
+		"rank": 3,
+		"type": "Text",
+		"label": "Split value",
+		"required": true,
+		"default": "login"
+	},
+	"support": {
+		"rank": 4,
+		"type": "Slider",
+		"label": "Minimum support",
+		"default": 0.1,
+		"required": true,
+		"min": 0.01,
+		"max": 1.00,
+		"step": 0.01
+	},
+	"continuous": {
+		"rank": 5,
+		"type": "Checkbox",
+		"label": "Continues sequences",
+		"default": false,
+		"description": "Only allow continuous sequences"
+	},
+	"output": {
+		"rank": 6,
+		"type": "Select",
+		"label": "Output type",
+		"default": "SiSOB table",
+		"required": true,
+		"options": {
+			"SiSOB table": "SiSOB table",
+			"Excel file": "Excel file"
+		}
+	}
+}

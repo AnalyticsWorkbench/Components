@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@import url("reset.css");
+
+svg {
+	display: block; 
+	width: 100%; 
+	margin: 0 auto;
+	}
+
+body {
+    font: Verdana, Geneva, sans-serif;
+	font-family:Verdana, Geneva, sans-serif;
+    /* [disabled]background: #000000; */
+    color: #006;
+	background: #452185;
+
+	height:80%;
+}
+
+#wrapper {
+    width: 98%;
+    min-width: 900px;
+    max-width: 2000px;
+	margin: 0 auto;
+	box-shadow: 10px 10px 5px #999;
+    border-radius: 15px;
+	overflow:hidden;
+}
+
+#header {
+	font-size:large;
+    float: left;
+    height: 90px;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+
+#contentliquid {
+    float: left;
+    width: 100%;
+}
+
+#content {
+    background: #FFFFFF;
+    margin-right: 200px;
+}
+
+#sidebar {
+	color:#FFF;
+    background: #452185;
+    width: 200px;
+    margin-left: -200px;
+    float: left;
+	border-radius: 10px;
+	height:100%;
+
+}
+
+#footer {
+    background: #6F7D94;
+    background-color: #CCCCCC;
+    height: 25px;
+    width: 100%;
+    clear: both;
+}
+#footer p {
+	font-size: 11px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   
+    padding-right: 15px;
+    padding-left: 20px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+}
+
+
+#header h1,h2,h3,h4,p {
+	float: left;
+	padding-top: 30px;
+	padding-left: 30px;
+	font-size: 18px;
+}
+#header img {
+	float: left;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+ul.nav p {
+    float:none;
+    background: #452185;
+    padding-top: 5px;
+    padding-left: 0px;
+	font-size:12px;
+}
+
+ul.nav {
+    list-style: none; /* this removes the list marker */
+    border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+    margin-bottom: 5px; /* this creates the space between the navigation on the content below */
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+ul.nav li {
+    border-top: 1px solid #666; /* this creates the button separation */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul.nav a, ul.nav span, ul.nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+    padding: 5px 5px 5px 15px;
+    display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+    text-decoration: none;
+    background: #452185;
+    color: #FFF;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+    background: #6F7D94;
+    color: #FFF;
+}
+
+#searchresult p {
+    padding: 0px;
+    margin:0px;
+}
+
+/* ************ SVG **************** */
+circle {
+    stroke: #333;
+    stroke-width: 1.5px;
+}
+
+
+text {
+    font: 16px sans-serif;
+    pointer-events: none;
+}
+/*text.shadow {*/
+
+/*stroke-width: 3px;*/
+/*stroke-opacity: .8;*/
+/*}*/
+
+
+
+/*Area Chart */
+/*.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}*/

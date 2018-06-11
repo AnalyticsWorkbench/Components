@@ -1,0 +1,80 @@
+/*.ui-menu {*/
+/*width: 150px;*/
+/*display: none;*/
+/*}*/
+
+.x-axis path,
+.x-axis line {
+    shape-rendering: crispEdges;
+    fill: none;
+    stroke: #000;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    width: 300px;
+}
+
+.sb-slidebar {
+    padding: 10px;
+    background: lightgray;
+    top: 42px;
+}
+
+.sb-style-overlay {
+    z-index: 100 !important;
+}
+
+.overflow {
+    height: 150px;
+    width: 100px;
+    position: fixed;
+}
+
+.header {
+    height: 40px;
+}
+
+.member-div {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.filter-button {
+    margin: auto;
+    position: absolute;
+    right: 0;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding-left: 0.4em;
+}
+
+.ui-dialog .ui-dialog-content {
+    padding-left: 0.4em;
+}
+
+.member-item > * {
+    vertical-align: text-top;
+}
+
+.option-item {
+    border: 1px solid #4297d7;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+div.ui-tooltip {
+    pointer-events: none;
+}
+
+button {
+    margin-top: 10px;
+}
+
+@-moz-document url-prefix() {
+    svg {
+        overflow: visible;
+    }
+}

@@ -1,0 +1,10 @@
+{
+	"tojson": {
+		"rank": 0,
+		"type": "Checkbox",
+		"label": "Append .json file extension?",
+                "description": "Append .JSON file extension?",
+		"required": true
+		
+	}
+}
