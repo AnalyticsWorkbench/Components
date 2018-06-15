@@ -2,9 +2,9 @@ package eu.sisob.components.centrality;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 
 import eu.sisob.components.rwrapper.RWrapperAgent;
-import info.collide.util.ClassLoaderUtility;
 
 public class CentralityAgent extends RWrapperAgent {
 

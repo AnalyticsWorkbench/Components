@@ -20,7 +20,6 @@ import eu.sisob.components.framework.json.util.JSONFile;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Stack;
-import java.util.Vector;
 
 /**
  *

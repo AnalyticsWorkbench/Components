@@ -1,7 +1,5 @@
 package eu.sisob.components.framework;
 
-import info.collide.sqlspaces.commons.Tuple;
-
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
@@ -29,60 +27,6 @@ public class FileHelper {
 	public static final String FILE_SEPERATOR = File.separator;
 	public static final String THIRDPARTY_HOME = SISOBProperties
 			.getThirdPartyPath();
-
-	/**
-	 * Recreates text files encoded as String in data tuple.
-	 * 
-	 * @param data
-	 *            - fetched data tuple
-	 * @param command
-	 *            - command tuple
-	 * @param type
-	 *            -
-	 */
-	public static void createFiles(Tuple data, Tuple command, String type) {
-		// String path =
-		// AgentProperties.DEFAULT_FILEPATH+AgentProperties.SEPERATOR +
-		// command.getField(0).getValue().toString() + AgentProperties.SEPERATOR
-		// + type + AgentProperties.SEPERATOR +
-		// command.getField(3).getValue().toString() +
-		// AgentProperties.SEPERATOR;
-		String path = THIRDPARTY_HOME + type + FILE_SEPERATOR + "Workspace"
-				+ FILE_SEPERATOR + command.getField(0).getValue().toString()
-				+ FILE_SEPERATOR + command.getField(3).getValue().toString()
-				+ FILE_SEPERATOR;
-		new File(path + "input").mkdirs();
-		new File(path + "output").mkdirs();
-
-		String dataString = data.getField(3).getValue().toString();
-		String[] splitString = dataString.split("@@");
-
-		HashMap<String, String> stringMap = new HashMap<String, String>();
-
-		for (String subString : splitString) {
-			System.out.println(subString.subSequence(0, subString.indexOf("|"))
-					.toString());
-			stringMap
-					.put(subString.subSequence(0, subString.indexOf("|"))
-							.toString(),
-							subString.subSequence(subString.indexOf("|") + 1,
-									subString.length()).toString());
-		}
-
-		try {
-
-			for (Entry<?, ?> mapEntry : stringMap.entrySet()) {
-				BufferedWriter bufferedWriter = new BufferedWriter(
-						new FileWriter(path + FILE_SEPERATOR + "input"
-								+ FILE_SEPERATOR + mapEntry.getKey().toString()));
-				bufferedWriter.write(mapEntry.getValue().toString());
-				bufferedWriter.close();
-
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-	}
 
 	/**
 	 * Copies file from input path to output path.

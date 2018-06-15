@@ -35,11 +35,6 @@
     	<version>2.1.0-SNAP-2011-11-18</version>
     </dependency>
     <dependency>
-    	<groupId>info.collide</groupId>
-    	<artifactId>util</artifactId>
-    	<version>3.0.0</version>
-    </dependency>
-    <dependency>
     	<groupId>${project.groupId}</groupId>
     	<artifactId>api-data</artifactId>
     	<version>${project.version}</version>

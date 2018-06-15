@@ -39,10 +39,5 @@
     	<artifactId>api-data</artifactId>
     	<version>${project.version}</version>
     </dependency>
-    <dependency>
-    	<groupId>info.collide</groupId>
-    	<artifactId>util</artifactId>
-    	<version>3.0.0</version>
-    </dependency>
   </dependencies>
 </project>

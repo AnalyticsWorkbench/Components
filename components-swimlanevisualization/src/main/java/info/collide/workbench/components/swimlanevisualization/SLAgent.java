@@ -11,7 +11,6 @@ import eu.sisob.api.parser.sisob.SGFParser;
 import eu.sisob.api.visualization.VisualizationAgent;
 import eu.sisob.components.framework.SISOBProperties;
 import eu.sisob.components.framework.json.util.JSONFile;
-import info.collide.sqlspaces.commons.Tuple;
 import java.io.File;
 
 /**

@@ -40,7 +40,7 @@ import eu.sisob.components.framework.SISOBProperties;
 import eu.sisob.components.framework.graph.parser.FormatFactory;
 import eu.sisob.components.framework.json.util.IllegalContentTypeException;
 import eu.sisob.components.framework.json.util.JSONFile;
-import info.collide.util.ClassLoaderUtility;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 import rcaller.RCaller;
 import rcaller.RCode;
 import rcaller.exception.RCallerExecutionException;

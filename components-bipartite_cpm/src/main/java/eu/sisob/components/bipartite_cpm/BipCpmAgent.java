@@ -5,18 +5,8 @@
 package eu.sisob.components.bipartite_cpm;
 
 import com.google.gson.JsonObject;
-import eu.sisob.components.framework.AgentProperties;
-import eu.sisob.components.framework.json.util.IllegalContentTypeException;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 import eu.sisob.components.rwrapper.RWrapperAgent;
-import info.collide.sqlspaces.commons.Tuple;
-import info.collide.util.ClassLoaderUtility;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import rcaller.RCaller;
 import rcaller.RCode;
 import rcaller.exception.RCallerExecutionException;

@@ -15,13 +15,13 @@ import eu.sisob.components.framework.json.util.JSONFile;
 import eu.sisob.components.framework.util.Command;
 import eu.sisob.components.framework.util.ConnectionType;
 
-import info.collide.util.ClassLoaderUtility;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import eu.sisob.components.framework.componentdescription.FilterCategories;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 
 import java.io.File;
 import java.io.IOException;

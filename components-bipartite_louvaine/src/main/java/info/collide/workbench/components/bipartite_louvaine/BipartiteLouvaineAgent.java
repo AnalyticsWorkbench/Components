@@ -7,8 +7,8 @@
 package info.collide.workbench.components.bipartite_louvaine;
 
 import com.google.gson.JsonObject;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 import eu.sisob.components.rwrapper.RWrapperAgent;
-import info.collide.util.ClassLoaderUtility;
 
 /**
  *

@@ -41,10 +41,10 @@ import eu.sisob.components.framework.connection.postgresql.Notifier;
 import eu.sisob.components.framework.connection.postgresql.PostgresqlDataConnection;
 import eu.sisob.components.framework.json.util.IllegalContentTypeException;
 import eu.sisob.components.framework.json.util.JSONFile;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 import eu.sisob.components.framework.util.Command;
 import eu.sisob.components.framework.util.ConnectionType;
 import eu.sisob.components.framework.util.DataType;
-import info.collide.util.ClassLoaderUtility;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

@@ -4,17 +4,10 @@
  */
 package org.components.n_cohesive_subgroups;
 
-import eu.sisob.components.framework.AgentProperties;
-import eu.sisob.components.framework.json.util.IllegalContentTypeException;
 import eu.sisob.components.rwrapper.RWrapperAgent;
-import info.collide.sqlspaces.commons.Tuple;
-import info.collide.util.ClassLoaderUtility;
-import java.io.File;
-import java.io.IOException;
-import org.json.simple.JSONArray;
 
-import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 
 import rcaller.RCaller;
 import rcaller.RCode;

@@ -25,6 +25,7 @@ eu\sisob\components\framework\connection\factory\PostgresMessageConnectionFactor
 eu\sisob\components\framework\componentdescription\Output.class
 eu\sisob\components\framework\AgentManager$2.class
 eu\sisob\components\framework\connection\mqtt\MqttMessageCallback.class
+eu\sisob\components\framework\util\ClassLoaderUtility.class
 eu\sisob\components\framework\util\ConnectionType.class
 eu\sisob\components\framework\AgentListener.class
 eu\sisob\components\framework\AgentManager.class

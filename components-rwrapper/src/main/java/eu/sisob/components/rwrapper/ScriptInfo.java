@@ -4,7 +4,7 @@
  */
 package eu.sisob.components.rwrapper;
 
-import info.collide.util.ClassLoaderUtility;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
