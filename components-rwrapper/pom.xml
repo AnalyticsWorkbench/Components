@@ -27,10 +27,15 @@
     	<version>${project.version}</version>
     </dependency>
     <dependency>
+    	<groupId>com.github.jbytecode</groupId>
+    	<artifactId>RCaller</artifactId>
+    	<version>2.8</version>
+    </dependency>
+<!--    <dependency>
     	<groupId>rcaller</groupId>
     	<artifactId>rcaller</artifactId>
     	<version>2.1.0-SNAP-2011-11-18</version>
-    </dependency>
+    </dependency>-->
   </dependencies>
   <name>Collide Analytics Workbench RWrapper Component</name>
 </project>

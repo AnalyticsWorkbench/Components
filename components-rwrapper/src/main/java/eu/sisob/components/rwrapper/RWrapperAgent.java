@@ -1,5 +1,8 @@
 package eu.sisob.components.rwrapper;
 
+import com.github.rcaller.exception.ExecutionException;
+import com.github.rcaller.rStuff.RCaller;
+import com.github.rcaller.rStuff.RCode;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -8,11 +11,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.StringTokenizer;
-import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -41,9 +42,7 @@ import eu.sisob.components.framework.graph.parser.FormatFactory;
 import eu.sisob.components.framework.json.util.IllegalContentTypeException;
 import eu.sisob.components.framework.json.util.JSONFile;
 import eu.sisob.components.framework.util.ClassLoaderUtility;
-import rcaller.RCaller;
-import rcaller.RCode;
-import rcaller.exception.RCallerExecutionException;
+import java.util.Vector;
 
 /**
  * @author hecking
@@ -634,7 +633,7 @@ public class RWrapperAgent extends Agent {
                 }
             }
 
-        } catch (RCallerExecutionException ex) {
+        } catch (ExecutionException ex) {
 
             this.indicateError(agentName + ": Failure in R script!!!", ex);
             success = false;
