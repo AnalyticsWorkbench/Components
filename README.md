@@ -16,7 +16,7 @@
 
 **Requirements:**
 - Redis (https://redis.io/download or on Windows https://github.com/dmajkic/redis/downloads)
-To run Redis with the default configuration just type:
+To run Redis with the default configuration just type in terminal or cmd:
  ```
  % cd src
  % ./redis-server
