@@ -16,6 +16,12 @@
 
 **Requirements:**
 - Redis (https://redis.io/download or on Windows https://github.com/dmajkic/redis/downloads)
+To run Redis with the default configuration just type in terminal or cmd:
+ ```
+ % cd src
+ % ./redis-server
+  ```
+
 - NodeJS (https://nodejs.org)
   - install necessary module by executing node, navigationg into “webworkbench” and executing „npm install“ (in the terminal/comand line) in the „webworkbench“ directory
   
@@ -59,13 +65,20 @@ results.filelocation=path_to_project/webworkbench/results/
 
 In UI folder:
 	- Run usercreator.js (Initial admin user (user:admin, pwd:admin-pw) and regular user (user:user, pwd:user-pw) will be created
-	- Run postgresinitializer.js
+	- Run postgresinitializer.js (node postgresinitializer.js)
 
 
 In components folder 
 
-- Run Maven build (mvn clean install)
+- Run Maven build
+```
+mvn clean install
+```
 - Run postgresinit.java in executer folder
+```
+javac PostgresInitializer.java
+```
+
 
 
 ### 3. Startup
