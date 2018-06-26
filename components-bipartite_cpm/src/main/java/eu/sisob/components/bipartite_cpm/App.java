@@ -1,6 +1,6 @@
 package eu.sisob.components.bipartite_cpm;
 
-import info.collide.util.ClassLoaderUtility;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;

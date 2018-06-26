@@ -1,7 +1,7 @@
 package eu.sisob.components.supergraph;
 
 import com.google.gson.JsonObject;
-import info.collide.sqlspaces.commons.Tuple;
+
 
 import java.util.ArrayList;
 import java.util.List;

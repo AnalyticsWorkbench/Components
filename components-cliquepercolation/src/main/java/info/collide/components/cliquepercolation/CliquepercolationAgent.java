@@ -1,12 +1,9 @@
 package info.collide.components.cliquepercolation;
 
-import rcaller.RCaller;
-import rcaller.RCode;
-
+import com.github.rcaller.rStuff.RCode;
 import com.google.gson.JsonObject;
 import eu.sisob.components.framework.util.ClassLoaderUtility;
-
-import rcaller.exception.RCallerExecutionException;
+import eu.sisob.components.rwrapper.RWrapperAgent;
 
 public class CliquepercolationAgent extends RWrapperAgent {
 

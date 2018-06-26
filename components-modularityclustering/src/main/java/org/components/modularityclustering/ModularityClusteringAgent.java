@@ -1,14 +1,10 @@
 package org.components.modularityclustering;
 
-import info.collide.sqlspaces.commons.Tuple;
-import info.collide.util.ClassLoaderUtility;
-import rcaller.RCode;
-
+import com.github.rcaller.rStuff.RCode;
 import java.util.ArrayList;
-
-
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 
 import eu.sisob.components.rwrapper.RWrapperAgent;
 

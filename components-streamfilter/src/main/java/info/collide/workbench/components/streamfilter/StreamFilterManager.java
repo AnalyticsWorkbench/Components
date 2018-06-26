@@ -5,22 +5,14 @@
 package info.collide.workbench.components.streamfilter;
 
 import com.google.gson.JsonObject;
-import eu.sisob.components.framework.connection.interfaces.DataConnection;
-import eu.sisob.components.framework.connection.interfaces.MessageConnection;
 import eu.sisob.components.framework.util.ConnectionType;
-import info.collide.sqlspaces.commons.Tuple;
 
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
-import eu.sisob.components.framework.Agent;
 import eu.sisob.components.framework.AgentManager;
 import eu.sisob.components.framework.componentdescription.Container;
 import eu.sisob.components.framework.componentdescription.Filter;

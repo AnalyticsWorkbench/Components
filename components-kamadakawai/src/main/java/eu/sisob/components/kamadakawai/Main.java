@@ -1,6 +1,6 @@
 //package eu.sisob.components.kamadakawai;
 //
-//import info.collide.sqlspaces.commons.Tuple;
+//
 //
 //import java.io.BufferedReader;
 //import java.io.FileReader;

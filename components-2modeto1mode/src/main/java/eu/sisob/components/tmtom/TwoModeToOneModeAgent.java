@@ -14,8 +14,8 @@ import com.google.gson.JsonObject;
 
 import eu.sisob.api.visualization.format.metadata.fields.Property;
 import eu.sisob.components.framework.json.util.IllegalContentTypeException;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 import eu.sisob.components.rwrapper.RWrapperAgent;
-import info.collide.util.ClassLoaderUtility;
 
 /**
  *

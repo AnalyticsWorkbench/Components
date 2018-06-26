@@ -4,24 +4,14 @@
  */
 package org.components.graphgenerator;
 
+import com.github.rcaller.rStuff.RCode;
 import eu.sisob.api.visualization.format.metadata.Metadata;
-import eu.sisob.components.framework.AgentProperties;
-import eu.sisob.components.framework.json.util.IllegalContentTypeException;
 import eu.sisob.components.framework.util.AgentStatus;
 import eu.sisob.components.rwrapper.RWrapperAgent;
-import info.collide.sqlspaces.commons.Tuple;
-import info.collide.util.ClassLoaderUtility;
 import java.io.File;
-import java.io.IOException;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONValue;
 
-import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-
-import rcaller.RCaller;
-import rcaller.RCode;
-import rcaller.exception.RCallerExecutionException;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 
 /**
  *

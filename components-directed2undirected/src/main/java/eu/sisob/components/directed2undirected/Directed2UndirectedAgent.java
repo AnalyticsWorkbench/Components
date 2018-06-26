@@ -2,8 +2,6 @@ package eu.sisob.components.directed2undirected;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import info.collide.sqlspaces.commons.Tuple;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;

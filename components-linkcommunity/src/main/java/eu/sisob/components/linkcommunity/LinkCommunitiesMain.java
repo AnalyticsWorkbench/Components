@@ -4,7 +4,7 @@
 //import java.io.FileReader;
 //
 //import eu.sisob.components.framework.AgentManager;
-//import info.collide.sqlspaces.commons.Tuple;
+//
 //
 //public class LinkCommunitiesMain 
 //{

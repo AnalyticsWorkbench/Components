@@ -2,16 +2,12 @@ package eu.sisob.components.datatablemerge;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import info.collide.sqlspaces.commons.Tuple;
-import info.collide.sqlspaces.commons.TupleSpaceException;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import eu.sisob.api.parser.sisob.SDTParser;
 import eu.sisob.api.visualization.format.datatable.Dataset;
 import eu.sisob.api.visualization.format.datatable.fields.DataField;

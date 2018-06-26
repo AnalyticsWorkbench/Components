@@ -8,15 +8,11 @@ import com.google.gson.JsonObject;
 import eu.sisob.components.framework.AgentManager;
 import eu.sisob.components.framework.componentdescription.BooleanField;
 import eu.sisob.components.framework.componentdescription.Container;
-import eu.sisob.components.framework.componentdescription.Field;
 import eu.sisob.components.framework.componentdescription.Filter;
 import eu.sisob.components.framework.componentdescription.Input;
 import eu.sisob.components.framework.componentdescription.Output;
-import eu.sisob.components.framework.componentdescription.PasswordField;
 import eu.sisob.components.framework.componentdescription.StringField;
 import eu.sisob.components.framework.util.ConnectionType;
-import info.collide.sqlspaces.commons.Tuple;
-
 import java.util.ArrayList;
 import java.util.List;
 import org.json.simple.JSONArray;

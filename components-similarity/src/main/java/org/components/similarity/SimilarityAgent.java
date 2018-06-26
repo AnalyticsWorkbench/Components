@@ -4,21 +4,10 @@
  */
 package org.components.similarity;
 
-import eu.sisob.components.framework.AgentProperties;
-import eu.sisob.components.framework.json.util.IllegalContentTypeException;
 import eu.sisob.components.rwrapper.RWrapperAgent;
-import info.collide.sqlspaces.commons.Tuple;
-import info.collide.util.ClassLoaderUtility;
-import java.io.File;
-import java.io.IOException;
-import org.json.simple.JSONArray;
-
-import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 
-import rcaller.RCaller;
-import rcaller.RCode;
-import rcaller.exception.RCallerExecutionException;
 
 /**
  * @author doberstein
@@ -48,11 +37,6 @@ public class SimilarityAgent extends RWrapperAgent {
 			indicateError("could not find the selected script");
 		}
 		
-	}
-
-
-	
-	public void addScriptspecificVariables(RCode code){
 	}
 
 }

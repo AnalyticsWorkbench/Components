@@ -6,7 +6,7 @@ import java.util.List;
 
 import org.json.simple.JSONArray;
 
-import info.collide.sqlspaces.commons.Tuple;
+
 import eu.sisob.components.framework.Agent;
 import eu.sisob.components.framework.AgentManager;
 import eu.sisob.components.framework.componentdescription.Container;

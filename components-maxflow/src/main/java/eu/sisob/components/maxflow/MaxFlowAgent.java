@@ -1,9 +1,9 @@
 package eu.sisob.components.maxflow;
 
+import com.github.rcaller.exception.ExecutionException;
+import com.github.rcaller.rStuff.RCaller;
+import com.github.rcaller.rStuff.RCode;
 import com.google.gson.JsonObject;
-import info.collide.sqlspaces.commons.Tuple;
-import info.collide.util.ClassLoaderUtility;
-
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,13 +11,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
-import rcaller.RCaller;
-import rcaller.RCode;
-import rcaller.exception.RCallerExecutionException;
-
 import eu.sisob.components.framework.AgentProperties;
 import eu.sisob.components.framework.json.util.IllegalContentTypeException;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 import eu.sisob.components.rwrapper.RWrapperAgent;
 
 
@@ -111,7 +107,7 @@ public class MaxFlowAgent extends RWrapperAgent {
                 }
             }
 
-        } catch (RCallerExecutionException ex) {
+        } catch (ExecutionException ex) {
 
             System.out.println(agentName + ": Failure in R script!!!");
             this.indicateError(agentName + ": Max flow analysis does not work with the given input."

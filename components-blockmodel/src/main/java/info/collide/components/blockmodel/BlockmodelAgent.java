@@ -4,6 +4,9 @@
  */
 package info.collide.components.blockmodel;
 
+import com.github.rcaller.exception.ExecutionException;
+import com.github.rcaller.rStuff.RCaller;
+import com.github.rcaller.rStuff.RCode;
 import eu.sisob.components.framework.AgentProperties;
 import eu.sisob.components.framework.json.util.IllegalContentTypeException;
 import eu.sisob.components.framework.json.util.JSONFile;
@@ -17,10 +20,7 @@ import org.json.simple.JSONArray;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import eu.sisob.components.framework.util.ClassLoaderUtility;
-
-import rcaller.RCaller;
-import rcaller.RCode;
-import rcaller.exception.RCallerExecutionException;
+import java.util.Vector;
 
 /**
  * @author doberstein
@@ -260,7 +260,7 @@ public class BlockmodelAgent extends RWrapperAgent {
 				}
 			}
 
-		} catch (RCallerExecutionException ex) {
+		} catch (ExecutionException ex) {
 
 			this.indicateError(agentName + ": Failure in R script!!!", ex);
 			success = false;
@@ -309,6 +309,7 @@ public class BlockmodelAgent extends RWrapperAgent {
 	}
 	
 	
+        @Override
 	public void addScriptSpecificVariables(RCode code){
 		code.addRCode("clustCount <- " + this.clustCount);
 		code.addRCode("blockRelations <- c(" + generateBlockRelations() + ")");

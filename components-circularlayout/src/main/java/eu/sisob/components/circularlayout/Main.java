@@ -1,6 +1,6 @@
 //package eu.sisob.components.circularlayout;
 //
-//import info.collide.sqlspaces.commons.Tuple;
+//
 //import eu.sisob.components.framework.AgentManager;
 //import eu.sisob.components.framework.SISOBProperties;
 //

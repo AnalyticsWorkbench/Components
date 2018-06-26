@@ -1,12 +1,9 @@
 package eu.sisob.components.duplexer;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import info.collide.sqlspaces.commons.Tuple;
-import info.collide.sqlspaces.commons.TupleSpaceException;
 import eu.sisob.components.framework.Agent;
 
 public class DuplexerAgent extends Agent {

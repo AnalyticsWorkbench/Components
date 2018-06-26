@@ -1,7 +1,7 @@
 package eu.sisob.components.findnodesubset;
 
 import com.google.gson.JsonObject;
-import info.collide.sqlspaces.commons.Tuple;
+
 import info.collide.util.ClassLoaderUtility;
 
 import java.io.IOException;

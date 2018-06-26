@@ -6,13 +6,11 @@ import eu.sisob.api.parser.sisob.SGFParser;
 import eu.sisob.components.framework.graph.parser.FormatFactory;
 import eu.sisob.components.framework.json.util.IllegalContentTypeException;
 import eu.sisob.components.framework.json.util.JSONFile;
-import info.collide.sqlspaces.commons.Tuple;
 import java.io.File;
 import java.io.IOException;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.json.simple.JSONObject;
 
 /**
  * Hello world!

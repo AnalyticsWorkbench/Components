@@ -1,7 +1,6 @@
 package eu.sisob.components.maxflow;
 
 import com.google.gson.JsonObject;
-import info.collide.sqlspaces.commons.Tuple;
 import eu.sisob.components.framework.AgentManager;
 import eu.sisob.components.framework.componentdescription.Container;
 import eu.sisob.components.framework.componentdescription.Filter;

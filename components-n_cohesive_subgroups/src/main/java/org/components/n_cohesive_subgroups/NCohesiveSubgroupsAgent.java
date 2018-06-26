@@ -4,14 +4,11 @@
  */
 package org.components.n_cohesive_subgroups;
 
+import com.github.rcaller.rStuff.RCode;
 import eu.sisob.components.rwrapper.RWrapperAgent;
 
 import com.google.gson.JsonObject;
 import eu.sisob.components.framework.util.ClassLoaderUtility;
-
-import rcaller.RCaller;
-import rcaller.RCode;
-import rcaller.exception.RCallerExecutionException;
 
 /**
  *

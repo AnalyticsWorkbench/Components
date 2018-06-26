@@ -41,15 +41,6 @@
         <artifactId>components-rwrapper</artifactId>
         <version>${project.version}</version>
     </dependency>
-    <dependency>
-    	<groupId>rcaller</groupId>
-    	<artifactId>rcaller</artifactId>
-    	<version>2.1.0-SNAP-2011-11-18</version>
-    </dependency>
-    <dependency>
-    	<groupId>${project.groupId}</groupId>
-    	<artifactId>api-data</artifactId>
-    	<version>${project.version}</version>
-    </dependency>
+   
   </dependencies>
 </project>

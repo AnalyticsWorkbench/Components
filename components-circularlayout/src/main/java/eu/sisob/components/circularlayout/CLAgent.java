@@ -1,7 +1,7 @@
 package eu.sisob.components.circularlayout;
 
 import com.google.gson.JsonObject;
-import info.collide.sqlspaces.commons.Tuple;
+
 
 import java.io.File;
 

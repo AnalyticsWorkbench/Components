@@ -6,8 +6,6 @@ package info.collide.workbench.components.timeslicer;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import info.collide.sqlspaces.commons.Tuple;
-import info.collide.sqlspaces.commons.TupleSpaceException;
 
 import java.util.ArrayList;
 import java.util.HashSet;

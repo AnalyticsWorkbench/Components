@@ -1,7 +1,6 @@
 package eu.sisob.resdownloader;
 
 import com.google.gson.JsonObject;
-import eu.sisob.components.framework.connection.factory.ConnectionClient;
 import eu.sisob.components.framework.util.ConnectionType;
 
 import java.io.BufferedReader;

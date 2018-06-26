@@ -14,7 +14,7 @@ import org.json.simple.JSONArray;
 import rcaller.RCaller;
 import rcaller.RCode;
 import rcaller.exception.RCallerExecutionException;
-import info.collide.sqlspaces.commons.Tuple;
+
 import info.collide.util.ClassLoaderUtility;
 import eu.sisob.api.parser.csv.CSVParser;
 import eu.sisob.api.parser.gml.GMLNetworkParser;

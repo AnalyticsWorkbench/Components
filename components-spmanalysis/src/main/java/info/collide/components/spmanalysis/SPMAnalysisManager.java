@@ -26,7 +26,6 @@ import eu.sisob.components.framework.componentdescription.Input;
 import eu.sisob.components.framework.componentdescription.Output;
 import eu.sisob.components.framework.componentdescription.SelectField;
 import eu.sisob.components.framework.componentdescription.StringField;
-import info.collide.util.ClassLoaderUtility;
 
 public class SPMAnalysisManager extends AgentManager {
 

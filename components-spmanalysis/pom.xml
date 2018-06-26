@@ -28,67 +28,6 @@
 			<artifactId>poi</artifactId>
 			<version>3.13</version>
 		</dependency>
-  	   <dependency>
-  	      <groupId>info.collide</groupId>
-  	      <artifactId>util</artifactId>
-  	      <version>3.0.4-SNAPSHOT</version>
-  	      <type>jar</type>
-  	   </dependency>
   	</dependencies>
-  
-    	<repositories>
-		<repository>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>collide-releases</id>
-			<url>http://mvn.collide.info/content/repositories/releases/</url>
-		</repository>
-		<repository>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<id>collide-snapshots</id>
-			<url>http://mvn.collide.info/content/repositories/snapshots/</url>
-		</repository>
-		<repository>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>closed-releases</id>
-			<url>http://mvn.collide.info/content/repositories/closedreleases/</url>
-		</repository>
-		<repository>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-			<id>closed-snapshots</id>
-			<url>http://mvn.collide.info/content/repositories/closedsnapshots/</url>
-		</repository>
-		<repository>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-			<id>sisob-thirdparty</id>
-			<name>Temporary Maven Repository for 3rd Party Dependencies used in SISOB</name>
-			<url>http://mvn.collide.info/content/repositories/sisob-thirdparty/</url>
-		</repository>
-	</repositories>
-  	
     	<name>Collide Analytics Workbench Sequence Analysis Component</name>
 </project>

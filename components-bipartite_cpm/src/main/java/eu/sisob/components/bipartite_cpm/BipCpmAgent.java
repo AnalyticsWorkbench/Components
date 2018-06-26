@@ -4,12 +4,10 @@
  */
 package eu.sisob.components.bipartite_cpm;
 
+import com.github.rcaller.rStuff.RCode;
 import com.google.gson.JsonObject;
 import eu.sisob.components.framework.util.ClassLoaderUtility;
 import eu.sisob.components.rwrapper.RWrapperAgent;
-import rcaller.RCaller;
-import rcaller.RCode;
-import rcaller.exception.RCallerExecutionException;
 
 /**
  *

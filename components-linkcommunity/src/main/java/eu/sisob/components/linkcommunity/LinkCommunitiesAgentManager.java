@@ -1,13 +1,9 @@
 package eu.sisob.components.linkcommunity;
 
 import com.google.gson.JsonObject;
-import info.collide.sqlspaces.commons.Tuple;
-
 import java.util.ArrayList;
 import java.util.List;
-
 import org.json.simple.JSONArray;
-
 import eu.sisob.components.framework.AgentManager;
 import eu.sisob.components.framework.componentdescription.Container;
 import eu.sisob.components.framework.componentdescription.Filter;

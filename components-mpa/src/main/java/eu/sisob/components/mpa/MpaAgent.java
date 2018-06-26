@@ -1,13 +1,12 @@
 package eu.sisob.components.mpa;
 
-import info.collide.sqlspaces.commons.Tuple;
-import info.collide.util.ClassLoaderUtility;
+import com.github.rcaller.exception.ExecutionException;
+import com.github.rcaller.rStuff.RCaller;
+import com.github.rcaller.rStuff.RCode;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
-import rcaller.RCaller;
-import rcaller.RCode;
 import eu.sisob.components.framework.AgentProperties;
 import eu.sisob.components.framework.json.util.IllegalContentTypeException;
 import eu.sisob.components.rwrapper.RWrapperAgent;
@@ -15,8 +14,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import com.google.gson.JsonObject;
-
-import rcaller.exception.RCallerExecutionException;
+import eu.sisob.components.framework.util.ClassLoaderUtility;
 
 public class MpaAgent extends RWrapperAgent {
 
@@ -74,7 +72,7 @@ public class MpaAgent extends RWrapperAgent {
         boolean success = true;
         RCaller caller = new RCaller();
         caller.setRscriptExecutable(this.RScriptExecutable);
-        caller.redirectROutputToConsole();
+
         String graphFile = "";
         String label = "";
         String resUrls = null;
@@ -151,7 +149,7 @@ public class MpaAgent extends RWrapperAgent {
                 }
             }
             
-        } catch (RCallerExecutionException ex) {
+        } catch (ExecutionException ex) {
 
             System.out.println(agentName + ": Failure in R script!!!");
             this.indicateError(agentName + ": Main path analysis does not work with the given input. "

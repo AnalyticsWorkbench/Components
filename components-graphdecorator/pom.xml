@@ -32,46 +32,4 @@
             <version>${project.version}</version>
         </dependency>
     </dependencies>  
-  <repositories>
-        <repository>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>collide-releases</id>
-            <url>http://mvn.collide.info/content/repositories/releases/</url>
-        </repository>
-        <repository>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <id>collide-snapshots</id>
-            <url>http://mvn.collide.info/content/repositories/snapshots/</url>
-        </repository>
-        <repository>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-            <id>closed-releases</id>
-            <url>http://mvn.collide.info/content/repositories/closedreleases/</url>
-        </repository>
-        <repository>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-            <id>closed-snapshots</id>
-            <url>http://mvn.collide.info/content/repositories/closedsnapshots/</url>
-        </repository>
-    </repositories>
 </project>

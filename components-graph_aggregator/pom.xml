@@ -7,13 +7,6 @@
         <artifactId>workbench-components</artifactId>
         <version>2.0.0-SNAPSHOT</version>
     </parent>
-  <repositories>
-		<repository>
-			<id>closed-snapshots</id>
-			<name>Collide Closed Snapshots</name>
-			<url>http://mvn.collide.info/content/repositories/closedsnapshots</url>
-		</repository>
-	</repositories>
   <artifactId>components-graph_aggregator</artifactId>
   <name>components-graph_aggregator</name>
   <url>http://maven.apache.org</url>
@@ -36,21 +29,6 @@
     	<groupId>${project.groupId}</groupId>
         <artifactId>components-rwrapper</artifactId>
         <version>${project.version}</version>
-    </dependency>
-    <dependency>
-    	<groupId>rcaller</groupId>
-    	<artifactId>rcaller</artifactId>
-    	<version>2.1.0-SNAP-2011-11-18</version>
-    </dependency>
-    <dependency>
-    	<groupId>info.collide</groupId>
-    	<artifactId>util</artifactId>
-    	<version>3.0.0</version>
-    </dependency>
-    <dependency>
-    	<groupId>${project.groupId}</groupId>
-    	<artifactId>api-data</artifactId>
-    	<version>${project.version}</version>
     </dependency>
   </dependencies>
 </project>
