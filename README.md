@@ -70,8 +70,14 @@ In UI folder:
 
 In components folder 
 
-- Run Maven build (mvn clean install)
-- Run postgresinit.java in executer folder (javac PostgresInitializer.java)
+- Run Maven build
+```
+mvn clean install
+```
+- Run postgresinit.java in executer folder
+```
+javac PostgresInitializer.java
+```
 
 
 
