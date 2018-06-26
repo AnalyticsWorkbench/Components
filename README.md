@@ -16,10 +16,11 @@
 
 **Requirements:**
 - Redis (https://redis.io/download or on Windows https://github.com/dmajkic/redis/downloads)
-To run Redis with the default configuration just type:
-
-    % cd src
-    % ./redis-server
+To run Redis with the default configuration just type:   ```
+ ```
+ % cd src
+ % ./redis-server
+  ```
 
 - NodeJS (https://nodejs.org)
   - install necessary module by executing node, navigationg into “webworkbench” and executing „npm install“ (in the terminal/comand line) in the „webworkbench“ directory
