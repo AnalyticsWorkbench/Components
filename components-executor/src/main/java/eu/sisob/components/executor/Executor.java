@@ -1,12 +1,8 @@
 package eu.sisob.components.executor;
 
 import com.google.gson.JsonObject;
-import eu.sisob.components.framework.connection.factory.ConnectionClient;
-import eu.sisob.components.framework.connection.interfaces.DataConnection;
-import eu.sisob.components.framework.connection.interfaces.MessageConnection;
-import eu.sisob.components.framework.util.ConnectionType;
-import info.collide.sqlspaces.commons.TupleSpaceException;
 
+import eu.sisob.components.framework.util.ConnectionType;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -237,7 +233,7 @@ public class Executor {
                 Thread runtime = new Thread((Runnable) component);
                 runtime.start();
             }
-        } catch (TupleSpaceException tse) {
+        } catch (Exception tse) {
             logger.log(Level.SEVERE, "Could not initialize " + component.getManagerName(), tse);
         }
     }
