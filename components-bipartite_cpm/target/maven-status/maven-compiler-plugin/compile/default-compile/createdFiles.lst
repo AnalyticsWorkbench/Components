@@ -1,3 +1,3 @@
-eu\sisob\components\bipartite_cpm\App.class
-eu\sisob\components\bipartite_cpm\BipCpmAgentManager.class
-eu\sisob\components\bipartite_cpm\BipCpmAgent.class
+eu/sisob/components/bipartite_cpm/BipCpmAgentManager.class
+eu/sisob/components/bipartite_cpm/App.class
+eu/sisob/components/bipartite_cpm/BipCpmAgent.class

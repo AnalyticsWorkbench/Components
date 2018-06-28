@@ -1,0 +1,17 @@
+info/collide/components/spmanalysis/ActorSequence.class
+info/collide/components/spmanalysis/SPMAnalysisManager.class
+info/collide/workbench/components/spmanalysis/algorithms/BIDEplus.class
+info/collide/workbench/components/spmanalysis/algorithms/CMSPAM.class
+info/collide/workbench/components/spmanalysis/algorithms/SPADE.class
+info/collide/workbench/components/spmanalysis/algorithms/PrefixSpan.class
+info/collide/workbench/components/spmanalysis/algorithms/Algorithm.class
+info/collide/workbench/components/spmanalysis/algorithms/CMClaSP.class
+info/collide/components/spmanalysis/SPMAnalysisAgent.class
+info/collide/workbench/components/spmanalysis/algorithms/CloSpan.class
+info/collide/components/spmanalysis/SequenceDBGenerator.class
+info/collide/workbench/components/spmanalysis/algorithms/GSP.class
+info/collide/workbench/components/spmanalysis/algorithms/ClaSP.class
+info/collide/components/spmanalysis/EventAbstraction.class
+info/collide/workbench/components/spmanalysis/algorithms/MaxSP.class
+info/collide/workbench/components/spmanalysis/algorithms/CMSPADE.class
+info/collide/components/spmanalysis/Main.class

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="components-2modeto1mode" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-rwrapper" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jbytecode:RCaller:2.8" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
+    <orderEntry type="module" module-name="components-activitylogsviewer" scope="RUNTIME" />
+    <orderEntry type="library" name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.tinkerpop.blueprints:blueprints-core:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jettison:jettison:1.3" level="project" />
+    <orderEntry type="library" name="Maven: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.8.5" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.8.5" level="project" />
+    <orderEntry type="library" name="Maven: colt:colt:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: concurrent:concurrent:1.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4:4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr4-runtime:4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:antlr-runtime:3.5" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:stringtemplate:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: antlr:antlr:2.7.7" level="project" />
+    <orderEntry type="library" name="Maven: org.antlr:ST4:4.0.7" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:1.3.2" level="project" />
+    <orderEntry type="library" name="Maven: net.sf.opencsv:opencsv:2.0" level="project" />
+    <orderEntry type="module" module-name="components-centrality" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-datauploader" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-duplexer" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-dynnetvis" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-excelexporter" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-fdg" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-formatfactory" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-graphpropertyfilter" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.codehaus.jackson:jackson-core-lgpl:1.8.5" level="project" />
+    <orderEntry type="module" module-name="components-isolatedNodeFilter" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-logstatisticsovertime" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-modularityclustering" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-bipartite_cpm" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-mongoexporter" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.mongodb:mongo-java-driver:2.11.4" level="project" />
+    <orderEntry type="module" module-name="components-mongoimporter" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-n_cohesive_subgroups" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-resdownloader" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-spmanalysis" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: ca.pfv:spmf:2.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.13" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml-schemas:3.13" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi:3.13" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.9" level="project" />
+    <orderEntry type="module" module-name="components-stackedbarchart" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-streamfilter" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-tableviewer" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-bipartite_louvaine" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-timeslicer" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-bicliquetracingvis" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-graphgenerator" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-cliquepercolation" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-similarity" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-combine_sim" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-blockmodel" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-mpa" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-text2network" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-restclient" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.core:jersey-client:2.24.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.core:jersey-common:2.24.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.annotation:javax.annotation-api:1.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.24.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.hk2:hk2-api:2.5.0-b05" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.hk2:hk2-utils:2.5.0-b05" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.5.0-b05" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.hk2.external:javax.inject:2.5.0-b05" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.hk2:hk2-locator:2.5.0-b05" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.javassist:javassist:3.20.0-GA" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey:jersey-client:1.8" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.jersey:jersey-core:1.8" level="project" />
+    <orderEntry type="module" module-name="components-text2network_codebook" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-graph_aggregator" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-edgefilter" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-graphcomparison" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-graphdecorator" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-swimlanevisualization" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.sf.jung:jung-graph-impl:2.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.sf.jung:jung-api:2.0.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: net.sourceforge.collections:collections-generic:4.01" level="project" />
+    <orderEntry type="module" module-name="components-kcorefilter" scope="RUNTIME" />
+    <orderEntry type="module" module-name="components-framework" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.0.3-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: commons-net:commons-net:3.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.3" level="project" />
+    <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.4-1201-jdbc41" level="project" />
+    <orderEntry type="library" name="Maven: com.impossibl.pgjdbc-ng:pgjdbc-ng:complete:0.5" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.27.Final" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
+  </component>
+</module>

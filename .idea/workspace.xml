@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bf8f156-33c5-4ced-b88c-dbe781bd2da0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ca_pfv_spmf_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__colt_colt_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jbytecode_RCaller_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_impossibl_pgjdbc_ng_pgjdbc_ng_complete_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_tinkerpop_blueprints_blueprints_core_2_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__concurrent_concurrent_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__gov_nist_math_jama_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_collide_api_data_2_0_0_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_27_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jung_jung_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jung_jung_graph_impl_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_collections_collections_generic_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_abego_treelayout_org_abego_treelayout_core_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_ST4_4_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr_runtime_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_lgpl_1_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_paho_org_eclipse_paho_client_mqttv3_1_0_3_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_5_0_b05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_5_0_b05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_5_0_b05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_5_0_b05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_5_0_b05.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_24_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_24_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_24_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_2_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1201_jdbc41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-2modeto1mode/components-2modeto1mode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-activitylogsviewer/components-activitylogsviewer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-bicliquetracingvis/components-bicliquetracingvis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-bipartite_cpm/components-bipartite_cpm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-bipartite_louvaine/components-bipartite_louvaine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-blockmodel/components-blockmodel.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-centrality/components-centrality.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-cliquepercolation/components-cliquepercolation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-combine_similarities/components-combine_sim.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-cosinesimilarity/components-cosinesimilarity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-datauploader/components-datauploader.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-duplexer/components-duplexer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-dynnetvis/components-dynnetvis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-edgefilter/components-edgefilter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-excelexporter/components-excelexporter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-executor/components-executor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-fdg/components-fdg.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-formatfactory/components-formatfactory.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-framework/components-framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/util/ClassLoaderUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-graph_aggregator/components-graph_aggregator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-graphcomparison/components-graphcomparison.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-graphdecorator/components-graphdecorator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-graphgenerator/components-graphgenerator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-graphpropertyfilter/components-graphpropertyfilter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-isolatedNodeFilter/components-isolatedNodeFilter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-k-CoreFilter/components-kcorefilter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-linkcommunity/components-linkcommunity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-logstatisticsovertime/components-logstatisticsovertime.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-maxflow/components-maxflow.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-modularityclustering/components-modularityclustering.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-mongoexporter/components-mongoexporter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-mongoimporter/components-mongoimporter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-mpa/components-mpa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-n_cohesive_subgroups/components-n_cohesive_subgroups.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-resdownloader/components-resdownloader.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-restclient/components-restclient.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-restclient/target/classes/eu/sisob/components/restclient/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-restclient/target/classes/eu/sisob/components/restclient/RESTClientAgent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-restclient/target/components-restclient-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-restclient/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-restclient/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-restclient/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-rwrapper/components-rwrapper.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-similarity/components-similarity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/components-spmanalysis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/ActorSequence.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/EventAbstraction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SPMAnalysisAgent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SequenceDBGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/Algorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/CMClaSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/CMSPADE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/CMSPAM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/ClaSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/CloSpan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/GSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/MaxSP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/SPADE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/components-spmanalysis-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-spmanalysis/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-stackedbarchart/components-stackedbarchart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-streamfilter/components-streamfilter.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-swimlanevisualization/components-swimlanevisualization.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-tableviewer/components-tableviewer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-text2network/components-text2network.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-timeslicer/components-timeslicer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text2network_codebook/components-text2network_codebook.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workbench-components.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/classes/eu/sisob/components/tmtom/TwoModeToOneModeAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/classes/eu/sisob/components/tmtom/TwoModeToOneModeAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/components-2modeto1mode-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/components-2modeto1mode-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/classes/info/collide/workbench/components/activitylogsviewer/ActivityLogsViewerAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/classes/info/collide/workbench/components/activitylogsviewer/ActivityLogsViewerAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/components-activitylogsviewer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/components-activitylogsviewer-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/components-bicliquetracingvis-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/components-bicliquetracingvis-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/classes/eu/sisob/components/bipartite_cpm/BipCpmAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/classes/eu/sisob/components/bipartite_cpm/BipCpmAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/classes/eu/sisob/components/bipartite_cpm/BipCpmAgentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/classes/eu/sisob/components/bipartite_cpm/BipCpmAgentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/components-bipartite_cpm-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/components-bipartite_cpm-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/TEST-eu.sisob.components.components.bipartite_cpm.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/TEST-eu.sisob.components.components.bipartite_cpm.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/eu.sisob.components.components.bipartite_cpm.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/eu.sisob.components.components.bipartite_cpm.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_louvaine/target/classes/info/collide/workbench/components/bipartite_louvaine/BipartiteLouvaineAgentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_louvaine/target/classes/info/collide/workbench/components/bipartite_louvaine/BipartiteLouvaineAgentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_louvaine/target/components-bipartite_louvaine-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_louvaine/target/components-bipartite_louvaine-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_louvaine/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_louvaine/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_louvaine/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_louvaine/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_louvaine/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_louvaine/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-blockmodel/target/classes/info/collide/components/blockmodel/BlockmodelAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/classes/info/collide/components/blockmodel/BlockmodelAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-blockmodel/target/classes/info/collide/components/blockmodel/BlockmodelManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/classes/info/collide/components/blockmodel/BlockmodelManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-blockmodel/target/components-blockmodel-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/components-blockmodel-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-blockmodel/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-blockmodel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-blockmodel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-blockmodel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/components-centrality-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/components-centrality-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/surefire-reports/TEST-eu.sisob.components.centrality.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/surefire-reports/TEST-eu.sisob.components.centrality.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/surefire-reports/eu.sisob.components.centrality.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/surefire-reports/eu.sisob.components.centrality.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cliquepercolation/target/classes/info/collide/components/cliquepercolation/CliquepercolationAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-cliquepercolation/target/classes/info/collide/components/cliquepercolation/CliquepercolationAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cliquepercolation/target/classes/info/collide/components/cliquepercolation/CliquepercolationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-cliquepercolation/target/classes/info/collide/components/cliquepercolation/CliquepercolationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cliquepercolation/target/components-cliquepercolation-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-cliquepercolation/target/components-cliquepercolation-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cliquepercolation/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-cliquepercolation/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cliquepercolation/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-cliquepercolation/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cliquepercolation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-cliquepercolation/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cliquepercolation/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-combine_similarities/target/components-combine_sim-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-combine_similarities/target/components-combine_sim-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-combine_similarities/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-combine_similarities/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-combine_similarities/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-combine_similarities/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-combine_similarities/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-combine_similarities/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-combine_similarities/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/components-cosinesimilarity-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/components-cosinesimilarity-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/surefire-reports/TEST-eu.sisob.components.cosinesimilarity.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/surefire-reports/TEST-eu.sisob.components.cosinesimilarity.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/surefire-reports/eu.sisob.components.cosinesimilarity.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/surefire-reports/eu.sisob.components.cosinesimilarity.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-datauploader/target/components-datauploader-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/components-datauploader-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-datauploader/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-datauploader/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-datauploader/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-datauploader/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-duplexer/target/classes/eu/sisob/components/duplexer/DuplexerAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-duplexer/target/classes/eu/sisob/components/duplexer/DuplexerAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-duplexer/target/components-duplexer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-duplexer/target/components-duplexer-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-duplexer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-duplexer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-duplexer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-duplexer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-duplexer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-duplexer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-duplexer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/components-dynnetvis-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/target/components-dynnetvis-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-edgefilter/target/classes/info/collide/workbench/components/edgefilter/EdgeFilterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/classes/info/collide/workbench/components/edgefilter/EdgeFilterAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-edgefilter/target/classes/info/collide/workbench/components/edgefilter/EdgeFilterManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/classes/info/collide/workbench/components/edgefilter/EdgeFilterManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-edgefilter/target/components-edgefilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/components-edgefilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-edgefilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-edgefilter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-edgefilter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-edgefilter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-excelexporter/target/components-excelexporter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/components-excelexporter-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-excelexporter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-excelexporter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-excelexporter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-excelexporter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/Executor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/ExecutorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/ExecutorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/target/components-executor-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/components-executor-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-fdg/target/components-fdg-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/components-fdg-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-fdg/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-fdg/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-fdg/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-fdg/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/components-formatfactory-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/components-formatfactory-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/TEST-graph.parser.components.formatfactory.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/TEST-graph.parser.components.formatfactory.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/graph.parser.components.formatfactory.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/graph.parser.components.formatfactory.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/api/visualization/VisualizationAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/api/visualization/VisualizationAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/SISOBProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/SISOBProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/UtilSerialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/UtilSerialize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/factory/ConnectionClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/factory/ConnectionClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/factory/ConnectionClient$LazyHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/factory/ConnectionClient$LazyHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/factory/ConnectionClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/factory/ConnectionClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/ftp/FtpDataConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/ftp/FtpDataConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlDataConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlDataConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlMessageConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlMessageConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/components-framework-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/components-framework-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/classes/eu/sisob/components/graph_aggregator/GraphAggregatorAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/classes/eu/sisob/components/graph_aggregator/GraphAggregatorAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/classes/eu/sisob/components/graph_aggregator/GraphAggregatorManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/classes/eu/sisob/components/graph_aggregator/GraphAggregatorManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/components-graph_aggregator-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/components-graph_aggregator-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/classes/info/collide/components/graphcomparison/GraphComparatorManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/classes/info/collide/components/graphcomparison/GraphComparatorManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/classes/info/collide/components/graphcomparison/GraphComparisonAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/classes/info/collide/components/graphcomparison/GraphComparisonAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/components-graphcomparison-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/components-graphcomparison-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/classes/eu/sisob/components/graphdecorator/GraphDecoratorAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/classes/eu/sisob/components/graphdecorator/GraphDecoratorAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/classes/eu/sisob/components/graphdecorator/GraphDecoratorManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/classes/eu/sisob/components/graphdecorator/GraphDecoratorManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/components-graphdecorator-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/components-graphdecorator-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/TEST-eu.sisob.components.graphdecorator.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/TEST-eu.sisob.components.graphdecorator.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/eu.sisob.components.graphdecorator.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/eu.sisob.components.graphdecorator.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/classes/org/components/graphgenerator/GraphGeneratorAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/classes/org/components/graphgenerator/GraphGeneratorAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/components-graphgenerator-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/components-graphgenerator-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/components-graphpropertyfilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/components-graphpropertyfilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-isolatedNodeFilter/target/components-isolatedNodeFilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-isolatedNodeFilter/target/components-isolatedNodeFilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-isolatedNodeFilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-isolatedNodeFilter/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-isolatedNodeFilter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-isolatedNodeFilter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-isolatedNodeFilter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-isolatedNodeFilter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-isolatedNodeFilter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-k-CoreFilter/target/classes/eu/sisob/components/kcorefilter/KCoreAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-k-CoreFilter/target/classes/eu/sisob/components/kcorefilter/KCoreAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-k-CoreFilter/target/classes/eu/sisob/components/kcorefilter/KCoreManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-k-CoreFilter/target/classes/eu/sisob/components/kcorefilter/KCoreManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-k-CoreFilter/target/components-kcorefilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-k-CoreFilter/target/components-kcorefilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-k-CoreFilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-k-CoreFilter/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-k-CoreFilter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-k-CoreFilter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-k-CoreFilter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-k-CoreFilter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/classes/eu/sisob/components/linkcommunity/ClusteringStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/classes/eu/sisob/components/linkcommunity/ClusteringStep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/classes/eu/sisob/components/linkcommunity/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/classes/eu/sisob/components/linkcommunity/Graph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/classes/eu/sisob/components/linkcommunity/LinkCommunitiesAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/classes/eu/sisob/components/linkcommunity/LinkCommunitiesAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/classes/eu/sisob/components/linkcommunity/LinkCommunitiesAgentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/classes/eu/sisob/components/linkcommunity/LinkCommunitiesAgentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/components-linkcommunity-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/components-linkcommunity-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/classes/info/collide/workbench/components/logstatisticsovertime/LogStatisticsOverTimeAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/classes/info/collide/workbench/components/logstatisticsovertime/LogStatisticsOverTimeAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/components-logstatisticsovertime-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/components-logstatisticsovertime-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-maxflow/target/classes/eu/sisob/components/maxflow/MaxFlowAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-maxflow/target/classes/eu/sisob/components/maxflow/MaxFlowAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-maxflow/target/classes/eu/sisob/components/maxflow/MaxFlowManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-maxflow/target/classes/eu/sisob/components/maxflow/MaxFlowManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-maxflow/target/components-maxflow-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-maxflow/target/components-maxflow-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-maxflow/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-maxflow/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-maxflow/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-maxflow/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-maxflow/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-maxflow/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-maxflow/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/classes/org/components/modularityclustering/ModularityClusteringAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-modularityclustering/target/classes/org/components/modularityclustering/ModularityClusteringAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/classes/org/components/modularityclustering/ModularityClusteringManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-modularityclustering/target/classes/org/components/modularityclustering/ModularityClusteringManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/components-modularityclustering-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-modularityclustering/target/components-modularityclustering-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-modularityclustering/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-modularityclustering/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-modularityclustering/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/DbConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/DbConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/TestMongo.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/TestMongo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/components-mongoexporter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/components-mongoexporter-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/DbConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/DbConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/components-mongoimporter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/components-mongoimporter-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mpa/target/classes/eu/sisob/components/mpa/MpaAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/classes/eu/sisob/components/mpa/MpaAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mpa/target/classes/eu/sisob/components/mpa/MpaManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/classes/eu/sisob/components/mpa/MpaManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mpa/target/components-mpa-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/components-mpa-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mpa/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mpa/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mpa/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mpa/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/classes/org/components/n_cohesive_subgroups/NCohesiveSubgroupManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/classes/org/components/n_cohesive_subgroups/NCohesiveSubgroupManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/classes/org/components/n_cohesive_subgroups/NCohesiveSubgroupsAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/classes/org/components/n_cohesive_subgroups/NCohesiveSubgroupsAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/components-n_cohesive_subgroups-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/components-n_cohesive_subgroups-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/ResultDownloaderAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/ResultDownloaderAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/ResultDownloaderManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/ResultDownloaderManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/components-resdownloader-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/components-resdownloader-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresAvailableScriptsConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresAvailableScriptsConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresqlRScriptConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresqlRScriptConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RWrapperAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RWrapperAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/extract_components.R" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/extract_components.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/graph_statistics.R" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/graph_statistics.R" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/scriptinfo.config" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/scriptinfo.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/components-rwrapper-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/components-rwrapper-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-similarity/target/classes/org/components/similarity/SimilarityAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-similarity/target/classes/org/components/similarity/SimilarityAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-similarity/target/components-similarity-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-similarity/target/components-similarity-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-similarity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-similarity/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-similarity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-similarity/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-similarity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-similarity/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-similarity/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SPMAnalysisManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SPMAnalysisManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/BIDEplus.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/BIDEplus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/PrefixSpan.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/workbench/components/spmanalysis/algorithms/PrefixSpan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-stackedbarchart/target/components-stackedbarchart-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-stackedbarchart/target/components-stackedbarchart-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-stackedbarchart/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-stackedbarchart/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-stackedbarchart/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-stackedbarchart/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-stackedbarchart/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-stackedbarchart/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-stackedbarchart/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/components-streamfilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/components-streamfilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SLAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SLAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SLAgentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SLAgentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SwimLaneNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SwimLaneNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SwimLaneTechnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SwimLaneTechnique.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/components-swimlanevisualization-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/components-swimlanevisualization-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/TableViewerAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/TableViewerAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/components-tableviewer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/components-tableviewer-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-text2network/target/classes/info/collide/components/text2network/Text2NetworkAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/classes/info/collide/components/text2network/Text2NetworkAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-text2network/target/classes/info/collide/components/text2network/Text2NetworkManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/classes/info/collide/components/text2network/Text2NetworkManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-text2network/target/components-text2network-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/components-text2network-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-text2network/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-text2network/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-text2network/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-text2network/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/components-timeslicer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/components-timeslicer-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/TEST-eu.sisob.components.timeslicer.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/TEST-eu.sisob.components.timeslicer.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/eu.sisob.components.timeslicer.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/eu.sisob.components.timeslicer.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2network_codebook/target/classes/info/collide/components/text2network_codebook/Text2NetworkCBAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/classes/info/collide/components/text2network_codebook/Text2NetworkCBAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2network_codebook/target/classes/info/collide/components/text2network_codebook/Text2NetworkCBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/classes/info/collide/components/text2network_codebook/Text2NetworkCBManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2network_codebook/target/components-text2network_codebook-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/components-text2network_codebook-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2network_codebook/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2network_codebook/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2network_codebook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2network_codebook/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/components-bicliquetracingvis/target/" />
+    <ignored path="$PROJECT_DIR$/components-datauploader/target/" />
+    <ignored path="$PROJECT_DIR$/components-2modeto1mode/target/" />
+    <ignored path="$PROJECT_DIR$/components-mongoimporter/target/" />
+    <ignored path="$PROJECT_DIR$/components-k-CoreFilter/target/" />
+    <ignored path="$PROJECT_DIR$/components-duplexer/target/" />
+    <ignored path="$PROJECT_DIR$/components-graphdecorator/target/" />
+    <ignored path="$PROJECT_DIR$/components-formatfactory/target/" />
+    <ignored path="$PROJECT_DIR$/components-logstatisticsovertime/target/" />
+    <ignored path="$PROJECT_DIR$/components-mongoexporter/target/" />
+    <ignored path="$PROJECT_DIR$/components-resdownloader/target/" />
+    <ignored path="$PROJECT_DIR$/components-streamfilter/target/" />
+    <ignored path="$PROJECT_DIR$/components-combine_similarities/target/" />
+    <ignored path="$PROJECT_DIR$/components-executor/target/" />
+    <ignored path="$PROJECT_DIR$/components-fdg/target/" />
+    <ignored path="$PROJECT_DIR$/components-bipartite_cpm/target/" />
+    <ignored path="$PROJECT_DIR$/components-graphcomparison/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/components-graph_aggregator/target/" />
+    <ignored path="$PROJECT_DIR$/components-n_cohesive_subgroups/target/" />
+    <ignored path="$PROJECT_DIR$/components-stackedbarchart/target/" />
+    <ignored path="$PROJECT_DIR$/components-dynnetvis/target/" />
+    <ignored path="$PROJECT_DIR$/components-modularityclustering/target/" />
+    <ignored path="$PROJECT_DIR$/components-cosinesimilarity/target/" />
+    <ignored path="$PROJECT_DIR$/text2network_codebook/target/" />
+    <ignored path="$PROJECT_DIR$/components-activitylogsviewer/target/" />
+    <ignored path="$PROJECT_DIR$/components-isolatedNodeFilter/target/" />
+    <ignored path="$PROJECT_DIR$/components-text2network/target/" />
+    <ignored path="$PROJECT_DIR$/components-rwrapper/target/" />
+    <ignored path="$PROJECT_DIR$/components-bipartite_louvaine/target/" />
+    <ignored path="$PROJECT_DIR$/components-timeslicer/target/" />
+    <ignored path="$PROJECT_DIR$/components-cliquepercolation/target/" />
+    <ignored path="$PROJECT_DIR$/components-excelexporter/target/" />
+    <ignored path="$PROJECT_DIR$/components-tableviewer/target/" />
+    <ignored path="$PROJECT_DIR$/components-mpa/target/" />
+    <ignored path="$PROJECT_DIR$/components-spmanalysis/target/" />
+    <ignored path="$PROJECT_DIR$/components-blockmodel/target/" />
+    <ignored path="$PROJECT_DIR$/components-linkcommunity/target/" />
+    <ignored path="$PROJECT_DIR$/components-graphpropertyfilter/target/" />
+    <ignored path="$PROJECT_DIR$/components-edgefilter/target/" />
+    <ignored path="$PROJECT_DIR$/components-graphgenerator/target/" />
+    <ignored path="$PROJECT_DIR$/components-centrality/target/" />
+    <ignored path="$PROJECT_DIR$/components-similarity/target/" />
+    <ignored path="$PROJECT_DIR$/components-maxflow/target/" />
+    <ignored path="$PROJECT_DIR$/components-swimlanevisualization/target/" />
+    <ignored path="$PROJECT_DIR$/components-framework/target/" />
+    <ignored path="$PROJECT_DIR$/components-restclient/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-276" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-bipartite_cpm/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-combine_similarities/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-cosinesimilarity/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindNodeSubsetAgent.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components-findnodesubset/src/main/java/eu/sisob/components/findnodesubset/FindNodeSubsetAgent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.idea</find>
+      <find>jama</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/components-bipartite_cpm/pom.xml" />
+        <option value="$PROJECT_DIR$/components-cosinesimilarity/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bf8f156-33c5-4ced-b88c-dbe781bd2da0" name="Default" comment="" />
+      <created>1530186032974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530186032974</updated>
+      <workItem from="1530186038923" duration="1065000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1065000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32948717" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28040057" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-276" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-bipartite_cpm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-combine_similarities/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-cosinesimilarity/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-findnodesubset/src/main/java/eu/sisob/components/findnodesubset/FindNodeSubsetAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

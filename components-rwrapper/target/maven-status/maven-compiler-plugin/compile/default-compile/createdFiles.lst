@@ -1,8 +1,8 @@
-eu\sisob\components\rwrapper\Main.class
-eu\sisob\components\rwrapper\RWrapperManager.class
-eu\sisob\components\rwrapper\ScriptInfo.class
-eu\sisob\components\rwrapper\PostgresqlRScriptConnection.class
-eu\sisob\components\rwrapper\RScriptConnection.class
-eu\sisob\components\rwrapper\RScriptNotifier.class
-eu\sisob\components\rwrapper\RWrapperAgent.class
-eu\sisob\components\rwrapper\PostgresAvailableScriptsConnection.class
+eu/sisob/components/rwrapper/PostgresqlRScriptConnection.class
+eu/sisob/components/rwrapper/RWrapperManager.class
+eu/sisob/components/rwrapper/RWrapperAgent.class
+eu/sisob/components/rwrapper/PostgresAvailableScriptsConnection.class
+eu/sisob/components/rwrapper/ScriptInfo.class
+eu/sisob/components/rwrapper/RScriptConnection.class
+eu/sisob/components/rwrapper/Main.class
+eu/sisob/components/rwrapper/RScriptNotifier.class

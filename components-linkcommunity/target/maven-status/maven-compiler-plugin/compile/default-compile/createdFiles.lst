@@ -1,7 +1,7 @@
-eu\sisob\components\linkcommunity\ClusteringStep.class
-eu\sisob\components\linkcommunity\Edgepair.class
-eu\sisob\components\linkcommunity\LinkCommunitiesAgentManager.class
-eu\sisob\components\linkcommunity\LCNode.class
-eu\sisob\components\linkcommunity\LinkCommunitiesAgent.class
-eu\sisob\components\linkcommunity\LCEdge.class
-eu\sisob\components\linkcommunity\Graph.class
+eu/sisob/components/linkcommunity/LinkCommunitiesAgent.class
+eu/sisob/components/linkcommunity/ClusteringStep.class
+eu/sisob/components/linkcommunity/LCNode.class
+eu/sisob/components/linkcommunity/Graph.class
+eu/sisob/components/linkcommunity/LinkCommunitiesAgentManager.class
+eu/sisob/components/linkcommunity/LCEdge.class
+eu/sisob/components/linkcommunity/Edgepair.class

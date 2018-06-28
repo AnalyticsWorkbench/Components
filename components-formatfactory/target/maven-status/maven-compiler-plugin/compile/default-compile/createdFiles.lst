@@ -1,3 +1,3 @@
-eu\sisob\components\ff\Main.class
-eu\sisob\components\ff\FormatFactoryAgent.class
-eu\sisob\components\ff\FormatFactoryManager.class
+eu/sisob/components/ff/Main.class
+eu/sisob/components/ff/FormatFactoryManager.class
+eu/sisob/components/ff/FormatFactoryAgent.class
