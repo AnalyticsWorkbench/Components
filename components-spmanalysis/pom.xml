@@ -32,7 +32,7 @@
     	<name>Collide Analytics Workbench Sequence Analysis Component</name>
         <repositories>
         <repository>
-            <id>crazy-penguin-repository</id>
+            <id>awb-repository</id>
             <url>https://github.com/AnalyticsWorkbench/maven-repo/raw/master/repository</url>
             <releases>
                 <enabled>true</enabled>
