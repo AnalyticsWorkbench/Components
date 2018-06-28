@@ -21,7 +21,7 @@ public class CosineSimilarity {
     }
 
     public JSONFile calculateCosineSimilarity(JSONFile jsonFile) throws Exception {
-        // TODO Auto-generated method stub
+        // TODO A uto-generated method stub
         SGFParser parser = new SGFParser();
         parser.setNetwork(jsonFile);
         parser.parse();
