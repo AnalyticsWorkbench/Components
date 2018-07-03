@@ -53,9 +53,9 @@ To run Redis with the default configuration just type in terminal or cmd:
 - NodeJS (https://nodejs.org)
   - install necessary module by executing node, navigationg into “webworkbench” and executing „npm install“ (in the terminal/comand line) in the „webworkbench“ directory
   
-  ```
-  npm install
-  ```
+```
+npm install
+```
   
 Create folders and files (if they are not already there):
 
