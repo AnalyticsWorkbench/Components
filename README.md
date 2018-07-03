@@ -16,6 +16,7 @@ find the current version according to your operation system [JDK](http://www.ora
 
 - initialization on [MacOs](https://chartio.com/resources/tutorials/how-to-start-postgresql-server-on-mac-os-x/) 
 - Setting Up PostgreSQL on [MacOs](https://www.tunnelsup.com/setting-up-postgres-on-mac-osx/) 
+- How to create user and set grant access [Create](https://www.cyberciti.biz/faq/howto-add-postgresql-user-account/) 
 
 Start manualy postgrade, you can observe the connections.
 ```
