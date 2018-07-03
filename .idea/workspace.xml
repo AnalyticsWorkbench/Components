@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bf8f156-33c5-4ced-b88c-dbe781bd2da0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/sisob.conf" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/sisob.conf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/components-bicliquetracingvis/target/" />
     <ignored path="$PROJECT_DIR$/components-datauploader/target/" />
@@ -60,7 +60,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -110,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sisob.conf" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sisob.conf" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components-executor/sisob.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1398">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="285">
+              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -162,11 +162,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.idea</find>
       <find>jama</find>
       <find>String password = SISOBProperties.getDataBackendPassword();</find>
       <find>String username = SISOBProperties.getMessageBackendUsername();</find>
-      <find>server.message.internalname=workbench</find>
       <find>BackendPassword</find>
       <find>admin</find>
       <find>connec</find>
@@ -186,6 +184,14 @@
       <find>localhost</find>
       <find>MongoDB</find>
       <find>username for databackend if needed</find>
+      <find>server.data.internalname=</find>
+      <find>server.message.name=localhost</find>
+      <find>server.message.internalname=workbench</find>
+      <find>server.data.internalname=workbench</find>
+      <find>rwrapper.executable</find>
+      <find>slideshow.serverdir</find>
+      <find>upload.directory</find>
+      <find>results.filelocation</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -201,8 +207,8 @@
         <option value="$PROJECT_DIR$/components-executor/execconfig.xml" />
         <option value="$PROJECT_DIR$/components-dynnetvis/src/main/resources/info/collide/workbench/components/dynnetvis/technique/css/graphFramework.css" />
         <option value="$PROJECT_DIR$/components-executor/src/main/java/eu/sisob/components/executor/PostgresInitializer.java" />
-        <option value="$PROJECT_DIR$/components-executor/sisob.conf" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/components-executor/sisob.conf" />
       </list>
     </option>
   </component>
@@ -374,12 +380,12 @@
       <workItem from="1530187507935" duration="556000" />
       <workItem from="1530447588776" duration="1352000" />
       <workItem from="1530606695508" duration="4823000" />
-      <workItem from="1530613844501" duration="2459000" />
+      <workItem from="1530613844501" duration="3656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21157000" />
+    <option name="totallyTimeSpent" value="22354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -395,7 +401,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32435897" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.2423077" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31666666" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21025641" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
@@ -842,13 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components-executor/sisob.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1398">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -856,6 +855,13 @@
             <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-executor/sisob.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
