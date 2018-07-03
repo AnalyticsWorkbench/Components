@@ -14,8 +14,10 @@ public class PostgresInitializer {
     private boolean messagebackend;
 
     public PostgresInitializer() throws ClassNotFoundException {
-    	
-    	this.databackend = SISOBProperties.getDataBackend().equalsIgnoreCase("postgresql");
+
+
+        this.databackend = SISOBProperties.getDataBackend().equalsIgnoreCase("postgresthis.databackend = SISOBProperties.getDataBackend().equalsIgnoreCase(\"postgresql\");ql");
+       // this.databackend = SISOBProperties.getDataBackend().equalsIgnoreCase("postgresql");
     	this.messagebackend = SISOBProperties.getMessageBackend().equalsIgnoreCase("postgresql");
     	
     	if (!this.databackend && !this.messagebackend) {

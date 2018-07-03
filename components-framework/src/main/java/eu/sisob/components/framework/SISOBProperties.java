@@ -33,7 +33,7 @@ public class SISOBProperties {
     /*
      * Default values for the respective properties
      */
-    private static final String DEFAULT_SERVERPORT = "2525";
+    private static final String DEFAULT_SERVERPORT = "2525"; // FBA : 2525
     private static final String DEFAULT_SERVERNAME = "localhost";
     private static final String DEFAULT_INTERNALNAME = "workbench";
     private static final String DEFAULT_MANAGERNAMES = "Pajek Manager,Foresighted Graph Layout Manager,AutoMap Manager,ShowResult Manager,Data Uploader Manager,Conceptual Model To CSV Manager,Conceptual Model To CVN Manager,CSV To Conceptual Model Manager,CVN To Conceptual Model Manager,R Wrapper Manager,Crawler Manager,Gate Data Extractor Manager,Slideshow Manager,CVN 2 Pajek .net Manager,Pajek Script Builder Manager,Draw Network Manager, Core-Extractor Manager" ;
@@ -70,6 +70,7 @@ public class SISOBProperties {
 
     static {
     	if (properties == null) {
+
             initSISOBProperties();
         }
     }
@@ -85,6 +86,7 @@ public class SISOBProperties {
      */
     private static synchronized void initSISOBProperties() {
         properties = new Properties();
+        System.out.print(configFilePath);
         // first try to read an existing config
         try {
             properties.load(new FileInputStream(configFilePath));
@@ -112,8 +114,10 @@ public class SISOBProperties {
     public static String getMessageBackendPassword() {
         return  getProperty("server.message.password");
     }
-    
+
+
     public static String getDataBackend() {
+        System.out.print(properties);
         return getProperty("server.data");
     }
 

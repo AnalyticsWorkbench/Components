@@ -1,0 +1,60 @@
+<SISOBComponentConfig>
+    <!-- Each AgentInfo element represents one manager that can be run in the system -->
+    <!-- Attributes of the AgentInfo tag:
+        filter: The name of the filter - must match the filter name in the Web UI
+        manager: The name of the manager used for displaying it in the UI of the executor
+        class: The class marking the entrance point for the manager
+        start: Optional - marks if the manager should be started automatically 
+    -->
+    <!-- Filters -->
+    <AgentInfo filter="2-Mode to 1-Mode" manager="2-Mode to 1-Mode Manager" class="eu.sisob.components.tmtom.TwoModeToOneModeManager" start="true" />
+    <AgentInfo filter="N Cohesive Subgroups" manager="N Cohesive Subgroups Manager" class="org.components.n_cohesive_subgroups.NCohesiveSubgroupManager" start="true" />
+    <AgentInfo filter="Modularity Clustering" manager="Modularity Clustering Manager" class="org.components.modularityclustering.ModularityClusteringManager" start="true" />
+    <AgentInfo filter="MongoImporter" manager="MongoImporter Manager" class="info.collide.workbench.components.mongoimporter.MongoImporterManager" start="true" />
+    <AgentInfo filter="3D Dynamic Network Visualization" manager="DynNetVis Manager" class="info.collide.workbench.components.dynnetvis.DynNetVisManager" start="true" />
+    <AgentInfo filter="Activity Logs Viewer" manager="Activity Logs Viewer Manager" class="info.collide.workbench.components.activitylogsviewer.ActivityLogsViewerManager" start="true" />
+    <AgentInfo filter="Centrality" manager="Centrality Manager" class="eu.sisob.components.centrality.CentralityManager" start="true" />
+    <AgentInfo filter="Data Repository" manager="Data Uploader Manager" class="eu.sisob.components.datauploader.DataUploaderManager" start="true" />
+    <AgentInfo filter="Duplicator" manager="Duplicator (Duplexer) Manager" class="eu.sisob.components.duplexer.DuplexerManager" start="true" />
+    <AgentInfo filter="Dwyer Force Directed Graph" manager="Force Directed Graphlayout Manager" class="eu.sisob.components.fdg.FDGManager" start="true" />
+    <AgentInfo filter="Excel Exporter" manager="Excel Exporter Manager" class="info.collide.components.excelexporter.ExcelExporterManager" start="true" />
+    <AgentInfo filter="Format Transformation" manager="Format Factory Manager" class="eu.sisob.components.ff.FormatFactoryManager" start="true" />
+    <AgentInfo filter="Graph Property Filter" manager="Graph Property Manager" class="info.collide.workbench.components.graphpropertyfilter.GraphPropertyFilterManager" start="true" />
+    <AgentInfo filter="Isolated Node Filter" manager="Isolated Node Filter Manager" class="info.collide.workbench.components.isolatednodefilter.SingleNodeFilterManager" start="true" />
+    <AgentInfo filter="Log Statistics Over Time" manager="Log Statistics Over Time Manager" class="info.collide.workbench.components.logstatisticsovertime.LogStatisticsOverTimeManager" start="true" />
+    <AgentInfo filter="Result Downloader" manager="Result Downloader Manager" class="eu.sisob.resdownloader.ResultDownloaderManager" start="true" />
+    <AgentInfo filter="Sequential Pattern Mining" manager="Sequencial Pattern Mining Manager" class="info.collide.components.spmanalysis.SPMAnalysisManager" start="true" />
+    <AgentInfo filter="R-Analysis" manager="R Wrapper Manager" class="eu.sisob.components.rwrapper.RWrapperManager" start="true" />
+    <AgentInfo filter="Stacked Bar Chart" manager="Stacked Bar Chart Manager" class="eu.sisob.components.stackedbarchart.StackedBarCharManager" start="true" />
+    <AgentInfo filter="Table Viewer" manager="Table Viewer Manager" class="eu.sisob.components.tableviewer.TableViewerManager" start="true" />
+    <AgentInfo filter="Stream Filter" manager="Stream Filter Manager" class="info.collide.workbench.components.streamfilter.StreamFilterManager" start="true" />
+    <AgentInfo filter="Bipartite Modularity Optimization" manager="Bipartite Modularity Optimization Manager" class="info.collide.workbench.components.bipartite_louvaine.BipartiteLouvaineAgentManager" start="true" />
+    <AgentInfo filter="Timeslicer" manager="Timeslicer Manager" class="info.collide.workbench.components.timeslicer.TimeSlicerAgentManager" start="true" />
+    <AgentInfo filter="Biclique Tracing Visualization" manager="Biclique Tracing Visualization Manager" class="info.collide.workbench.components.bicliquetracingvis.BicliqueTracingVisManager" start="true" />
+    <AgentInfo filter="Cliquepercolation Filter" manager="Cliquepercolation Filter Manager" class="info.collide.components.cliquepercolation.CliquepercolationManager" start="true" />
+    <AgentInfo filter="Graph Generator" manager="Graph Generator Filter Manager" class="org.components.graphgenerator.GraphGeneratorManager" start="true" />
+    <AgentInfo filter="Similarity Filter" manager="Similarity Filter Manager" class="org.components.similarity.SimilarityManager" start="true" />
+    <AgentInfo filter="Linear Combination" manager="Combine Similarities Filter Manager" class="info.collide.components.combine_sim.CombineSimManager" start="true" />
+    <AgentInfo filter="Blockmodel Analysis" manager="Blockmodel Manager" class="info.collide.components.blockmodel.BlockmodelManager" start="true" />
+    <AgentInfo filter="Main Path Analysis Filter" manager="Main Path Analysis Filter Manager" class="eu.sisob.components.mpa.MpaManager" start="true" />
+    <AgentInfo filter="Text to Network" manager="Text2Network Manager" class="info.collide.components.text2network.Text2NetworkManager" start="true" />
+    <AgentInfo filter="Text to Network (Codebook)" manager="Text2NetworkCB Manager" class="info.collide.components.text2network_codebook.Text2NetworkCBManager" start="true" />
+    <AgentInfo filter="k-core Filter" manager="k-core Manager" class="eu.sisob.components.kcorefilter.KCoreManager" start="true" />
+    <AgentInfo filter="Graph Aggregator" manager="Graph Aggregator Manager" class="eu.sisob.components.graph_aggregator.GraphAggregatorManager" start="true" />
+    <AgentInfo filter="Text to Network (Codebook)" manager="Text2NetworkCB Manager" class="info.collide.components.text2network_codebook.Text2NetworkCBManager" start="true" />
+    <AgentInfo filter="Graph Decorator" manager="Graph Decorator Manager" class="eu.sisob.components.graphdecorator.GraphDecoratorManager" start="true" />
+    <AgentInfo filter="Merge and Compare Graphs" manager="Graph Comparison Manager" class="info.collide.components.graphcomparison.GraphComparatorManager" start="true" />
+    <AgentInfo filter="Edge Filter" manager="Edge Filter Manager" class="info.collide.workbench.components.edgefilter.EdgeFilterManager" start="true" />
+    <AgentInfo filter="Swim Lanes" manager="Swim Lanes Manager" class="info.collide.workbench.components.swimlanevisualization.SLAgentManager" start="true" />
+        <AgentInfo filter="Biclique Communities" manager="Biclique Communities Manager" class="eu.sisob.components.bipartite_cpm.BipCpmAgentManager" start="true" />
+
+<!--	<AgentInfo filter="Bar Chart" manager="Bar Chart" class="eu.sisob.components.barchart.BarChartManager" start="true" />
+	<AgentInfo filter="Circular Layout" manager="Circular Layout" class="eu.sisob.components.circularlayout.CLManager" start="true" />
+	<AgentInfo filter="Data Table Merge" manager="Data Table Merge" class="eu.sisob.components.datatablemerge.DataTableMergeManager" start="true" />
+	<AgentInfo filter="Force Directed Clustering" manager="Force Directed Clustering" class="eu.sisob.components.fdc.FDCManager" start="true" />
+	<AgentInfo filter="Foresighted Graph Layout" manager="Foresighted Graph Layout" class="eu.sisob.components.fgl.FGLManager" start="true" />
+	<AgentInfo filter="Fruchterman-Reingold Layout" manager="Fruchterman-Reingold Layout" class="eu.sisob.components.fruchtermanreingold.FRManager" start="true" />
+	<AgentInfo filter="Kamada-Kawai Layout" manager="Kamada-Kawai Layout" class="eu.sisob.components.kamadakawai.KKManager" start="true" />
+	<AgentInfo filter="Super Graph Layout" manager="Super Graph Layout" class="eu.sisob.components.supergraph.SuperGraphManager" start="true" />
+	-->
+</SISOBComponentConfig>
