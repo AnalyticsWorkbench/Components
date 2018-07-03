@@ -66,7 +66,10 @@ Create folders and files (if they are not already there):
 
 - Folder "security": the folder containing certificates for https/wss
 	- nodeworkbench.key - private key file
-	- nodeworkbench.crt - certificate file (filename is an example, may be configured)	
+	- nodeworkbench.crt - certificate file (filename is an example, may be configured)
+	
+for more detail in UI configratuon please check this link:
+https://github.com/AnalyticsWorkbench/UI
 
 
 ## Installation
