@@ -57,7 +57,15 @@ To run Redis with the default configuration just type in terminal or cmd:
  % cd src
  % ./redis-server
   ```
-
+  To stop the Redis server (MAC):
+   ```
+  redis-cli shutdown
+   ```
+  Windos:
+  ```
+  /etc/init.d/redis-server stop
+  /etc/init.d/redis-server start
+  ```
 - NodeJS (https://nodejs.org)
   - install necessary module by executing node, navigationg into “webworkbench” and executing „npm install“ (in the terminal/comand line) in the „webworkbench“ directory
   
