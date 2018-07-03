@@ -26,6 +26,10 @@ Stop manualy postgrade
 ```
 pg_ctl -D /usr/local/var/postgres stop -s -m fast
 ```
+to check if the user exist : 
+```
+workbench=# \du
+```
 
 ##  R Project
 	
