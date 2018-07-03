@@ -21,9 +21,12 @@ Start manualy postgrade, you can observe the connections.
 ```
 postgres -D /usr/local/var/postgres
 ```
+Stop manualy postgrade
+```
+pg_ctl -D /usr/local/var/postgres stop -s -m fast
+```
 
-
-##  R
+##  R Project
 	
 - R (https://cran.r-project.org/)
 
