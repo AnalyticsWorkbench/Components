@@ -7,10 +7,19 @@
 - PostgresSQL
 	- create database "workbench" and a corresponding user with all rights granted for the DB.
 - R (https://cran.r-project.org/)
+
 	- install necessary R packages (Runiversal, igraph, blockmodeling, fpc, Matrix, dplyr)
-	- install.packages(c(“Runiversal”,”igraph”,”blockmodeling”,”fpc”,"Matrix", "dplyr"))
-  
- 
+	
+ Open the cmd of the R enviroment and write the command:
+  ```
+- install.packages(c(Runiversal”,”igraph”,”blockmodeling”,”fpc”,"Matrix", "dplyr"))
+  ```
+to de bug easier the requirements we can try them seperatly :
+ ```
+ install.packages(c(pkgs="dplyr"))
+ ```
+	
+to install with the R user interface please check this [video](https://www.youtube.com/watch?v=b43DrsGIUZc)
 
 ## Workbench UI
 
