@@ -8,12 +8,13 @@
 - R Project
 
 # Current JDK
-
+find the current version according to your operation system [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 
 # PostgresSQL
 - create database "workbench" and a corresponding user with all rights granted for the DB.
-initialization on [MacOs](https://chartio.com/resources/tutorials/how-to-start-postgresql-server-on-mac-os-x/) 
+
+- initialization on [MacOs](https://chartio.com/resources/tutorials/how-to-start-postgresql-server-on-mac-os-x/) 
 
 
 # R
