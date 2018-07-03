@@ -2,114 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bf8f156-33c5-4ced-b88c-dbe781bd2da0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/components-2modeto1mode-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/components-2modeto1mode-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/components-activitylogsviewer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/components-activitylogsviewer-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/components-bicliquetracingvis-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/components-bicliquetracingvis-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/components-bipartite_cpm-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/components-bipartite_cpm-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/TEST-eu.sisob.components.components.bipartite_cpm.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/TEST-eu.sisob.components.components.bipartite_cpm.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/eu.sisob.components.components.bipartite_cpm.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/eu.sisob.components.components.bipartite_cpm.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-bipartite_louvaine/target/components-bipartite_louvaine-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_louvaine/target/components-bipartite_louvaine-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-bipartite_louvaine/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_louvaine/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-blockmodel/target/components-blockmodel-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/components-blockmodel-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-blockmodel/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-centrality/target/components-centrality-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/components-centrality-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-centrality/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-centrality/target/surefire-reports/TEST-eu.sisob.components.centrality.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/surefire-reports/TEST-eu.sisob.components.centrality.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-cliquepercolation/target/components-cliquepercolation-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-cliquepercolation/target/components-cliquepercolation-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-cliquepercolation/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-cliquepercolation/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-combine_similarities/target/components-combine_sim-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-combine_similarities/target/components-combine_sim-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-combine_similarities/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-combine_similarities/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/components-cosinesimilarity-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/components-cosinesimilarity-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/surefire-reports/eu.sisob.components.cosinesimilarity.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/surefire-reports/eu.sisob.components.cosinesimilarity.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/test-classes/eu/sisob/components/cosinesimilarity/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/test-classes/eu/sisob/components/cosinesimilarity/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-datauploader/target/components-datauploader-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/components-datauploader-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-datauploader/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-duplexer/target/components-duplexer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-duplexer/target/components-duplexer-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-duplexer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-duplexer/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-dynnetvis/src/main/resources/info/collide/workbench/components/dynnetvis/technique/css/graphFramework.css" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/src/main/resources/info/collide/workbench/components/dynnetvis/technique/css/graphFramework.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/classes/info/collide/workbench/components/dynnetvis/technique/css/graphFramework.css" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/target/classes/info/collide/workbench/components/dynnetvis/technique/css/graphFramework.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/components-dynnetvis-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/target/components-dynnetvis-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-edgefilter/target/components-edgefilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/components-edgefilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-edgefilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-excelexporter/target/components-excelexporter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/components-excelexporter-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-excelexporter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-executor/sisob.conf" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/sisob.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-executor/target/components-executor-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/components-executor-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-executor/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-fdg/target/components-fdg-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/components-fdg-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-fdg/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/components-formatfactory-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/components-formatfactory-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/TEST-graph.parser.components.formatfactory.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/TEST-graph.parser.components.formatfactory.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/graph.parser.components.formatfactory.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/graph.parser.components.formatfactory.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/components-framework-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/components-framework-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/components-graph_aggregator-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/components-graph_aggregator-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/components-graphcomparison-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/components-graphcomparison-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/components-graphdecorator-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/components-graphdecorator-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/TEST-eu.sisob.components.graphdecorator.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/TEST-eu.sisob.components.graphdecorator.AppTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/eu.sisob.components.graphdecorator.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/eu.sisob.components.graphdecorator.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/components-graphgenerator-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/components-graphgenerator-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/components-graphpropertyfilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/components-graphpropertyfilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-isolatedNodeFilter/target/components-isolatedNodeFilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-isolatedNodeFilter/target/components-isolatedNodeFilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-isolatedNodeFilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-isolatedNodeFilter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-k-CoreFilter/target/components-kcorefilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-k-CoreFilter/target/components-kcorefilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-k-CoreFilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-k-CoreFilter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/components-linkcommunity-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/components-linkcommunity-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/components-logstatisticsovertime-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/components-logstatisticsovertime-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-maxflow/target/components-maxflow-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-maxflow/target/components-maxflow-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-maxflow/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-maxflow/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/components-modularityclustering-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-modularityclustering/target/components-modularityclustering-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-modularityclustering/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/components-mongoexporter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/components-mongoexporter-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/components-mongoimporter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/components-mongoimporter-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mpa/target/components-mpa-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/components-mpa-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mpa/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/components-n_cohesive_subgroups-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/components-n_cohesive_subgroups-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/components-resdownloader-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/components-resdownloader-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-restclient/target/components-restclient-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-restclient/target/components-restclient-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-restclient/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-restclient/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/components-rwrapper-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/components-rwrapper-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-similarity/target/components-similarity-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-similarity/target/components-similarity-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-similarity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-similarity/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/components-spmanalysis-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/components-spmanalysis-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-stackedbarchart/target/components-stackedbarchart-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-stackedbarchart/target/components-stackedbarchart-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-stackedbarchart/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-stackedbarchart/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/components-streamfilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/components-streamfilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/components-swimlanevisualization-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/components-swimlanevisualization-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/components-tableviewer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/components-tableviewer-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-text2network/target/components-text2network-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/components-text2network-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-text2network/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/components-timeslicer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/components-timeslicer-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/eu.sisob.components.timeslicer.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/eu.sisob.components.timeslicer.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text2network_codebook/target/components-text2network_codebook-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/components-text2network_codebook-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text2network_codebook/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/components-bicliquetracingvis/target/" />
     <ignored path="$PROJECT_DIR$/components-datauploader/target/" />
@@ -171,8 +64,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <first_editor relative-caret-position="1905">
+                <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
               </first_editor>
               <second_editor />
             </state>
@@ -481,12 +374,12 @@
       <workItem from="1530187507935" duration="556000" />
       <workItem from="1530447588776" duration="1352000" />
       <workItem from="1530606695508" duration="4823000" />
-      <workItem from="1530613844501" duration="775000" />
+      <workItem from="1530613844501" duration="2459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19473000" />
+    <option name="totallyTimeSpent" value="21157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -502,10 +395,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32435897" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.2423077" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30897436" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31666666" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -959,8 +852,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <first_editor relative-caret-position="1905">
+            <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
           </first_editor>
           <second_editor />
         </state>
