@@ -5,7 +5,19 @@
 **Requirements:**
 - Current JDK
 - PostgresSQL
-	- create database "workbench" and a corresponding user with all rights granted for the DB.
+- R Project
+
+# Current JDK
+
+
+
+# PostgresSQL
+- create database "workbench" and a corresponding user with all rights granted for the DB.
+initialization on [MacOs](https://chartio.com/resources/tutorials/how-to-start-postgresql-server-on-mac-os-x/) 
+
+
+# R
+	
 - R (https://cran.r-project.org/)
 
 	- install necessary R packages (Runiversal, igraph, blockmodeling, fpc, Matrix, dplyr)
@@ -93,6 +105,7 @@ javac PostgresInitializer.java
 ### 3. Startup
 - Start the UI
 -- Start redis-server
+-- Start postsql-server
 -- Run node server (node workbench.js) in webworkbench folder (Server listens at localhost:3081)
 - Start the components framework: 
 -- Run components/components-executor/Executor.java (All analytics components listed in executor.xml will be started)
