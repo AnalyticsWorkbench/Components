@@ -7,17 +7,23 @@
 - PostgresSQL
 - R Project
 
-# Current JDK
+##  Current JDK
 find the current version according to your operation system [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 
-# PostgresSQL
+##  PostgresSQL
 - create database "workbench" and a corresponding user with all rights granted for the DB.
 
 - initialization on [MacOs](https://chartio.com/resources/tutorials/how-to-start-postgresql-server-on-mac-os-x/) 
+- Setting Up PostgreSQL on [MacOs](https://www.tunnelsup.com/setting-up-postgres-on-mac-osx/) 
+
+Start manualy postgrade, you can observe the connections.
+```
+postgres -D /usr/local/var/postgres
+```
 
 
-# R
+##  R
 	
 - R (https://cran.r-project.org/)
 
