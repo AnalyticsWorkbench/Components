@@ -22,7 +22,7 @@ th_val {
 
 table th {
 	/*white-space: no-wrap;*/
-	
+
 }
 /**
 * view renderer is resized every 500ms, margin/padding in div will cause the renderer size to increase..
@@ -104,16 +104,16 @@ body,#wrapper,.view,.viewEl,.view canvas,.ruleTable .form-group,.app {
 
 /* VIEW / CONTROLS */
 .view {
-	
+
 }
 
 .jumbotron p {
 	font-size: 1em !important;
 }
 
-.nav-tabs: {
-	border-bottom: 0 !important;
-}
+/*.nav-tabs:{*/
+	/*border-bottom: 0 !important;*/
+/*}*/
 
 .view,.viewEl,.canvasWrapper {
 	overflow: hidden;
@@ -134,7 +134,7 @@ body,#wrapper,.view,.viewEl,.view canvas,.ruleTable .form-group,.app {
 }
 }*/
 .controlsPanel,.app {
-	
+
 }
 
 .canvasWrapper,.canvas_nofullscreen {
@@ -177,7 +177,7 @@ body,#wrapper,.view,.viewEl,.view canvas,.ruleTable .form-group,.app {
 }
 
 .ts_view_tooltip_head {
-	
+
 }
 
 .fullscreen_btn {
@@ -199,215 +199,216 @@ body,#wrapper,.view,.viewEl,.view canvas,.ruleTable .form-group,.app {
 	animation: pause 1.5s linear 0s infinite alternate;
 	/* Standard syntax */
 }
-/* Chrome, Safari, Opera */
-@
--webkit-keyframes pause { 
-	0% {opacity: 0;}
-	100%{opacity:1;}
-}
-/* Standard syntax */
-@
-keyframes pause { 
-	0% {opacity: 0;}
-	100% { opacity:1;}
-}
-.playIcon {
-	z-index: 101;
-	position: absolute;
-	opacity: 0;
-	top: 0;
-	left: 0;
-	color: black;
-	font-size: 4.5em;
-	-webkit-animation: play 2s linear 0s 1 normal;
-	/* Chrome, Safari, Opera */
-	animation: play 2s linear 0s 1 normal; /* Standard syntax */
-}
 
-@
--webkit-keyframes play { 
-	0% {opacity: 0;}
-	50%{opacity:1;}
-	100%{opacity:0;}
-}
-/* Standard syntax */
-@
-keyframes play { 
-	0% {opacity: 0;}
-	50% {opacity:1;}
-	100% {opacity:0;}
-}
-.innerBorder {
-	-webkit-box-shadow: inset 0px 0px 24px 3px #b9def0;
-	-moz-box-shadow: inset 0px 0px 24px 3px #b9def0;
-	box-shadow: inset 0px 0px 24px 3px #b9def0;
-}
 
-/* CONTROLS - MENU */
-.controlsMenu {
-	background-color: rgba(197, 183, 180, 0.03);
-	z-index: 500;
-	bottom: 0;
-	right: 0;
-	position: fixed;
-}
+/*!* Chrome, Safari, Opera *!*/
+/*@*/
+/*-webkit-keyframes pause { */
+	/*0% {opacity: 0;}*/
+	/*100%{opacity:1;}*/
+/*}*/
+/*!* Standard syntax *!*/
+/*@*/
+/*keyframes pause { */
+	/*0% {opacity: 0;}*/
+	/*100% { opacity:1;}*/
+/*}*/
+/*.playIcon {*/
+	/*z-index: 101;*/
+	/*position: absolute;*/
+	/*opacity: 0;*/
+	/*top: 0;*/
+	/*left: 0;*/
+	/*color: black;*/
+	/*font-size: 4.5em;*/
+	/*-webkit-animation: play 2s linear 0s 1 normal;*/
+	/*!* Chrome, Safari, Opera *!*/
+	/*animation: play 2s linear 0s 1 normal; !* Standard syntax *!*/
+/*}*/
 
-/* CONTROLS - PANEL */
-.controlsPanel {
-	
-}
+/*@*/
+/*-webkit-keyframes play { */
+	/*0% {opacity: 0;}*/
+	/*50%{opacity:1;}*/
+	/*100%{opacity:0;}*/
+/*}*/
+/*!* Standard syntax *!*/
+/*@*/
+/*keyframes play { */
+	/*0% {opacity: 0;}*/
+	/*50% {opacity:1;}*/
+	/*100% {opacity:0;}*/
+/*}*/
+/*.innerBorder {*/
+	/*-webkit-box-shadow: inset 0px 0px 24px 3px #b9def0;*/
+	/*-moz-box-shadow: inset 0px 0px 24px 3px #b9def0;*/
+	/*box-shadow: inset 0px 0px 24px 3px #b9def0;*/
+/*}*/
 
-.closeControls_btn {
-	z-index: 400;
-	position: fixed;
-	top: 44px;
-	right: 0;
-}
+/*!* CONTROLS - MENU *!*/
+/*.controlsMenu {*/
+	/*background-color: rgba(197, 183, 180, 0.03);*/
+	/*z-index: 500;*/
+	/*bottom: 0;*/
+	/*right: 0;*/
+	/*position: fixed;*/
+/*}*/
 
-.filterManager .tab-content,.mappingManager .tab-content {
-	margin-top: 15px;
-}
+/*!* CONTROLS - PANEL *!*/
+/*.controlsPanel {*/
+	/**/
+/*}*/
 
-.controlsPanel {
-	padding-top: 15px;
-}
+/*.closeControls_btn {*/
+	/*z-index: 400;*/
+	/*position: fixed;*/
+	/*top: 44px;*/
+	/*right: 0;*/
+/*}*/
 
-.notopborderpanel {
-	border-top: none;
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
-	-moz-border-radius-topleft: 0;
-	-moz-border-radius-topright: 0;
-}
+/*.filterManager .tab-content,.mappingManager .tab-content {*/
+	/*margin-top: 15px;*/
+/*}*/
 
-/* TABS */
-#tabs .btn {
-	margin-left: 3px;
-}
+/*.controlsPanel {*/
+	/*padding-top: 15px;*/
+/*}*/
 
-/* LOAD SCREEN */
-.loadScreen {
-	position: absolute;
-	width: 300px;
-	top: 86px;
-	left: -moz-calc(50% - 150px); /* Firefox */
-	left: -webkit-calc(50% - 150px); /* Chrome, Safari */
-	left: calc(50% - 150px); /* IE9+ and future browsers */
-	z-index: 10000;
-	color: #5E7DA8;
-	font-size: 2em;
-	text-align: center;
-	padding: 10px;
-	background: white;
-	overflow:hidden;
-	border: 1px solid lightgray;
-}
+/*.notopborderpanel {*/
+	/*border-top: none;*/
+	/*border-top-left-radius: 0;*/
+	/*border-top-right-radius: 0;*/
+	/*-moz-border-radius-topleft: 0;*/
+	/*-moz-border-radius-topright: 0;*/
+/*}*/
 
-.loadScreen_content {
-	vertical-align: middle;
-}
+/*!* TABS *!*/
+/*#tabs .btn {*/
+	/*margin-left: 3px;*/
+/*}*/
 
-.loadScreen_g3d {
-	font-size: 0.5em;
-	position: relative;
-}
+/*!* LOAD SCREEN *!*/
+/*.loadScreen {*/
+	/*position: absolute;*/
+	/*width: 300px;*/
+	/*top: 86px;*/
+	/*left: -moz-calc(50% - 150px); !* Firefox *!*/
+	/*left: -webkit-calc(50% - 150px); !* Chrome, Safari *!*/
+	/*left: calc(50% - 150px); !* IE9+ and future browsers *!*/
+	/*z-index: 10000;*/
+	/*color: #5E7DA8;*/
+	/*font-size: 2em;*/
+	/*text-align: center;*/
+	/*padding: 10px;*/
+	/*background: white;*/
+	/*overflow:hidden;*/
+	/*border: 1px solid lightgray;*/
+/*}*/
 
-.loadScreen_icon {
-	font-size: 2em;
-	-ms-transform: rotate(90deg); /* IE 9 */
-	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-	transform: rotate(90deg);
-}
+/*.loadScreen_content {*/
+	/*vertical-align: middle;*/
+/*}*/
 
-.planeAnimation {
-	-webkit-animation: plane 5s linear 0s infinite normal;
-	/* Chrome, Safari, Opera */
-	animation: plane 5s linear 0s infinite normal; /* Standard syntax */
-}
-/* Chrome, Safari, Opera */
-@
--webkit-keyframes plane {
-	0% {
-		color: white;
-		left: -50%;
-	}
-	100%{
-		color:blue;
-		left:50%;
-	}
-}
-/* Standard syntax */
-@
-keyframes plane { 
-	0% {
-		color: white;
-		left: -50%;
-	}
-	100%{
-		color:blue;
-		left:50%;
-	}
-}
-.loadScreen_message {
-	font-size: 1em;
-}
+/*.loadScreen_g3d {*/
+	/*font-size: 0.5em;*/
+	/*position: relative;*/
+/*}*/
 
-.dot_anim1 {
-	-webkit-animation: dot 1.5s linear 0s infinite normal;
-	/* Chrome, Safari, Opera */
-	animation: dot 1.5s linear 0s infinite normal; /* Standard syntax */
-}
+/*.loadScreen_icon {*/
+	/*font-size: 2em;*/
+	/*-ms-transform: rotate(90deg); !* IE 9 *!*/
+	/*-webkit-transform: rotate(90deg); !* Chrome, Safari, Opera *!*/
+	/*transform: rotate(90deg);*/
+/*}*/
 
-.dot_anim2 {
-	-webkit-animation: dot 1.5s linear 0.5s infinite normal;
-	/* Chrome, Safari, Opera */
-	animation: dot 3s linear 1s infinite normal; /* Standard syntax */
-}
+/*.planeAnimation {*/
+	/*-webkit-animation: plane 5s linear 0s infinite normal;*/
+	/*!* Chrome, Safari, Opera *!*/
+	/*animation: plane 5s linear 0s infinite normal; !* Standard syntax *!*/
+/*}*/
+/*!* Chrome, Safari, Opera *!*/
+/*@*/
+/*-webkit-keyframes plane {*/
+	/*0% {*/
+		/*color: white;*/
+		/*left: -50%;*/
+	/*}*/
+	/*100%{*/
+		/*color:blue;*/
+		/*left:50%;*/
+	/*}*/
+/*}*/
+/*!* Standard syntax *!*/
+/*@*/
+/*keyframes plane { */
+	/*0% {*/
+		/*color: white;*/
+		/*left: -50%;*/
+	/*}*/
+	/*100%{*/
+		/*color:blue;*/
+		/*left:50%;*/
+	/*}*/
+/*}*/
+/*.loadScreen_message {*/
+	/*font-size: 1em;*/
+/*}*/
 
-.dot_anim3 {
-	-webkit-animation: dot 1.5s linear 1s infinite normal;
-	/* Chrome, Safari, Opera */
-	animation: dot 3s linear 2s infinite normal; /* Standard syntax */
-}
+/*.dot_anim1 {*/
+	/*-webkit-animation: dot 1.5s linear 0s infinite normal;*/
+	/*!* Chrome, Safari, Opera *!*/
+	/*animation: dot 1.5s linear 0s infinite normal; !* Standard syntax *!*/
+/*}*/
 
-@
--webkit-keyframes dot { 
-0% {color: white;}
-100%{color:blue;}
-}
-/* Standard syntax */
-@
-keyframes dot { 
-0% {color: white;}
-100%{color:blue;}
-}
-svg {
-	background-color: white;
-}
+/*.dot_anim2 {*/
+	/*-webkit-animation: dot 1.5s linear 0.5s infinite normal;*/
+	/*!* Chrome, Safari, Opera *!*/
+	/*animation: dot 3s linear 1s infinite normal; !* Standard syntax *!*/
+/*}*/
 
-path {
-	stroke: black;
-	stroke-width: 1;
-	fill: none;
-}
+/*.dot_anim3 {*/
+	/*-webkit-animation: dot 1.5s linear 1s infinite normal;*/
+	/*!* Chrome, Safari, Opera *!*/
+	/*animation: dot 3s linear 2s infinite normal; !* Standard syntax *!*/
+/*}*/
 
-.axis {
-	shape-rendering: crispEdges;
-}
+/*@*/
+/*-webkit-keyframes dot { */
+/*0% {color: white;}*/
+/*100%{color:blue;}*/
+/*}*/
+/*!* Standard syntax *!*/
+/*@*/
+/*keyframes dot { */
+/*0% {color: white;}*/
+/*100%{color:blue;}*/
+/*}*/
+/*svg {*/
+	/*background-color: white;*/
+/*}*/
 
-.x.axis line {
-	stroke: lightgrey;
-}
+/*path {*/
+	/*stroke: black;*/
+	/*stroke-width: 1;*/
+	/*fill: none;*/
+/*}*/
 
-.x.axis .minor {
-	stroke-opacity: .5;
-}
+/*.axis {*/
+	/*shape-rendering: crispEdges;*/
+/*}*/
 
-.x.axis path {
-	display: none;
-}
+/*.x.axis line {*/
+	/*stroke: lightgrey;*/
+/*}*/
 
-.y.axis line,.y.axis path {
-	fill: none;
-	stroke: #000;
-}
+/*.x.axis .minor {*/
+	/*stroke-opacity: .5;*/
+/*}*/
+
+/*.x.axis path {*/
+	/*display: none;*/
+/*}*/
+
+/*.y.axis line,.y.axis path {*/
+	/*fill: none;*/
+	/*stroke: #000;*}/

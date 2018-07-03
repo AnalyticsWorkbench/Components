@@ -5,6 +5,21 @@
 **Requirements:**
 - Current JDK
 - PostgresSQL
+- R (https://cran.r-project.org/)
+
+
+
+- Current JDK
+
+
+
+
+- PostgresSQL
+
+
+
+
+
 	- create database "workbench" and a corresponding user with all rights granted for the DB.
 - R (https://cran.r-project.org/)
 	- install necessary R packages (Runiversal, igraph, blockmodeling, fpc, Matrix, dplyr)
@@ -16,7 +31,7 @@
 
 **Requirements:**
 - Redis (https://redis.io/download or on Windows https://github.com/dmajkic/redis/downloads)
-To run Redis with the default configuration just type in terminal or cmd:
+To run Redis with the default configuration open the radis project and just type in terminal or cmd:
  ```
  % cd src
  % ./redis-server
@@ -83,7 +98,8 @@ javac PostgresInitializer.java
 
 ### 3. Startup
 - Start the UI
--- Start redis-server
+-- Start redis-server (check the UI repo readme file)
+-- Start postsql-server ()
 -- Run node server (node workbench.js) in webworkbench folder (Server listens at localhost:3081)
 - Start the components framework: 
 -- Run components/components-executor/Executor.java (All analytics components listed in executor.xml will be started)
