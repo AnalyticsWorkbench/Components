@@ -5,48 +5,12 @@
 **Requirements:**
 - Current JDK
 - PostgresSQL
-- R Project
-
-##  Current JDK
-find the current version according to your operation system [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-
-
-##  PostgresSQL
-- create database "workbench" and a corresponding user with all rights granted for the DB.
-
-- initialization on [MacOs](https://chartio.com/resources/tutorials/how-to-start-postgresql-server-on-mac-os-x/) 
-- Setting Up PostgreSQL on [MacOs](https://www.tunnelsup.com/setting-up-postgres-on-mac-osx/) 
-- How to create user and set grant access [Create](https://www.cyberciti.biz/faq/howto-add-postgresql-user-account/) 
-
-Start manualy postgrade, you can observe the connections.
-```
-postgres -D /usr/local/var/postgres
-```
-Stop manualy postgrade
-```
-pg_ctl -D /usr/local/var/postgres stop -s -m fast
-```
-to check if the user exist : 
-```
-workbench=# \du
-```
-
-##  R Project
-	
+	- create database "workbench" and a corresponding user with all rights granted for the DB.
 - R (https://cran.r-project.org/)
-
 	- install necessary R packages (Runiversal, igraph, blockmodeling, fpc, Matrix, dplyr)
-	
- Open the cmd of the R enviroment and write the command:
-  ```
-- install.packages(c(Runiversal”,”igraph”,”blockmodeling”,”fpc”,"Matrix", "dplyr"))
-  ```
-to de bug easier the requirements we can try them seperatly :
- ```
- install.packages(c(pkgs="dplyr"))
- ```
-	
-to install with the R user interface please check this [video](https://www.youtube.com/watch?v=b43DrsGIUZc)
+	- install.packages(c(“Runiversal”,”igraph”,”blockmodeling”,”fpc”,"Matrix", "dplyr"))
+  
+ 
 
 ## Workbench UI
 
@@ -57,21 +21,9 @@ To run Redis with the default configuration just type in terminal or cmd:
  % cd src
  % ./redis-server
   ```
-  To stop the Redis server (MAC):
-   ```
-  redis-cli shutdown
-   ```
-  Windos:
-  ```
-  /etc/init.d/redis-server stop
-  /etc/init.d/redis-server start
-  ```
+
 - NodeJS (https://nodejs.org)
   - install necessary module by executing node, navigationg into “webworkbench” and executing „npm install“ (in the terminal/comand line) in the „webworkbench“ directory
-  
-```
-npm install
-```
   
 Create folders and files (if they are not already there):
 
@@ -79,10 +31,7 @@ Create folders and files (if they are not already there):
 
 - Folder "security": the folder containing certificates for https/wss
 	- nodeworkbench.key - private key file
-	- nodeworkbench.crt - certificate file (filename is an example, may be configured)
-	
-for more detail in UI configratuon please check this link:
-https://github.com/AnalyticsWorkbench/UI
+	- nodeworkbench.crt - certificate file (filename is an example, may be configured)	
 
 
 ## Installation
@@ -135,7 +84,6 @@ javac PostgresInitializer.java
 ### 3. Startup
 - Start the UI
 -- Start redis-server
--- Start postsql-server
 -- Run node server (node workbench.js) in webworkbench folder (Server listens at localhost:3081)
 - Start the components framework: 
 -- Run components/components-executor/Executor.java (All analytics components listed in executor.xml will be started)
