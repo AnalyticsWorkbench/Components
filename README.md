@@ -84,6 +84,20 @@ server.message.internalname=workbench
 ## internalname for data connection (e.g. database for PSQL)
 server.data.internalname=workbench
 
+## port for message connection
+server.message.port=5432
+
+## main could be 1883 2525 or 5432
+
+## internalname for message connection (e.g. database for PSQL)
+server.message.internalname=workbench
+
+## username for message connection
+server.message.username=workbench
+
+## password for message connection
+server.message.password=workbench
+
 ## location of the Rscript executable
 rwrapper.executable=/usr/lib/R/bin/Rscript or on Windows usually C:\\Program Files\\R\\R-3.x.x\\bin\\Rscript.exe
 
@@ -95,6 +109,40 @@ upload.directory=path_to_project/webworkbench/upload files
 
 ## directory in which the resultcollector searches for created results
 results.filelocation=path_to_project/webworkbench/results/
+
+## -----------------------EXTRA ----------------------------------------------
+## ----- set data connection here -----
+
+## which backend for data communication (currently ftp, postgresql)
+server.data=postgresql
+
+## hostname for data connection
+server.data.name=localhost
+
+
+## port for data connection
+server.data.port=5432
+
+
+## username for databackend if needed
+server.data.username=workbench
+
+## password for databackend if needed
+server.data.password=workbench
+
+##md5906943237b36364eeacc1ff6ea3c0ae0
+##server.data.password=workbench
+
+
+## ----- set message connection here -----
+## which backend for message communication (currently mqtt, postgresql)
+
+connection.type=SINGLE
+
+server.message=mqtt
+
+server.message=postgresql
+
 ```
 
 ### 2. Initialise DB
