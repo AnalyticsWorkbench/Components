@@ -172,3 +172,18 @@ javac PostgresInitializer.java
 -- Run node server (node workbench.js) in webworkbench folder (Server listens at localhost:3081)
 - Start the components framework: 
 -- Run components/components-executor/Executor.java (All analytics components listed in executor.xml will be started)
+
+### Kick off workbench run local server video 
+
+
+
+
+
+
+
+
+
+##need to surf on server to know more about Sisob Workbench ? 
+https://descartes.inf.uni-due.de:3081/workbench
+New interface wit react:
+https://descartes.inf.uni-due.de:3081/Clientv
