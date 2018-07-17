@@ -15,15 +15,13 @@ public class PostgresInitializer {
 
     public PostgresInitializer() throws ClassNotFoundException {
 
-
-        this.databackend = SISOBProperties.getDataBackend().equalsIgnoreCase("postgresthis.databackend = SISOBProperties.getDataBackend().equalsIgnoreCase(\"postgresql\");ql");
-       // this.databackend = SISOBProperties.getDataBackend().equalsIgnoreCase("postgresql");
+        this.databackend = SISOBProperties.getDataBackend().equalsIgnoreCase("postgresql");
     	this.messagebackend = SISOBProperties.getMessageBackend().equalsIgnoreCase("postgresql");
-    	
+
     	if (!this.databackend && !this.messagebackend) {
     		System.out.println("PostgreSQL is neither used as data backend nor as message backend - exiting!");
     	}
-    	
+
         Class.forName("org.postgresql.Driver");
 
     }
@@ -47,7 +45,7 @@ public class PostgresInitializer {
         String connectionUrl = "jdbc:postgresql://" + host + ":" + port + "/" + database;
         return DriverManager.getConnection(connectionUrl, username, password);
     }
-    
+
     public Connection getMessageConnection() throws SQLException {
     	String host = SISOBProperties.getServerName();
     	int port = SISOBProperties.getServerPort();
@@ -148,13 +146,13 @@ public class PostgresInitializer {
                 messageStatement.execute(triggerStatement);
                 triggerStatement = "CREATE TRIGGER data BEFORE INSERT ON datamessage FOR EACH ROW EXECUTE PROCEDURE data();";
                 messageStatement.execute(triggerStatement);
-                
+
                 messageStatement.close();
                 messageConnection.close();
             }
 
             if (databackend) {
-            	
+
             	Connection dataConnection = getDataConnection();
             	Statement dataStatement = dataConnection.createStatement();
             	ResultSet dataResultSet;
@@ -169,7 +167,7 @@ public class PostgresInitializer {
                 }
 
                 System.out.println("All done. You're good to go :)");
-                
+
                 dataStatement.close();
                 dataConnection.close();
             }
