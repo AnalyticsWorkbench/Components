@@ -46,7 +46,10 @@ to install with the R user interface please check this [video](https://www.youtu
 ## Workbench UI
 
 **Requirements:**
-- Redis (https://redis.io/download or on Windows https://github.com/dmajkic/redis/downloads)
+- Redis is requierd to run the workbench.js on the frontend:
+
+(https://redis.io/download or on Windows https://github.com/dmajkic/redis/downloads)or you can clone from Github directly from: (recommanded)
+https://github.com/antirez/redis
 To run Redis with the default configuration just type in terminal or cmd:
  ```
  % cd src
