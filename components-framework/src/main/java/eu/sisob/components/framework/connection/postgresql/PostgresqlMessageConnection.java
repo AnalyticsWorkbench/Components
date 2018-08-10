@@ -144,9 +144,9 @@ public class PostgresqlMessageConnection implements MessageConnection {
             ConnectionClient.getInstance().getGlobalMessageConnection().register(command, event, manager);
         }
     }
-    
+
     public void register(Command command, JsonObject event, NotificationReceiver receiver) {
-    	receiverList.put(event, receiver);
+        receiverList.put(event, receiver);
     }
 
     @Override
@@ -187,16 +187,16 @@ public class PostgresqlMessageConnection implements MessageConnection {
 
     @Override
     public void callAgent(Command command, JsonObject callback) {
- 
+
         // in case its a data message which is veeery large because of many files
         if (callback.has("dataid"))
             callback = readLargeDataMessage(callback.get("dataid").getAsString());
-        
+
         System.out.println("Received message " + callback + " over connection: " + this + "\n" +
-        "Managers: " + this.managerList.values().toString() + "\n" +
-        "Agents: " + this.agentList.values().toString());
+                "Managers: " + this.managerList.values().toString() + "\n" +
+                "Agents: " + this.agentList.values().toString());
         if (this.agentList.values().size() > 0) {
-            
+
             System.out.println("Hello World! " +  this.agentList.toString());
         }
         for (Map.Entry<JsonObject, Agent> entry : agentList.entrySet()) {
@@ -208,15 +208,15 @@ public class PostgresqlMessageConnection implements MessageConnection {
         }
 
     }
-    
+
     public void callReceiver(Command command, JsonObject callback) {
-    	for (Map.Entry<JsonObject, NotificationReceiver> entry : receiverList.entrySet()) {
-    		if (callback.has("runjson") && "run".equalsIgnoreCase(entry.getKey().get("type").getAsString()) && callback.get("runjson").getAsJsonObject().get("runid").getAsString().equalsIgnoreCase(entry.getKey().get("runid").getAsString())) {
-    			entry.getValue().notifyMessage(command, callback);    			
-    		} else if (callback.has("coordinationjson") && "coordination".equalsIgnoreCase(entry.getKey().get("type").getAsString()) && callback.get("coordinationjson").getAsJsonObject().get("runid").getAsString().equalsIgnoreCase(entry.getKey().get("runid").getAsString()) && callback.get("coordinationjson").getAsJsonObject().get("instanceid").getAsString().equalsIgnoreCase(entry.getKey().get("instanceid").getAsString())) {
-    			entry.getValue().notifyMessage(command, callback);
-    		}
-    	}
+        for (Map.Entry<JsonObject, NotificationReceiver> entry : receiverList.entrySet()) {
+            if (callback.has("runjson") && "run".equalsIgnoreCase(entry.getKey().get("type").getAsString()) && callback.get("runjson").getAsJsonObject().get("runid").getAsString().equalsIgnoreCase(entry.getKey().get("runid").getAsString())) {
+                entry.getValue().notifyMessage(command, callback);
+            } else if (callback.has("coordinationjson") && "coordination".equalsIgnoreCase(entry.getKey().get("type").getAsString()) && callback.get("coordinationjson").getAsJsonObject().get("runid").getAsString().equalsIgnoreCase(entry.getKey().get("runid").getAsString()) && callback.get("coordinationjson").getAsJsonObject().get("instanceid").getAsString().equalsIgnoreCase(entry.getKey().get("instanceid").getAsString())) {
+                entry.getValue().notifyMessage(command, callback);
+            }
+        }
     }
 
     /**
@@ -394,7 +394,7 @@ public class PostgresqlMessageConnection implements MessageConnection {
         } else if (dataType.equals(DataType.RUN)) {
             // here we have to do it a little different
             try {
-            	Connection connection = getConnection();
+                Connection connection = getConnection();
 
                 PreparedStatement statement = connection.prepareStatement("UPDATE RUNMESSAGE SET RUNJSON = ? WHERE RUNJSON->>'runid' = ?;");
 
@@ -419,39 +419,39 @@ public class PostgresqlMessageConnection implements MessageConnection {
     public int write(DataType type, JsonObject object) {
         Connection connection;
         PreparedStatement statement;
-        
+
         String statementString = null;
 
         if (type.equals(DataType.DATA)) {
-        	statementString = "INSERT INTO datamessage (datajson) VALUES (?)";
+            statementString = "INSERT INTO datamessage (datajson) VALUES (?)";
         } else if (type.equals(DataType.ERROR)) {
-        	statementString = "INSERT INTO errormessage (errorjson) VALUES (?)";
-    	} else if (type.equals(DataType.RESULT)) {
-    		statementString = "INSERT INTO result (result) VALUES (?)";
-    	} else if (type.equals(DataType.COORDINATION)) {
-    		statementString = "INSERT INTO coordinationmessage (coordinationjson) VALUES (?)";
-    	} else if (type.equals(DataType.RUN)) {
-    		statementString = "INSERT INTO runmessage (runjson) VALUES (?)";
+            statementString = "INSERT INTO errormessage (errorjson) VALUES (?)";
+        } else if (type.equals(DataType.RESULT)) {
+            statementString = "INSERT INTO result (result) VALUES (?)";
+        } else if (type.equals(DataType.COORDINATION)) {
+            statementString = "INSERT INTO coordinationmessage (coordinationjson) VALUES (?)";
+        } else if (type.equals(DataType.RUN)) {
+            statementString = "INSERT INTO runmessage (runjson) VALUES (?)";
         } else {
-        	throw new IllegalArgumentException("Unsupported DataType " + type);
+            throw new IllegalArgumentException("Unsupported DataType " + type);
         }
-        
+
         if (statementString != null) {
-	        try {
-	            connection = getConnection();
-	            statement = connection.prepareStatement(statementString);
-	            PGobject dataObject = new PGobject();
-	            dataObject.setType("json");
-	            dataObject.setValue(new Gson().toJson(object));
-	
-	            statement.setObject(1, dataObject);
-	            statement.execute();
-	            statement.close();
-	            connection.close();
-	
-	        } catch (SQLException e) {
-	            logger.log(Level.SEVERE, e.getMessage());
-	        }
+            try {
+                connection = getConnection();
+                statement = connection.prepareStatement(statementString);
+                PGobject dataObject = new PGobject();
+                dataObject.setType("json");
+                dataObject.setValue(new Gson().toJson(object));
+
+                statement.setObject(1, dataObject);
+                statement.execute();
+                statement.close();
+                connection.close();
+
+            } catch (SQLException e) {
+                logger.log(Level.SEVERE, e.getMessage());
+            }
         }
 
         return 0;
