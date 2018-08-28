@@ -71,7 +71,7 @@
     <orderEntry type="module" module-name="components-blockmodel" scope="RUNTIME" />
     <orderEntry type="module" module-name="components-mpa" scope="RUNTIME" />
     <orderEntry type="module" module-name="components-text2network" scope="RUNTIME" />
-    <orderEntry type="module" module-name="components-restclient" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: info.collide:components-restclient:2.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.core:jersey-client:2.24.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.core:jersey-common:2.24.1" level="project" />

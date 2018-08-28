@@ -90,6 +90,9 @@
         <module>components-graphdecorator</module>
         <module>components-graphcomparison</module>
         <module>components-swimlanevisualization</module>
-        <module>components-restclient</module>
+        <module>components-metaanalysis</module>
+        <!--<module>components-getTopKRecommendations</module>-->
+        <!--<module>components-getTopKRecommendations/components-metaanalysis</module>-->
+
     </modules>
 </project>

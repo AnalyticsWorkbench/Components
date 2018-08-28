@@ -40,7 +40,7 @@
     <orderEntry type="library" name="Maven: org.postgresql:postgresql:9.4-1201-jdbc41" level="project" />
     <orderEntry type="library" name="Maven: com.impossibl.pgjdbc-ng:pgjdbc-ng:complete:0.5" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.27.Final" level="project" />
-    <orderEntry type="module" module-name="components-restclient" />
+    <orderEntry type="library" name="Maven: info.collide:components-restclient:2.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-client:2.24.1" level="project" />
     <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish.jersey.core:jersey-common:2.24.1" level="project" />

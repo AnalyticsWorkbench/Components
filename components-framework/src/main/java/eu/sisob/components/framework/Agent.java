@@ -32,6 +32,8 @@ import eu.sisob.components.framework.util.DataType;
 
 public abstract class Agent implements Runnable {
 
+    //protected Object outputFile; // FBA APRIN add for meta.data output file js meta data
+
     private String baseUrl;
 
     protected JsonObject dataStructure;

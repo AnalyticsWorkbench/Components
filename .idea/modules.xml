@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MetaAnalysis/compenents-metaAnalysis.iml" filepath="$PROJECT_DIR$/MetaAnalysis/compenents-metaAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-2modeto1mode/components-2modeto1mode.iml" filepath="$PROJECT_DIR$/components-2modeto1mode/components-2modeto1mode.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-activitylogsviewer/components-activitylogsviewer.iml" filepath="$PROJECT_DIR$/components-activitylogsviewer/components-activitylogsviewer.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-bicliquetracingvis/components-bicliquetracingvis.iml" filepath="$PROJECT_DIR$/components-bicliquetracingvis/components-bicliquetracingvis.iml" />
@@ -31,13 +32,13 @@
       <module fileurl="file://$PROJECT_DIR$/components-linkcommunity/components-linkcommunity.iml" filepath="$PROJECT_DIR$/components-linkcommunity/components-linkcommunity.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-logstatisticsovertime/components-logstatisticsovertime.iml" filepath="$PROJECT_DIR$/components-logstatisticsovertime/components-logstatisticsovertime.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-maxflow/components-maxflow.iml" filepath="$PROJECT_DIR$/components-maxflow/components-maxflow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/components-metaanalysis/components-metaanalysis.iml" filepath="$PROJECT_DIR$/components-metaanalysis/components-metaanalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-modularityclustering/components-modularityclustering.iml" filepath="$PROJECT_DIR$/components-modularityclustering/components-modularityclustering.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-mongoexporter/components-mongoexporter.iml" filepath="$PROJECT_DIR$/components-mongoexporter/components-mongoexporter.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-mongoimporter/components-mongoimporter.iml" filepath="$PROJECT_DIR$/components-mongoimporter/components-mongoimporter.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-mpa/components-mpa.iml" filepath="$PROJECT_DIR$/components-mpa/components-mpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-n_cohesive_subgroups/components-n_cohesive_subgroups.iml" filepath="$PROJECT_DIR$/components-n_cohesive_subgroups/components-n_cohesive_subgroups.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-resdownloader/components-resdownloader.iml" filepath="$PROJECT_DIR$/components-resdownloader/components-resdownloader.iml" />
-      <module fileurl="file://$PROJECT_DIR$/components-restclient/components-restclient.iml" filepath="$PROJECT_DIR$/components-restclient/components-restclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-rwrapper/components-rwrapper.iml" filepath="$PROJECT_DIR$/components-rwrapper/components-rwrapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-similarity/components-similarity.iml" filepath="$PROJECT_DIR$/components-similarity/components-similarity.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-spmanalysis/components-spmanalysis.iml" filepath="$PROJECT_DIR$/components-spmanalysis/components-spmanalysis.iml" />
