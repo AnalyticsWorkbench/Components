@@ -2,7 +2,6 @@ package eu.sisob.components.framework;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.UUID;
 import java.util.Vector;
@@ -32,8 +31,6 @@ import eu.sisob.components.framework.util.DataType;
 
 public abstract class Agent implements Runnable {
 
-    //protected Object outputFile; // FBA APRIN add for meta.data output file js meta data
-
     private String baseUrl;
 
     protected JsonObject dataStructure;
@@ -58,7 +55,7 @@ public abstract class Agent implements Runnable {
 
     protected String agentID;
 
-    protected String[] pipes;
+    protected String pipes;
 
     protected AgentManager agentManager;
 
@@ -67,6 +64,8 @@ public abstract class Agent implements Runnable {
     protected ReentrantLock lock;
 
     protected boolean outputAgent;
+
+    protected String outputFile = "Meta.json";
 
     private boolean unregister = false;
 
@@ -90,6 +89,7 @@ public abstract class Agent implements Runnable {
     }
 
     // constructor
+
     public Agent(JsonObject coordinationMsg) {
 
         this.coordinationMessage = coordinationMsg;
@@ -102,7 +102,7 @@ public abstract class Agent implements Runnable {
 
         this.agentID = this.coordinationMessage.get("agentid").getAsString();
 
-        this.pipes = this.coordinationMessage.get("pipes").getAsString().split(",");
+        this.pipes = this.coordinationMessage.get("pipes").getAsString();
 
         this.dataStructure = new JsonObject();
 
@@ -115,6 +115,7 @@ public abstract class Agent implements Runnable {
     }
 
     // initialization
+
     public void initializeAgent() {
         try {
 
@@ -132,11 +133,13 @@ public abstract class Agent implements Runnable {
 
                 // get the connection from the manager but create a new data
                 // connection
+
                 this.messageConnection = agentManager.getMessageConnection();
                 this.dataConnection = ConnectionClient.getInstance().getDataConnection();
             } else if (agentManager.getConnectionType().equals(ConnectionType.SINGLE)) {
 
                 // create new connections
+
                 this.messageConnection = ConnectionClient.getInstance().getMessageConnection();
                 this.messageConnection.setupConnection();
                 this.dataConnection = ConnectionClient.getInstance().getDataConnection();
@@ -144,27 +147,23 @@ public abstract class Agent implements Runnable {
                 this.dataConnection = ConnectionClient.getInstance().getDataConnection();
             }
 
-            if (this.pipes.length > 0) {
+            if (!pipes.isEmpty()) {
 
-                
-                for (String pipe : this.pipes) {
+                String[] pipesList = getPipesList();
 
-                    this.dataRegisterEvent = new JsonObject();
+                for (String pipe : pipesList) {
 
-                    this.dataRegisterEvent.addProperty("runid", dataStructure.get("runid").getAsString());
-                    this.dataRegisterEvent.addProperty("pipeid", pipe);
+                    dataRegisterEvent = new JsonObject();
 
-                    System.out.println("Register event " +  this.getAgentID());
-                    System.out.println(this.dataRegisterEvent.toString());
-                    if (!this.agentManager.getConnectionType().equals(ConnectionType.AGENTBUNDLE)) {
-                        
+                    dataRegisterEvent.addProperty("runid", dataStructure.get("runid").getAsString());
+                    dataRegisterEvent.addProperty("pipeid", pipe);
+
+                    if (!agentManager.getConnectionType().equals(ConnectionType.AGENTBUNDLE)) {
                         this.messageConnection.register(eu.sisob.components.framework.util.Command.WRITE,
-                                this.dataRegisterEvent, this);
-                        System.out.println(this.agentID + " -- " + this.messageConnection);
+                                dataRegisterEvent, this);
                     } else {
-                        
                         ConnectionClient.getInstance().getGlobalMessageConnection()
-                                .register(eu.sisob.components.framework.util.Command.WRITE, this.dataRegisterEvent, this);
+                                .register(eu.sisob.components.framework.util.Command.WRITE, dataRegisterEvent, this);
                     }
 
                 }
@@ -172,13 +171,14 @@ public abstract class Agent implements Runnable {
             setAlive(true);
 
         } catch (Exception e) {
-            Logger.getLogger(Agent.class.getName()).log(Level.SEVERE, null, e);
-            //logger.log(Level.SEVERE, e.getMessage());
+            logger.log(Level.SEVERE, e.getMessage());
         }
     }
 
     // things regarding agent status
+
     // agent is done ..
+
     public void indicateDone() {
         // if this agent is an output agent
         if (outputAgent) {
@@ -202,7 +202,7 @@ public abstract class Agent implements Runnable {
 
         String name = "result_" + this.workflowID;
 
-        String resultInfo = baseUrl + this.workflowID + "/" + this.agentInstanceID + "/index.html";
+        String resultInfo = baseUrl + this.workflowID + "/" + this.agentInstanceID + "/" + this.outputFile;
 
         JsonObject resultJson = new JsonObject();
         resultJson.addProperty("runid", this.workflowID);
@@ -236,6 +236,7 @@ public abstract class Agent implements Runnable {
         }
 
         // create new json object which contains all error information
+
         JsonObject errorMessage = new JsonObject();
         errorMessage.addProperty("runid", this.getWorkflowID());
         errorMessage.addProperty("agentid", this.agentID);
@@ -264,6 +265,7 @@ public abstract class Agent implements Runnable {
     }
 
     // the main stuff
+
     public abstract void executeAgent(JsonObject dataMessage);
 
     public abstract void executeAgent(List<JsonObject> dataMessages);
@@ -271,6 +273,7 @@ public abstract class Agent implements Runnable {
     protected abstract void uploadResults();
 
     // this saves the data to the data connection..
+
     protected void storeData(String workflowID, String pipeid, String data) {
 
         JsonArray jsonArray = new Gson().fromJson(data, JsonArray.class);
@@ -311,12 +314,12 @@ public abstract class Agent implements Runnable {
 
         lock.lock();
 
-        if (collectedDataMessages == null) {
+        if (collectedDataMessages == null)
             collectedDataMessages = new ArrayList<JsonObject>();
-        }
 
         // got data message now download file from ftp.. blocking or not
         // blocking thats the question
+
         JsonArray payload = dataMessage.getAsJsonArray("payload");
 
         for (JsonElement file : payload) {
@@ -336,6 +339,7 @@ public abstract class Agent implements Runnable {
             file.getAsJsonObject().addProperty("filedata", data);
 
             // remove temp data
+
             if (agentManager.getConnectionType().equals(ConnectionType.AGENTBUNDLE)) {
                 ConnectionClient.getInstance().getGlobalDataConnection().setupConnection();
                 ConnectionClient.getInstance().getGlobalDataConnection().removeData(path);
@@ -349,39 +353,23 @@ public abstract class Agent implements Runnable {
         dataMessage.add("payload", payload);
 
         // add the data message to resultlist
-        this.collectedDataMessages.add(dataMessage);
+
+        collectedDataMessages.add(dataMessage);
 
         // maybe we have more in pipes so we have to check
-        if (this.pipes.length == this.collectedDataMessages.size()) {
+
+        if (calculateNoOfInPipes() == collectedDataMessages.size()) {
             unregister = true;
             setAgentWorkingStatus(AgentStatus.RUNNING);
             agentManager.notifyManager(this);
 
-            if (this.collectedDataMessages.size() == 1) {
+            if (collectedDataMessages.size() == 1)
                 executeAgent(dataMessage);
-            } else {
-                sortDataMessages();
-                executeAgent(this.collectedDataMessages);
-            }
+            else
+                executeAgent(collectedDataMessages);
         }
 
         lock.unlock();
-    }
-
-    // sort the DataMessages, so that the order of the DataMessages fits the order of the pipes of the workflow
-    private void sortDataMessages() {
-        
-        List<JsonObject> help = new ArrayList<>();
-
-        for (String pipe : this.pipes) {
-            for (JsonObject pipeObject : this.collectedDataMessages) {
-                String pipeid = pipeObject.get("pipeid").getAsString();
-                if (pipeid.equals(pipe)) {
-                    help.add(pipeObject);
-                }
-            }
-        }
-        this.collectedDataMessages = help;
     }
 
     // checks every second if agent is alive, if not, agent is destroyed
@@ -397,12 +385,35 @@ public abstract class Agent implements Runnable {
         }
 
         // close connection if connection type is single
+
         if (agentManager.getConnectionType().equals(ConnectionType.SINGLE)) {
             this.messageConnection.shutdown();
             this.messageConnection = null;
             this.dataConnection.shutdown();
             this.dataConnection = null;
         }
+    }
+
+    // utils and helper methods
+
+    /**
+     * Calculates # of incoming pipes.
+     *
+     * @return
+     */
+    protected int calculateNoOfInPipes() {
+        int count = 1;
+        for (int i = 0; i < pipes.length(); i++) {
+            if (pipes.charAt(i) == ',') {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    protected String[] getPipesList() {
+
+        return pipes.split(",");
     }
 
     public void parseFilterParameters(String parameterString) throws IllegalArgumentException {
@@ -423,23 +434,18 @@ public abstract class Agent implements Runnable {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj) {
+        if (this == obj)
             return true;
-        }
-        if (obj == null) {
+        if (obj == null)
             return false;
-        }
-        if (getClass() != obj.getClass()) {
+        if (getClass() != obj.getClass())
             return false;
-        }
         Agent other = (Agent) obj;
         if (agentInstanceID == null) {
-            if (other.agentInstanceID != null) {
+            if (other.agentInstanceID != null)
                 return false;
-            }
-        } else if (!agentInstanceID.equals(other.agentInstanceID)) {
+        } else if (!agentInstanceID.equals(other.agentInstanceID))
             return false;
-        }
         return true;
     }
 
@@ -467,14 +473,14 @@ public abstract class Agent implements Runnable {
 
     public boolean isInputBASE64(Vector<JSONFile> dataSet) {
         for (JSONFile data : dataSet) {
-            if (data.getSpecialFileType().trim().equals("BASE64")) {
+            if (data.getSpecialFileType().trim().equals("BASE64"))
                 return true;
-            }
         }
         return false;
     }
 
     // getter and setter
+
     public void setDataStructure(JsonObject dataMessage) {
         this.dataStructure = dataMessage;
     }
@@ -539,11 +545,11 @@ public abstract class Agent implements Runnable {
         this.agentManager = aListener;
     }
 
-    public String[] getPipes() {
-        return this.pipes;
+    public String getPipes() {
+        return pipes;
     }
 
-    public void setPipes(String[] pipes) {
+    public void setPipes(String pipes) {
         this.pipes = pipes;
     }
 

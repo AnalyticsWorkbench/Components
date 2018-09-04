@@ -14,6 +14,8 @@
     <orderEntry type="module" module-name="components-rwrapper" scope="RUNTIME" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jbytecode:RCaller:2.8" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
+    <orderEntry type="module" module-name="components-metaanalysis" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: joda-time:joda-time:2.9.1" level="project" />
     <orderEntry type="module" module-name="components-activitylogsviewer" scope="RUNTIME" />
     <orderEntry type="library" name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1" level="project" />

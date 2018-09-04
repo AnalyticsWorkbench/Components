@@ -70,7 +70,7 @@ public class MetaAnalysisAgent extends Agent {
 			String workflowId = dataMessage.get("runid").getAsString();
 			JsonObject meta = this.analyseInput(dataMessage);
 			createMetaFile(workflowId, meta);
-			//this.outputAgent = "meta.js";  // FBA
+			this.outputFile = "meta.js";  // FBA
 			//this.outputFile = "meta.js";
 			indicateDone();
 		} catch (Exception g) {
@@ -102,7 +102,13 @@ public class MetaAnalysisAgent extends Agent {
 		
 		JsonObject data;
 
-		data = (JsonObject) new JsonParser().parse(file.toJSONString()); // FBA APRIN was cathch here
+		data = (JsonObject) new JsonParser().parse(file.toString()); // FBA APRIN was cathch here toJSONstring
+//===========================================================================================================
+//		try {
+//			data = (JsonObject) new JsonParser().parse(file.getTextContent()); // orginal
+//		} catch (IllegalContentTypeException e) {
+//			data = new JsonObject();
+//		}
 
 		// Test for activity streams
 		try {

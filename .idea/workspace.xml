@@ -2,215 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bf8f156-33c5-4ced-b88c-dbe781bd2da0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_collide_components_graphcomparison_2_0_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_collide_components_restclient_2_0_0_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/classes/eu/sisob/components/tmtom/TwoModeToOneModeAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/classes/eu/sisob/components/tmtom/TwoModeToOneModeAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/components-2modeto1mode-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/components-2modeto1mode-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/classes/info/collide/workbench/components/activitylogsviewer/ActivityLogsViewerAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/classes/info/collide/workbench/components/activitylogsviewer/ActivityLogsViewerAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/classes/info/collide/workbench/components/activitylogsviewer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/classes/info/collide/workbench/components/activitylogsviewer/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/components-activitylogsviewer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/components-activitylogsviewer-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/classes/info/collide/workbench/components/bicliquetracingvis/BicliqueTracingVisAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/classes/info/collide/workbench/components/bicliquetracingvis/BicliqueTracingVisAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/classes/info/collide/workbench/components/bicliquetracingvis/HSLColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/classes/info/collide/workbench/components/bicliquetracingvis/HSLColor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/components-bicliquetracingvis-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/components-bicliquetracingvis-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/classes/eu/sisob/components/bipartite_cpm/BipCpmAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/classes/eu/sisob/components/bipartite_cpm/BipCpmAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/components-bipartite_cpm-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/components-bipartite_cpm-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/TEST-eu.sisob.components.components.bipartite_cpm.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/TEST-eu.sisob.components.components.bipartite_cpm.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/eu.sisob.components.components.bipartite_cpm.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/surefire-reports/eu.sisob.components.components.bipartite_cpm.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-bipartite_louvaine/target/components-bipartite_louvaine-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_louvaine/target/components-bipartite_louvaine-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-bipartite_louvaine/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_louvaine/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-blockmodel/target/classes/info/collide/components/blockmodel/BlockmodelAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/classes/info/collide/components/blockmodel/BlockmodelAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-blockmodel/target/components-blockmodel-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/components-blockmodel-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-blockmodel/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-centrality/target/components-centrality-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/components-centrality-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-centrality/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-centrality/target/surefire-reports/TEST-eu.sisob.components.centrality.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/surefire-reports/TEST-eu.sisob.components.centrality.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-centrality/target/surefire-reports/eu.sisob.components.centrality.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/surefire-reports/eu.sisob.components.centrality.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-cliquepercolation/target/components-cliquepercolation-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-cliquepercolation/target/components-cliquepercolation-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-cliquepercolation/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-cliquepercolation/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-combine_similarities/target/classes/info/collide/components/combine_sim/CombineSimAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-combine_similarities/target/classes/info/collide/components/combine_sim/CombineSimAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-combine_similarities/target/components-combine_sim-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-combine_similarities/target/components-combine_sim-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-combine_similarities/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-combine_similarities/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/components-cosinesimilarity-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/components-cosinesimilarity-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/surefire-reports/TEST-eu.sisob.components.cosinesimilarity.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/surefire-reports/TEST-eu.sisob.components.cosinesimilarity.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-cosinesimilarity/target/surefire-reports/eu.sisob.components.cosinesimilarity.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-cosinesimilarity/target/surefire-reports/eu.sisob.components.cosinesimilarity.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-datauploader/target/classes/eu/sisob/components/datauploader/DataUploaderAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/classes/eu/sisob/components/datauploader/DataUploaderAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-datauploader/target/classes/eu/sisob/components/datauploader/DataUploaderManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/classes/eu/sisob/components/datauploader/DataUploaderManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-datauploader/target/components-datauploader-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/components-datauploader-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-datauploader/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-duplexer/target/components-duplexer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-duplexer/target/components-duplexer-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-duplexer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-duplexer/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/classes/info/collide/workbench/components/dynnetvis/DynNetVisAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/target/classes/info/collide/workbench/components/dynnetvis/DynNetVisAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/components-dynnetvis-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/target/components-dynnetvis-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-edgefilter/target/classes/info/collide/workbench/components/edgefilter/EdgeFilterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/classes/info/collide/workbench/components/edgefilter/EdgeFilterAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-edgefilter/target/components-edgefilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/components-edgefilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-edgefilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-excelexporter/target/classes/info/collide/components/excelexporter/ExcelExporterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/classes/info/collide/components/excelexporter/ExcelExporterAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-excelexporter/target/components-excelexporter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/components-excelexporter-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-excelexporter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-executor/components-executor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/components-executor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/Executor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/ExecutorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/ExecutorConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/PostgresInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/PostgresInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/execconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/execconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-executor/target/components-executor-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/components-executor-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-executor/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-fdg/target/classes/eu/sisob/components/fdg/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/classes/eu/sisob/components/fdg/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-fdg/target/components-fdg-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/components-fdg-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-fdg/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/classes/eu/sisob/components/ff/FormatFactoryAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/classes/eu/sisob/components/ff/FormatFactoryAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-formatfactory/target/components-formatfactory-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/components-formatfactory-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-formatfactory/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/TEST-graph.parser.components.formatfactory.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/TEST-graph.parser.components.formatfactory.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/graph.parser.components.formatfactory.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/graph.parser.components.formatfactory.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/api/visualization/VisualizationAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/api/visualization/VisualizationAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/Agent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/FileHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/FileHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/SISOBProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/SISOBProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/UtilSerialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/UtilSerialize.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/BooleanField.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/BooleanField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Container.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Container.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Input.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/IntField.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/IntField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Output.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Output.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/PasswordField.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/PasswordField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/SelectField.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/SelectField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/StringField.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/StringField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/factory/ConnectionClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/factory/ConnectionClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/ftp/FtpDataConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/ftp/FtpDataConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/mqtt/MqttMessageCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/mqtt/MqttMessageCallback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/mqtt/MqttMessageConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/mqtt/MqttMessageConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/Notifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/Notifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlDataConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlDataConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlMessageConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlMessageConnection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-framework/target/components-framework-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/components-framework-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-framework/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-getTopKRecommendations/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-getTopKRecommendations/src/main/resources/getTopKRecommendations.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-getTopKRecommendations/src/main/resources/getTopKRecommendations_Standalone.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-getTopKRecommendations/src/test/java/eu/sisob/components/components_getTopKRecommendations/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/classes/eu/sisob/components/graph_aggregator/GraphAggregatorAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/classes/eu/sisob/components/graph_aggregator/GraphAggregatorAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/components-graph_aggregator-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/components-graph_aggregator-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/classes/info/collide/components/graphcomparison/GraphComparisonAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/classes/info/collide/components/graphcomparison/GraphComparisonAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/components-graphcomparison-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/components-graphcomparison-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/classes/eu/sisob/components/graphdecorator/GraphDecoratorAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/classes/eu/sisob/components/graphdecorator/GraphDecoratorAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/components-graphdecorator-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/components-graphdecorator-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/TEST-eu.sisob.components.graphdecorator.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/TEST-eu.sisob.components.graphdecorator.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/eu.sisob.components.graphdecorator.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/eu.sisob.components.graphdecorator.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/classes/org/components/graphgenerator/GraphGeneratorAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/classes/org/components/graphgenerator/GraphGeneratorAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/components-graphgenerator-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/components-graphgenerator-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/classes/info/collide/workbench/components/graphpropertyfilter/GraphPropertyFilterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/classes/info/collide/workbench/components/graphpropertyfilter/GraphPropertyFilterAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/classes/info/collide/workbench/components/graphpropertyfilter/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/classes/info/collide/workbench/components/graphpropertyfilter/Starter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/components-graphpropertyfilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/components-graphpropertyfilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-isolatedNodeFilter/target/classes/info/collide/workbench/components/isolatednodefilter/SingleNodeFilterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-isolatedNodeFilter/target/classes/info/collide/workbench/components/isolatednodefilter/SingleNodeFilterAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-isolatedNodeFilter/target/components-isolatedNodeFilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-isolatedNodeFilter/target/components-isolatedNodeFilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-isolatedNodeFilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-isolatedNodeFilter/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-k-CoreFilter/target/components-kcorefilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-k-CoreFilter/target/components-kcorefilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-k-CoreFilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-k-CoreFilter/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/components-linkcommunity-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/components-linkcommunity-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-linkcommunity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-linkcommunity/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/classes/info/collide/workbench/components/logstatisticsovertime/LogStatisticsOverTimeAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/classes/info/collide/workbench/components/logstatisticsovertime/LogStatisticsOverTimeAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/classes/info/collide/workbench/components/logstatisticsovertime/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/classes/info/collide/workbench/components/logstatisticsovertime/Starter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/components-logstatisticsovertime-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/components-logstatisticsovertime-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-maxflow/target/components-maxflow-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-maxflow/target/components-maxflow-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-maxflow/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-maxflow/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-metaanalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components/metaanalysis/MetaAnalysisAgent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-metaanalysis/target/components-metaanalysis-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/target/components-metaanalysis-2.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-metaanalysis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/components-modularityclustering-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-modularityclustering/target/components-modularityclustering-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-modularityclustering/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/DbConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/DbConnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/TestMongo.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/TestMongo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/components-mongoexporter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/components-mongoexporter-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/DbConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/DbConnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/MongoImporterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/MongoImporterAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/MongoImporterManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/MongoImporterManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/RunMImporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/RunMImporter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/components-mongoimporter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/components-mongoimporter-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-mpa/target/classes/eu/sisob/components/mpa/MpaAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/classes/eu/sisob/components/mpa/MpaAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-mpa/target/components-mpa-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/components-mpa-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-mpa/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/components-n_cohesive_subgroups-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/components-n_cohesive_subgroups-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-n_cohesive_subgroups/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/ResultDownloaderAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/ResultDownloaderAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-resdownloader/target/components-resdownloader-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/components-resdownloader-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-resdownloader/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-restclient/target/classes/eu/sisob/components/restclient/RESTClientAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-restclient/target/classes/eu/sisob/components/restclient/RESTClientAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-restclient/target/components-restclient-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-restclient/target/components-restclient-2.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-restclient/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-restclient/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresAvailableScriptsConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresAvailableScriptsConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresqlRScriptConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresqlRScriptConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RScriptNotifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RScriptNotifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RWrapperAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RWrapperAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RWrapperManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RWrapperManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/ScriptInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/ScriptInfo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-rwrapper/target/components-rwrapper-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/components-rwrapper-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-rwrapper/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-similarity/target/classes/org/components/similarity/SimilarityAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-similarity/target/classes/org/components/similarity/SimilarityAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-similarity/target/components-similarity-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-similarity/target/components-similarity-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-similarity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-similarity/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/ActorSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/ActorSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/EventAbstraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/EventAbstraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SPMAnalysisAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SPMAnalysisAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SequenceDBGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SequenceDBGenerator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/components-spmanalysis-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/components-spmanalysis-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-stackedbarchart/target/classes/eu/sisob/components/stackedbarchart/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-stackedbarchart/target/classes/eu/sisob/components/stackedbarchart/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-stackedbarchart/target/components-stackedbarchart-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-stackedbarchart/target/components-stackedbarchart-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-stackedbarchart/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-stackedbarchart/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-streamfilter/target/components-streamfilter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/components-streamfilter-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-streamfilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SwimLaneTechnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SwimLaneTechnique.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/components-swimlanevisualization-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/components-swimlanevisualization-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/TableViewerAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/TableViewerAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-tableviewer/target/components-tableviewer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/components-tableviewer-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-tableviewer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-text2network/components-text2network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/components-text2network.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-text2network/target/classes/info/collide/components/text2network/Text2NetworkAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/classes/info/collide/components/text2network/Text2NetworkAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-text2network/target/components-text2network-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/components-text2network-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-text2network/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgentManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-timeslicer/target/components-timeslicer-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/components-timeslicer-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-timeslicer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/TEST-eu.sisob.components.timeslicer.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/TEST-eu.sisob.components.timeslicer.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/eu.sisob.components.timeslicer.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/eu.sisob.components.timeslicer.AppTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text2network_codebook/components-text2network_codebook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/components-text2network_codebook.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text2network_codebook/target/classes/info/collide/components/text2network_codebook/Text2NetworkCBAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/classes/info/collide/components/text2network_codebook/Text2NetworkCBAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/execconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/execconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-getTopKRecommendations.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/components-metaanalysis (1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsAgent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/resources/getTopKRecommendations.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/resources/getTopKRecommendations_Standalone.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/test/java/eu/sisob/components/components_getTopKRecommendations/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/target/classes/getTopKRecommendations.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/target/classes/getTopKRecommendations_Standalone.R" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/text2network_codebook/target/components-text2network_codebook-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/components-text2network_codebook-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text2network_codebook/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbench-components.iml" beforeDir="false" afterPath="$PROJECT_DIR$/workbench-components.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/components-bicliquetracingvis/target/" />
     <ignored path="$PROJECT_DIR$/components-datauploader/target/" />
@@ -293,54 +217,56 @@
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
           <entry key="R" value="2" />
-          <entry key="class" value="13" />
+          <entry key="class" value="18" />
           <entry key="conf" value="4" />
           <entry key="iml" value="2" />
-          <entry key="java" value="41" />
+          <entry key="java" value="59" />
           <entry key="lst" value="4" />
           <entry key="md" value="1" />
           <entry key="pom" value="5" />
           <entry key="prefs" value="3" />
-          <entry key="xml" value="18" />
+          <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="13" />
+          <entry key="CLASS" value="18" />
           <entry key="HOCON" value="4" />
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="41" />
+          <entry key="JAVA" value="59" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="XML" value="23" />
+          <entry key="XML" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="652" />
+          <entry key="class" value="3" />
+          <entry key="java" value="857" />
           <entry key="pom" value="8" />
-          <entry key="xml" value="73" />
+          <entry key="xml" value="133" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="652" />
-          <entry key="XML" value="81" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="857" />
+          <entry key="XML" value="141" />
         </counts>
       </usages-collector>
     </session>
@@ -375,20 +301,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="38" column="38" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="38" />
+            <state relative-caret-position="465">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -396,17 +313,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/info/collide/api-data/2.0.0-SNAPSHOT/api-data-2.0.0-SNAPSHOT.jar!/eu/sisob/components/framework/json/util/IllegalContentTypeException.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="165">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/time/Instant.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1432">
-              <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
+            <state relative-caret-position="578">
+              <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -414,8 +331,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+            <state relative-caret-position="288">
+              <caret line="107" column="89" lean-forward="true" selection-start-line="107" selection-start-column="89" selection-end-line="107" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -424,22 +341,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsAgent.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/info/collide/api-data/2.0.0-SNAPSHOT/api-data-2.0.0-SNAPSHOT.jar!/eu/sisob/components/framework/json/util/JSONFile.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-253">
-              <caret line="225" column="49" selection-start-line="225" selection-start-column="45" selection-end-line="225" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="358">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsManager.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4-sources.jar!/com/google/gson/JsonParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-78">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="21" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#3070#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2062">
+              <caret line="239" selection-start-line="239" selection-end-line="239" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -448,32 +374,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/resources/getTopKRecommendations.R">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/components-executor/execconfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="49" column="138" selection-start-line="49" selection-start-column="138" selection-end-line="49" selection-end-column="138" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/test/java/eu/sisob/components/components_getTopKRecommendations/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/components-executor/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="79" column="49" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/resources/getTopKRecommendations_Standalone.R">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/components-metaanalysis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>databackend</find>
-      <find>username</find>
-      <find>pass</find>
-      <find>mode</find>
-      <find>name</find>
-      <find>Biclique Communities</find>
-      <find>gson</find>
-      <find>sosis</find>
       <find>s</find>
       <find>jsonObject</find>
       <find>JsonSyntaxException</find>
@@ -490,12 +420,20 @@
       <find>prope</find>
       <find>&lt;project.build.sourceEncoding&gt;</find>
       <find>getTextContent</find>
-      <find>&lt;project.build.sourceEncoding&gt;</find>
-      <find>get</find>
-      <find>outputFile</find>
       <find>class</find>
       <find>meta</find>
       <find>out</find>
+      <find>Meta A</find>
+      <find>Biclique Communities</find>
+      <find>Biclique Tracing Visualization</find>
+      <find>outputFile</find>
+      <find>Duplicator (Duplexer) Manager</find>
+      <find>Data Uploader Manager</find>
+      <find>Biclique Communities Manager</find>
+      <find>Stacked Bar Chart Manager</find>
+      <find>comp</find>
+      <find>.parse(file.getTextContent()</find>
+      <find>get</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -508,7 +446,6 @@
         <option value="$PROJECT_DIR$/components-cosinesimilarity/pom.xml" />
         <option value="$PROJECT_DIR$/components-cosinesimilarity/src/main/java/eu/sisob/components/cosinesimilarity/CosineSimilarity.java" />
         <option value="$PROJECT_DIR$/components-cosinesimilarity/src/test/java/eu/sisob/components/cosinesimilarity/AppTest.java" />
-        <option value="$PROJECT_DIR$/components-executor/execconfig.xml" />
         <option value="$PROJECT_DIR$/components-dynnetvis/src/main/resources/info/collide/workbench/components/dynnetvis/technique/css/graphFramework.css" />
         <option value="$PROJECT_DIR$/components-executor/sisob.conf" />
         <option value="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/SISOBProperties.java" />
@@ -525,9 +462,14 @@
         <option value="$PROJECT_DIR$/components-getTopKRecommendations/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
         <option value="$PROJECT_DIR$/components-getTopKRecommendations/pom.xml" />
         <option value="$PROJECT_DIR$/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsAgent.java" />
-        <option value="$PROJECT_DIR$/components-metaanalysis/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" />
+        <option value="$PROJECT_DIR$/components-metaanalysis/pom.xml" />
+        <option value="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" />
+        <option value="$PROJECT_DIR$/execconfig.xml" />
+        <option value="$PROJECT_DIR$/components-executor/execconfig.xml" />
+        <option value="$PROJECT_DIR$/components-executor/pom.xml" />
+        <option value="$USER_HOME$/Downloads/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
         <option value="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
       </list>
     </option>
@@ -560,7 +502,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="1001" />
@@ -571,6 +513,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -581,37 +524,37 @@
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="components-graph_aggregator" type="462c0819:PsiDirectoryNode" />
+              <item name="components-executor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="components-graph_aggregator" type="462c0819:PsiDirectoryNode" />
+              <item name="components-executor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="components-graph_aggregator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="components-graph_aggregator" type="462c0819:PsiDirectoryNode" />
+              <item name="components-executor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="components-graph_aggregator" type="462c0819:PsiDirectoryNode" />
+              <item name="components-executor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="graph_aggregator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-executor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="executor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
@@ -650,158 +593,66 @@
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="api-data-2.0.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eu" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="api-data-2.0.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
               <item name="sisob" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eu" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="api-data-2.0.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
               <item name="sisob" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eu" type="462c0819:PsiDirectoryNode" />
-              <item name="sisob" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eu" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="api-data-2.0.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
               <item name="sisob" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="extraa" type="462c0819:PsiDirectoryNode" />
-              <item name="components-getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eu" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="api-data-2.0.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
               <item name="sisob" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="components_getTopKRecommendations" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535457015109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536065806611" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -812,14 +663,14 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components" />
       <recent name="$PROJECT_DIR$/MetaAnalysis" />
       <recent name="$PROJECT_DIR$/components-mpa/target" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -945,10 +796,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="1024" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17689823" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24664225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -959,14 +809,14 @@
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.32914045" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.12893082" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4969475" weight="0.5102041" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3731656" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2840671" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4981685" visible="true" weight="0.5642857" />
       <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32948717" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50183153" side_tool="true" visible="true" weight="0.5642857" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.24203822" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3186583" />
@@ -1032,138 +882,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/connection/postgresql/Notifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="596" selection-start-line="596" selection-end-line="596" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar!/com/google/gson/Gson.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.0.3-SNAPSHOT/org.eclipse.paho.client.mqttv3-1.0.3-SNAPSHOT.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="115" column="41" lean-forward="true" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-executor/sisob.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sisob.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/charsets.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar!/com/google/gson/ExclusionStrategy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar!/com/google/gson/DefaultDateTypeAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/ideone_oOVWYj (1).java" />
-    <entry file="file://$PROJECT_DIR$/components-framework/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/components-framework.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="101" selection-start-line="22" selection-start-column="101" selection-end-line="22" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-2modeto1mode/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="11" selection-start-column="2" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-2modeto1mode/src/main/java/eu/sisob/components/tmtom/TwoModeToOneModeAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-2modeto1mode/src/main/java/eu/sisob/components/tmtom/TwoModeToOneModeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MetaAnalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/connection/postgresql/PostgresqlMessageConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="325" selection-start-line="325" selection-end-line="325" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-executor/src/main/java/eu/sisob/components/executor/Executor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MetaAnalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/.settings/org.eclipse.core.resources.prefs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/components-metaanalysis/.settings/org.eclipse.jdt.core.prefs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1188,20 +906,10 @@
     <entry file="file://$PROJECT_DIR$/components-maxflow/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4-sources.jar!/com/google/gson/JsonParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components-fruchtermanreingold/src/main/java/eu/sisob/components/fruchtermanreingold/FRAgent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-167">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1212,29 +920,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/components-metaanalysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/components-metaanalysis/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsAgent.java" />
     <entry file="file://$PROJECT_DIR$/components-metaanalysis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1259,52 +947,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java">
+    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" />
+    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/time/Instant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1725">
+          <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/AgentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/test/java/eu/sisob/components/components_getTopKRecommendations/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
+        <state relative-caret-position="3000">
           <caret line="225" column="49" selection-start-line="225" selection-start-column="45" selection-end-line="225" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1314,8 +968,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="75">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1325,44 +979,217 @@
     <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/resources/getTopKRecommendations.R">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/test/java/eu/sisob/components/components_getTopKRecommendations/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/resources/getTopKRecommendations_Standalone.R">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/time/Instant.java">
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/AgentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1432">
-          <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/collide/api-data/2.0.0-SNAPSHOT/api-data-2.0.0-SNAPSHOT.jar!/eu/sisob/components/framework/json/util/IllegalContentTypeException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="85" column="36" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="38" />
+        <state relative-caret-position="420">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/Agent.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Agent-2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="563" selection-end-line="563" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="98" column="43" lean-forward="true" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-modularityclustering/src/main/java/org/components/modularityclustering/ModularityClusteringManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-335">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-tutorial/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-tutorial/src/main/java/info/collide/components/tutorial/TutorialAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-bipartite_cpm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-stackedbarchart/target/classes/eu/sisob/components/stackedbarchart/StackedBarChartAgent.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-stackedbarchart/src/main/java/eu/sisob/components/stackedbarchart/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-stackedbarchart/target/classes/eu/sisob/components/stackedbarchart/StackedBarCharManager.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-stackedbarchart/target/classes/eu/sisob/components/stackedbarchart/Main.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-stackedbarchart/src/main/java/eu/sisob/components/stackedbarchart/StackedBarCharManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="51" lean-forward="true" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-stackedbarchart/src/main/java/eu/sisob/components/stackedbarchart/StackedBarChartAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-executor/src/main/java/eu/sisob/components/executor/ExecutorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-executor/execconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="49" column="138" selection-start-line="49" selection-start-column="138" selection-end-line="49" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-executor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="79" column="49" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-metaanalysis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/componentdescription/Output.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2062">
+          <caret line="239" selection-start-line="239" selection-end-line="239" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/collide/api-data/2.0.0-SNAPSHOT/api-data-2.0.0-SNAPSHOT.jar!/eu/sisob/components/framework/json/util/IllegalContentTypeException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4-sources.jar!/com/google/gson/JsonParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#3070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/collide/api-data/2.0.0-SNAPSHOT/api-data-2.0.0-SNAPSHOT.jar!/eu/sisob/components/framework/json/util/JSONFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        <state relative-caret-position="288">
+          <caret line="107" column="89" lean-forward="true" selection-start-line="107" selection-start-column="89" selection-end-line="107" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

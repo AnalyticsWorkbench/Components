@@ -46,7 +46,8 @@
     <AgentInfo filter="Merge and Compare Graphs" manager="Graph Comparison Manager" class="info.collide.components.graphcomparison.GraphComparatorManager" start="true" />
     <AgentInfo filter="Edge Filter" manager="Edge Filter Manager" class="info.collide.workbench.components.edgefilter.EdgeFilterManager" start="true" />
     <AgentInfo filter="Swim Lanes" manager="Swim Lanes Manager" class="info.collide.workbench.components.swimlanevisualization.SLAgentManager" start="true" />
-        <AgentInfo filter="Biclique Communities" manager="Biclique Communities Manager" class="eu.sisob.components.bipartite_cpm.BipCpmAgentManager" start="true" />
+    <AgentInfo filter="Biclique Communities" manager="Biclique Communities Manager" class="eu.sisob.components.bipartite_cpm.BipCpmAgentManager" start="true" />
+    <AgentInfo filter="Meta Analysis" manager="Meta Analysis" class="eu.sisob.components.metaanalysis.MetaAnalysisManager" start="true" />
 
 <!--	<AgentInfo filter="Bar Chart" manager="Bar Chart" class="eu.sisob.components.barchart.BarChartManager" start="true" />
 	<AgentInfo filter="Circular Layout" manager="Circular Layout" class="eu.sisob.components.circularlayout.CLManager" start="true" />
