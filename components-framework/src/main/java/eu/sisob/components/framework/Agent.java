@@ -64,8 +64,8 @@ public abstract class Agent implements Runnable {
     protected ReentrantLock lock;
 
     protected boolean outputAgent;
-
-    protected String outputFile = "Meta.json";
+    //  protected String outputFile = " meta.js" ; // FBA
+    protected String outputFile;
 
     private boolean unregister = false;
 

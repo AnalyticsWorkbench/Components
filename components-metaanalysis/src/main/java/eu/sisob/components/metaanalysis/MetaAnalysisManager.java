@@ -3,6 +3,7 @@ package eu.sisob.components.metaanalysis;
 import com.google.gson.JsonObject;
 import eu.sisob.components.framework.util.ConnectionType;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -31,7 +32,7 @@ public class MetaAnalysisManager extends AgentManager {
 	/**
 	 * Component Name to be used in Starter and in the component description
 	 */
-	public static final String COMPONENT_NAME = "Meta Analysis";
+	public static final String COMPONENT_NAME = "metaanalysis"; // FBA was public
 
 	/**
 	 * Constructor for the manager. First it calls the constructor of the superclass.
@@ -51,9 +52,9 @@ public class MetaAnalysisManager extends AgentManager {
 	 */
 	@Override
 	protected void createAgent(JsonObject coordinationMessage) {
-
 		// now simplified:
 		this.createAgent(new MetaAnalysisAgent(coordinationMessage));
+		System.out.println("=============MetaAnalysis Agent Created================");
 
 	}
 

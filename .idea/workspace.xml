@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bf8f156-33c5-4ced-b88c-dbe781bd2da0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/components-2modeto1mode-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/components-2modeto1mode-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/maven-archiver/pom.properties" afterDir="false" />
@@ -39,15 +40,14 @@
       <change beforePath="$PROJECT_DIR$/components-edgefilter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-excelexporter/target/components-excelexporter-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/components-excelexporter-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-excelexporter/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-executor/components-executor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/components-executor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-executor/execconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/execconfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-executor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-executor/target/components-executor-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/components-executor-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-executor/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-fdg/target/components-fdg-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/components-fdg-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-fdg/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-formatfactory/target/components-formatfactory-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/components-formatfactory-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-formatfactory/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/TEST-graph.parser.components.formatfactory.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/TEST-graph.parser.components.formatfactory.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/graph.parser.components.formatfactory.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/surefire-reports/graph.parser.components.formatfactory.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/Agent.class" afterDir="false" />
@@ -59,6 +59,7 @@
       <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/components-graphdecorator-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/components-graphdecorator-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/TEST-eu.sisob.components.graphdecorator.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/TEST-eu.sisob.components.graphdecorator.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/eu.sisob.components.graphdecorator.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/surefire-reports/eu.sisob.components.graphdecorator.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/components-graphgenerator-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/components-graphgenerator-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/maven-archiver/pom.properties" afterDir="false" />
@@ -77,7 +78,8 @@
       <change beforePath="$PROJECT_DIR$/components-metaanalysis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components/metaanalysis/MetaAnalysisAgent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components/metaanalysis/MetaAnalysisAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components/metaanalysis/MetaAnalysisAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components/metaanalysis/MetaAnalysisManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components/metaanalysis/MetaAnalysisManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-metaanalysis/target/components-metaanalysis-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/target/components-metaanalysis-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-metaanalysis/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-modularityclustering/target/components-modularityclustering-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/components-modularityclustering/target/components-modularityclustering-2.0.0-SNAPSHOT.jar" afterDir="false" />
@@ -113,28 +115,9 @@
       <change beforePath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/TEST-eu.sisob.components.timeslicer.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/TEST-eu.sisob.components.timeslicer.AppTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/eu.sisob.components.timeslicer.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/surefire-reports/eu.sisob.components.timeslicer.AppTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/execconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/execconfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-getTopKRecommendations.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/components-metaanalysis (1).iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/resources/getTopKRecommendations.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/resources/getTopKRecommendations_Standalone.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/test/java/eu/sisob/components/components_getTopKRecommendations/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/target/classes/getTopKRecommendations.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/target/classes/getTopKRecommendations_Standalone.R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extraa/components-getTopKRecommendations/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/text2network_codebook/target/components-text2network_codebook-2.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/components-text2network_codebook-2.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/text2network_codebook/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workbench-components.iml" beforeDir="false" afterPath="$PROJECT_DIR$/workbench-components.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/components-bicliquetracingvis/target/" />
     <ignored path="$PROJECT_DIR$/components-datauploader/target/" />
@@ -210,63 +193,70 @@
     <session id="-651774197">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.40" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.49" value="1" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
           <entry key="R" value="2" />
-          <entry key="class" value="18" />
-          <entry key="conf" value="4" />
-          <entry key="iml" value="2" />
-          <entry key="java" value="59" />
+          <entry key="class" value="22" />
+          <entry key="conf" value="5" />
+          <entry key="iml" value="3" />
+          <entry key="java" value="88" />
+          <entry key="json" value="2" />
           <entry key="lst" value="4" />
           <entry key="md" value="1" />
           <entry key="pom" value="5" />
           <entry key="prefs" value="3" />
-          <entry key="xml" value="28" />
+          <entry key="xml" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="18" />
-          <entry key="HOCON" value="4" />
-          <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="59" />
+          <entry key="CLASS" value="22" />
+          <entry key="HOCON" value="5" />
+          <entry key="IDEA_MODULE" value="3" />
+          <entry key="JAVA" value="88" />
+          <entry key="JSON" value="2" />
           <entry key="Manifest" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="XML" value="33" />
+          <entry key="XML" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="857" />
+          <entry key="java" value="1591" />
+          <entry key="json" value="4" />
           <entry key="pom" value="8" />
-          <entry key="xml" value="133" />
+          <entry key="xml" value="164" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="857" />
-          <entry key="XML" value="141" />
+          <entry key="JAVA" value="1591" />
+          <entry key="JSON" value="4" />
+          <entry key="XML" value="172" />
         </counts>
       </usages-collector>
     </session>
@@ -298,41 +288,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/info/collide/api-data/2.0.0-SNAPSHOT/api-data-2.0.0-SNAPSHOT.jar!/eu/sisob/components/framework/json/util/IllegalContentTypeException.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="107" column="89" lean-forward="true" selection-start-line="107" selection-start-column="89" selection-end-line="107" selection-end-column="89" />
+            <state relative-caret-position="427">
+              <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -341,31 +301,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/info/collide/api-data/2.0.0-SNAPSHOT/api-data-2.0.0-SNAPSHOT.jar!/eu/sisob/components/framework/json/util/JSONFile.class">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="10380">
+              <caret line="747" selection-start-line="747" selection-end-line="747" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4-sources.jar!/com/google/gson/JsonParser.java">
+        <entry file="file://$PROJECT_DIR$/../WorkbenchUi-7-AUG/UI/clientV2/example_data/activity_stream_one_week.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="150">
+              <caret column="10889" selection-start-column="10889" selection-end-column="10889" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../WorkbenchUi-7-AUG/UI/clientV2/example_data/activity_stream_agg.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/SISOBProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3405">
+              <caret line="276" column="50" selection-start-line="276" selection-start-column="50" selection-end-line="276" selection-end-column="50" />
               <folding>
-                <element signature="e#0#3070#0" expanded="true" />
+                <element signature="e#10565#10566#0" expanded="true" />
+                <element signature="e#10642#10643#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
+        <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2062">
-              <caret line="239" selection-start-line="239" selection-end-line="239" />
+            <state relative-caret-position="4185">
+              <caret line="308" selection-start-line="308" selection-end-line="308" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -374,28 +353,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components-executor/execconfig.xml">
+        <entry file="file://$PROJECT_DIR$/components-activitylogsviewer/src/main/java/info/collide/workbench/components/activitylogsviewer/ActivityLogsViewerAgent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="49" column="138" selection-start-line="49" selection-start-column="138" selection-end-line="49" selection-end-column="138" />
+            <state relative-caret-position="2760">
+              <caret line="209" column="19" selection-start-line="209" selection-start-column="19" selection-end-line="209" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components-executor/pom.xml">
+        <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/connection/postgresql/PostgresqlMessageConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="79" column="49" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
+            <state relative-caret-position="2595">
+              <caret line="204" selection-start-line="204" selection-end-line="204" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components-metaanalysis/pom.xml">
+        <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/connection/postgresql/Notifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="855">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -404,37 +395,41 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>s</find>
-      <find>jsonObject</find>
-      <find>JsonSyntaxException</find>
-      <find>JSONObject</find>
-      <find>ecl</find>
-      <find>workbench-components</find>
-      <find>artifact</find>
-      <find>api</find>
-      <find>maven</find>
-      <find>Meta</find>
-      <find>Analy</find>
-      <find>&lt;source&gt;</find>
-      <find>&lt;url&gt;http://mvn.collide.info/content/repositories/releases/&lt;/url&gt;</find>
-      <find>prope</find>
-      <find>&lt;project.build.sourceEncoding&gt;</find>
-      <find>getTextContent</find>
-      <find>class</find>
-      <find>meta</find>
       <find>out</find>
       <find>Meta A</find>
       <find>Biclique Communities</find>
       <find>Biclique Tracing Visualization</find>
-      <find>outputFile</find>
       <find>Duplicator (Duplexer) Manager</find>
       <find>Data Uploader Manager</find>
       <find>Biclique Communities Manager</find>
       <find>Stacked Bar Chart Manager</find>
       <find>comp</find>
       <find>.parse(file.getTextContent()</find>
+      <find>manager</find>
+      <find>filter</find>
+      <find>centrality</find>
+      <find>Tools</find>
+      <find>eu.sisob</find>
+      <find>stream</find>
+      <find>Stream</find>
+      <find>getTopKRecommendations</find>
+      <find>components-getTopKRecommendations</find>
+      <find>text</find>
       <find>get</find>
+      <find>getC</find>
+      <find>getT</find>
+      <find>outputFile</find>
+      <find>meta</find>
+      <find>M</find>
+      <find>item</find>
+      <find>file</find>
+      <find>f</find>
+      <find>val</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/components-getTopKRecommendations</dir>
+      <dir>$PROJECT_DIR$/components-metaanalysis</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -463,13 +458,14 @@
         <option value="$PROJECT_DIR$/components-getTopKRecommendations/pom.xml" />
         <option value="$PROJECT_DIR$/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsAgent.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" />
+        <option value="$USER_HOME$/Downloads/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
         <option value="$PROJECT_DIR$/components-metaanalysis/pom.xml" />
-        <option value="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" />
+        <option value="$PROJECT_DIR$/components-executor/pom.xml" />
         <option value="$PROJECT_DIR$/execconfig.xml" />
         <option value="$PROJECT_DIR$/components-executor/execconfig.xml" />
-        <option value="$PROJECT_DIR$/components-executor/pom.xml" />
-        <option value="$USER_HOME$/Downloads/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
+        <option value="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" />
+        <option value="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" />
+        <option value="$PROJECT_DIR$/../WorkbenchUi-7-AUG/UI/clientV2/example_data/activity_stream_one_week.json" />
         <option value="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
       </list>
     </option>
@@ -503,9 +499,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="1001" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -513,48 +508,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="components-executor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="components-executor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="components-executor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="components-executor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="components-executor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="executor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
@@ -598,47 +557,28 @@
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="api-data-2.0.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="api-data-2.0.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sisob" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="api-data-2.0.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sisob" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="api-data-2.0.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sisob" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="api-data-2.0.0-SNAPSHOT.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sisob" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="dom" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -646,13 +586,14 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536065806611" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536311220117" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -663,14 +604,14 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components" />
       <recent name="$PROJECT_DIR$/MetaAnalysis" />
       <recent name="$PROJECT_DIR$/components-mpa/target" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -796,9 +737,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24664225" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16027689" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -808,18 +749,18 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.32914045" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4969475" weight="0.5102041" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3731656" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4993895" weight="0.25612244" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6947497" weight="0.30408162" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.8945687" weight="0.23982301" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4981685" visible="true" weight="0.5642857" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32948717" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50183153" side_tool="true" visible="true" weight="0.5642857" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.5974441" visible="true" weight="0.4477876" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" sideWeight="0.498779" weight="0.32857144" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4025559" side_tool="true" visible="true" weight="0.4477876" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.24203822" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3186583" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49574015" weight="0.45575222" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.36935288" weight="0.22142857" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -834,20 +775,327 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>242</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>177</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>181</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>203</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>205</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>243</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>244</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>245</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>240</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>241</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>110</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>237</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>239</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>238</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>178</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>179</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>180</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>159</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>161</line>
+          <properties />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>153</line>
+          <properties />
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java</url>
+          <line>236</line>
+          <properties class="eu.sisob.components.metaanalysis.MetaAnalysisAgent" method="createMetaFile">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="SISOBProperties" />
         <watch expression="getDataBackend()" />
-        <watch expression="databackend" />
+        <watch expression="databackend" language="JAVA" />
         <watch expression="this" />
+        <watch expression="data.members.entrySet().toArray()[2]" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>databackend</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="evaluateExpression">
       <expression>
         <expression-string>SISOBProperties.getMessageBackend().equalsIgnoreCase(&quot;postgresql&quot;)</expression-string>
@@ -882,136 +1130,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/.settings/org.eclipse.jdt.core.prefs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/.settings/org.eclipse.m2e.core.prefs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3/lib/maven-model-builder-3.3.9.jar!/org/apache/maven/model/pom-4.0.0.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="84" column="32" selection-start-line="84" selection-start-column="32" selection-end-line="84" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-maxflow/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-fruchtermanreingold/src/main/java/eu/sisob/components/fruchtermanreingold/FRAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-167">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/FileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/components-metaanalysis/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsAgent.java" />
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components/metaanalysis/MetaAnalysisManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/io/IOException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" />
-    <entry file="file://$PROJECT_DIR$/components-getTopKRecommendations/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/time/Instant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3000">
-          <caret line="225" column="49" selection-start-line="225" selection-start-column="45" selection-end-line="225" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/java/eu/sisob/components/gettopkrecommendations/getTopKRecommendationsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/resources/getTopKRecommendations.R">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/test/java/eu/sisob/components/components_getTopKRecommendations/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/src/main/resources/getTopKRecommendations_Standalone.R">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/AgentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Agent.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Agent-2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="563" selection-end-line="563" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Agent-2.java" />
+    <entry file="file://$PROJECT_DIR$/extraa/components-getTopKRecommendations/components-metaanalysis/pom.xml" />
     <entry file="file://$USER_HOME$/Downloads/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
@@ -1023,9 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-335">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,9 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1067,9 +1181,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="51" lean-forward="true" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1077,44 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/execconfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-executor/src/main/java/eu/sisob/components/executor/ExecutorConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-executor/execconfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="49" column="138" selection-start-line="49" selection-start-column="138" selection-end-line="49" selection-end-column="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-executor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="79" column="49" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -1125,71 +1198,264 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2062">
           <caret line="239" selection-start-line="239" selection-end-line="239" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/info/collide/api-data/2.0.0-SNAPSHOT/api-data-2.0.0-SNAPSHOT.jar!/eu/sisob/components/framework/json/util/IllegalContentTypeException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4-sources.jar!/com/google/gson/JsonParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="21" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#3070#0" expanded="true" />
-          </folding>
+          <caret line="20" selection-start-line="20" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/collide/api-data/2.0.0-SNAPSHOT/api-data-2.0.0-SNAPSHOT.jar!/eu/sisob/components/framework/json/util/IllegalContentTypeException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-executor/sisob.conf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/descriptor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-executor/src/main/java/eu/sisob/components/executor/ExecutorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="57" column="58" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components/metaanalysis/MetaAnalysisAgent.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components/metaanalysis/MetaAnalysisManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-maxflow/src/main/java/eu/sisob/components/maxflow/MaxFlowManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="51" column="47" selection-start-line="51" selection-start-column="47" selection-end-line="51" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-metaanalysis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="49" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-2modeto1mode/src/main/java/eu/sisob/components/tmtom/TwoModeToOneModeAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-executor/execconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-executor/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="354" column="77" selection-start-line="354" selection-start-column="77" selection-end-line="354" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1-sources.jar!/org/json/simple/parser/ParseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench-components.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/org/w3c/dom/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6672">
+          <caret line="721" column="22" selection-start-line="721" selection-start-column="18" selection-end-line="721" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4-sources.jar!/com/google/gson/JsonElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="190" column="16" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="435" selection-start-line="435" selection-end-line="435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-executor/src/main/java/eu/sisob/components/executor/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="43" selection-start-line="87" selection-start-column="43" selection-end-line="87" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4890">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16320">
+          <caret line="1148" selection-start-line="1148" selection-end-line="1148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4-sources.jar!/com/google/gson/JsonObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/collide/api-data/2.0.0-SNAPSHOT/api-data-2.0.0-SNAPSHOT.jar!/eu/sisob/components/framework/json/util/JSONFile.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="373">
+          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="554" column="13" selection-start-line="554" selection-start-column="13" selection-end-line="554" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="107" column="89" lean-forward="true" selection-start-line="107" selection-start-column="89" selection-end-line="107" selection-end-column="89" />
+        <state relative-caret-position="427">
+          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10380">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WorkbenchUi-7-AUG/UI/clientV2/example_data/activity_stream_one_week.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret column="10889" selection-start-column="10889" selection-end-column="10889" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WorkbenchUi-7-AUG/UI/clientV2/example_data/activity_stream_agg.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/SISOBProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3405">
+          <caret line="276" column="50" selection-start-line="276" selection-start-column="50" selection-end-line="276" selection-end-column="50" />
+          <folding>
+            <element signature="e#10565#10566#0" expanded="true" />
+            <element signature="e#10642#10643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4185">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-activitylogsviewer/src/main/java/info/collide/workbench/components/activitylogsviewer/ActivityLogsViewerAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2760">
+          <caret line="209" column="19" selection-start-line="209" selection-start-column="19" selection-end-line="209" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/connection/postgresql/PostgresqlMessageConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2595">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/connection/postgresql/Notifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1253,6 +1519,7 @@
             <option name="proportions">
               <list>
                 <option value="0.3889528" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MetaAnalysis/compenents-metaAnalysis.iml" filepath="$PROJECT_DIR$/MetaAnalysis/compenents-metaAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-2modeto1mode/components-2modeto1mode.iml" filepath="$PROJECT_DIR$/components-2modeto1mode/components-2modeto1mode.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-activitylogsviewer/components-activitylogsviewer.iml" filepath="$PROJECT_DIR$/components-activitylogsviewer/components-activitylogsviewer.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-bicliquetracingvis/components-bicliquetracingvis.iml" filepath="$PROJECT_DIR$/components-bicliquetracingvis/components-bicliquetracingvis.iml" />

@@ -1,5 +1,4 @@
 package eu.sisob.components.metaanalysis;
-
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -13,17 +12,25 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.Vector;
 
+import org.w3c.dom.Node; // here is the function that can be called
 import org.json.simple.JSONObject;
 import org.json.simple.JSONValue;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.DocumentBuilder;
+import org.w3c.dom.Document;
+import org.w3c.dom.NodeList;
+import org.w3c.dom.Node;
+import org.w3c.dom.Element;
+import java.io.File;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
+import com.google.gson.JsonParser; // Salam somaye
 import com.google.gson.JsonPrimitive;
 
 import eu.sisob.components.framework.Agent;
@@ -98,19 +105,32 @@ public class MetaAnalysisAgent extends Agent {
 	private JsonObject analyseJSON(JSONFile file) {
 		JsonObject meta = new JsonObject();
 		meta.addProperty("fileType", "json");
-		meta.addProperty("dataType", "Unknown");
-		
-		JsonObject data;
+//		meta.addProperty("dataType", "Unknown"); // FBA this is orginal
+		meta.addProperty("dataType", "ActivityStream");
 
-		data = (JsonObject) new JsonParser().parse(file.toString()); // FBA APRIN was cathch here toJSONstring
+		JsonObject data;
+		//data = (JsonObject) new JsonParser().parse(file.toString()); // FBA APRIN was catch here toJSONstring
+        JSONObject x = file.toJSONObject();
+        String dataString = (String) x.get("filedata");
+        data = (JsonObject) new JsonParser().parse(dataString);
+
+        System.out.println("=========================================================");
+
+		System.out.println(data);
+		System.out.println(meta);
+
+		System.out.println("=========================================================");
+
 //===========================================================================================================
 //		try {
 //			data = (JsonObject) new JsonParser().parse(file.getTextContent()); // orginal
 //		} catch (IllegalContentTypeException e) {
 //			data = new JsonObject();
 //		}
-
+// @ https://stackoverflow.com/questions/14061944/intellij-idea-what-library-uses-project // FBA
 		// Test for activity streams
+
+
 		try {
 			JsonArray items = (JsonArray) data.get("items");
 			if (items != null) {
@@ -183,7 +203,7 @@ public class MetaAnalysisAgent extends Agent {
 			if(value instanceof JsonObject) {
 				this.collectJSONActivityStreamFieldValues(values, (JsonObject) value, key);
 			} else {
-				// String strValue = (String) value.toString();
+				 String strValue = (String) value.toString(); // FBA this line was comment
 				int intValue;
 				Boolean isInt;
 				
@@ -215,7 +235,9 @@ public class MetaAnalysisAgent extends Agent {
 	}
 
 	private void createMetaFile(String workflowId, JsonObject meta) throws IOException {
-		String directoryPath = output_path + workflowId + File.separator + getAgentInstanceID() + File.separator;
+		System.out.println(meta);
+		//String directoryPath = output_path + workflowId + File.separator + getAgentInstanceID() + File.separator; // FBA here is the orginal line
+		String directoryPath = output_path + File.separator + getAgentInstanceID() + File.separator;
 		File outDir = new File(directoryPath);
 		if (!outDir.exists()) outDir.mkdirs();
 		File metaFile = new File(directoryPath + "meta.js");
