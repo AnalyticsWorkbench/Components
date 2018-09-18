@@ -65,7 +65,7 @@ public abstract class Agent implements Runnable {
 
     protected boolean outputAgent;
     //  protected String outputFile = " meta.js" ; // FBA
-    protected String outputFile;
+    public String outputFile;
 
     private boolean unregister = false;
 
@@ -202,7 +202,8 @@ public abstract class Agent implements Runnable {
 
         String name = "result_" + this.workflowID;
 
-        String resultInfo = baseUrl + this.workflowID + "/" + this.agentInstanceID + "/" + this.outputFile;
+        //String resultInfo = baseUrl + this.workflowID + "/" + this.agentInstanceID + "/" + this.outputFile; // FBA was default
+        String resultInfo = baseUrl + this.outputFile ;
 
         JsonObject resultJson = new JsonObject();
         resultJson.addProperty("runid", this.workflowID);
@@ -560,4 +561,6 @@ public abstract class Agent implements Runnable {
     public void setFilterParameters(JSONObject parameters) {
         this.filterParameters = parameters;
     }
+
+
 }

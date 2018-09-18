@@ -16,6 +16,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
     <orderEntry type="module" module-name="components-metaanalysis" scope="RUNTIME" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: joda-time:joda-time:2.9.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.ws.rs:javax.ws.rs-api:2.1.1" level="project" />
     <orderEntry type="module" module-name="components-activitylogsviewer" scope="RUNTIME" />
     <orderEntry type="library" name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1" level="project" />
@@ -75,7 +76,6 @@
     <orderEntry type="module" module-name="components-text2network" scope="RUNTIME" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: info.collide:components-restclient:2.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.core:jersey-client:2.24.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.core:jersey-common:2.24.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: javax.annotation:javax.annotation-api:1.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.24.1" level="project" />

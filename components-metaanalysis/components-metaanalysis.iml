@@ -56,5 +56,6 @@
     <orderEntry type="library" name="Maven: com.impossibl.pgjdbc-ng:pgjdbc-ng:complete:0.5" level="project" />
     <orderEntry type="library" name="Maven: io.netty:netty-all:4.0.27.Final" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.9.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.ws.rs:javax.ws.rs-api:2.1.1" level="project" />
   </component>
 </module>

@@ -49,9 +49,11 @@ import eu.sisob.components.framework.json.util.JSONFile;
  *
  */
 public class MetaAnalysisAgent extends Agent {
-	
-	public String output_path = SISOBProperties.getResultLocation();
-		
+
+	//public String output_path = SISOBProperties.getResultLocation();
+	//"/Users/farbodaprin/Desktop/WorkbenchAnalysis/results"
+
+	public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/WorkbenchUi-7-AUG/UI/public_html/results/result";
 	/**
 	 * Constructor for the agent. It first calls the constructor of the superclass, then
 	 * the data structure is set, which is used to determine if a received data message is
@@ -77,14 +79,22 @@ public class MetaAnalysisAgent extends Agent {
 			String workflowId = dataMessage.get("runid").getAsString();
 			JsonObject meta = this.analyseInput(dataMessage);
 			createMetaFile(workflowId, meta);
-			this.outputFile = "meta.js";  // FBA
+			//uploadResults(workflowId, meta);
+			//this.outputFile = "/meta.js";  // FBA worked static address not support Multi user
+			this.outputFile = OutputFileAddressMaker(workflowId);
+			System.out.println(outputFile);
+			uploadMetaResult(workflowId, meta);
 			//this.outputFile = "meta.js";
 			indicateDone();
 		} catch (Exception g) {
             indicateError(null, g);
         }
 	}
-	
+
+	private String OutputFileAddressMaker(String workflowId) {
+		return("result" + File.separator + workflowId + File.separator + getAgentInstanceID() + File.separator + "meta.js");
+	}
+
 	private JsonObject analyseInput(JsonObject dataMessage) {
 		Vector<JSONFile> data = JSONFile.restoreJSONFileSet(new Gson().toJson(dataMessage.get("payload")));
 		JSONFile file = data.get(0);
@@ -121,7 +131,7 @@ public class MetaAnalysisAgent extends Agent {
 
 		System.out.println("=========================================================");
 
-//===========================================================================================================
+//============================================================On previous master branch===============================================FBA ====
 //		try {
 //			data = (JsonObject) new JsonParser().parse(file.getTextContent()); // orginal
 //		} catch (IllegalContentTypeException e) {
@@ -141,6 +151,7 @@ public class MetaAnalysisAgent extends Agent {
 					if (sample.get("actor") != null && sample.get("published") != null) {
 						return this.analyseJSONActivityStream(meta, items);
 					}
+					System.out.println(meta);
 				}
 			}
 		} catch (NullPointerException e) {
@@ -203,7 +214,7 @@ public class MetaAnalysisAgent extends Agent {
 			if(value instanceof JsonObject) {
 				this.collectJSONActivityStreamFieldValues(values, (JsonObject) value, key);
 			} else {
-				 String strValue = (String) value.toString(); // FBA this line was comment
+				// String strValue = (String) value.toString(); // FBA this line was comment
 				int intValue;
 				Boolean isInt;
 				
@@ -237,13 +248,18 @@ public class MetaAnalysisAgent extends Agent {
 	private void createMetaFile(String workflowId, JsonObject meta) throws IOException {
 		System.out.println(meta);
 		//String directoryPath = output_path + workflowId + File.separator + getAgentInstanceID() + File.separator; // FBA here is the orginal line
-		String directoryPath = output_path + File.separator + getAgentInstanceID() + File.separator;
+		String directoryPath = output_path  + File.separator + workflowId + File.separator + getAgentInstanceID();
 		File outDir = new File(directoryPath);
 		if (!outDir.exists()) outDir.mkdirs();
-		File metaFile = new File(directoryPath + "meta.js");
+		File metaFile = new File(directoryPath + File.separator +"meta.js");
 		FileWriter fw = new FileWriter(metaFile);
 		fw.write("(function() { window['" + workflowId + "'] = (" + meta.toString() + "); })()");
 		fw.close();
+	}
+
+	private void uploadMetaResult (String workflowId, JsonObject meta) throws IOException {
+		System.out.println(meta);
+		RestApiImplement api = new RestApiImplement();
 	}
 
 	/**

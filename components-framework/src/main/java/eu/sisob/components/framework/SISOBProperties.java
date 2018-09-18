@@ -266,7 +266,7 @@ public class SISOBProperties {
     }
     
     public static String getResultUrl() {
-        return getProperty("web.resulturl",	"http://"+SISOBProperties.getServerName()+"/results/");
+        return getProperty("web.resulturl","https://"+SISOBProperties.getServerName()+"/results/");//FBA orginal was http
     }
     
     public static void setResultUrl(String resultUrl) {
