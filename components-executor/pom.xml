@@ -74,6 +74,14 @@
                     <version>${project.version}</version>
                     <scope>runtime</scope>
                 </dependency>
+                <!--<FBA adding meta analysis>-->
+                <dependency>
+                    <groupId>${project.groupId}</groupId>
+                    <artifactId>components-metaanalysis</artifactId>
+                    <version>${project.version}</version>
+                    <scope>runtime</scope>
+                </dependency>
+                <!--<FBA adding meta analysis>-->
                 <dependency>
                     <groupId>${project.groupId}</groupId>
                     <artifactId>components-activitylogsviewer</artifactId>
@@ -229,7 +237,7 @@
                     <artifactId>components-cliquepercolation</artifactId>
                     <version>${project.version}</version>
                     <scope>runtime</scope>
-                </dependency>               
+                </dependency>
                 <dependency>
                     <groupId>${project.groupId}</groupId>
                     <artifactId>components-similarity</artifactId>
@@ -296,9 +304,9 @@
                     <version>${project.version}</version>
                     <scope>runtime</scope>
                 </dependency>
-			
-			
-		
+
+
+
 				<dependency>
                     <groupId>${project.groupId}</groupId>
                     <artifactId>components-kcorefilter</artifactId>
@@ -307,8 +315,8 @@
                 </dependency>
             </dependencies>
         </profile>
-        
-        
+
+
         <!-- The main profile for release does not need all the project dependencies.
         This profile is active by default! -->
         <profile>

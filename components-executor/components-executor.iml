@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
@@ -14,6 +14,9 @@
     <orderEntry type="module" module-name="components-rwrapper" scope="RUNTIME" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.github.jbytecode:RCaller:2.8" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.apache.commons:commons-lang3:3.1" level="project" />
+    <orderEntry type="module" module-name="components-metaanalysis" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: joda-time:joda-time:2.9.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.ws.rs:javax.ws.rs-api:2.1.1" level="project" />
     <orderEntry type="module" module-name="components-activitylogsviewer" scope="RUNTIME" />
     <orderEntry type="library" name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1" level="project" />
@@ -71,9 +74,8 @@
     <orderEntry type="module" module-name="components-blockmodel" scope="RUNTIME" />
     <orderEntry type="module" module-name="components-mpa" scope="RUNTIME" />
     <orderEntry type="module" module-name="components-text2network" scope="RUNTIME" />
-    <orderEntry type="module" module-name="components-restclient" scope="RUNTIME" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: info.collide:components-restclient:2.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.core:jersey-client:2.24.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.core:jersey-common:2.24.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: javax.annotation:javax.annotation-api:1.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.24.1" level="project" />
@@ -97,7 +99,7 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: net.sourceforge.collections:collections-generic:4.01" level="project" />
     <orderEntry type="module" module-name="components-kcorefilter" scope="RUNTIME" />
     <orderEntry type="module" module-name="components-framework" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.4" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.0.3-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: commons-net:commons-net:3.3" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.3" level="project" />

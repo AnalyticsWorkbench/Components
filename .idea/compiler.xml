@@ -35,13 +35,13 @@
         <module name="components-linkcommunity" />
         <module name="components-logstatisticsovertime" />
         <module name="components-maxflow" />
+        <module name="components-metaanalysis" />
         <module name="components-modularityclustering" />
         <module name="components-mongoexporter" />
         <module name="components-mongoimporter" />
         <module name="components-mpa" />
         <module name="components-n_cohesive_subgroups" />
         <module name="components-resdownloader" />
-        <module name="components-restclient" />
         <module name="components-rwrapper" />
         <module name="components-similarity" />
         <module name="components-spmanalysis" />
@@ -74,6 +74,7 @@
       <module name="components-fdg" target="1.7" />
       <module name="components-formatfactory" target="1.7" />
       <module name="components-framework" target="1.7" />
+      <module name="components-getTopKRecommendations" target="1.7" />
       <module name="components-graph_aggregator" target="1.7" />
       <module name="components-graphcomparison" target="1.7" />
       <module name="components-graphdecorator" target="1.7" />
@@ -84,6 +85,8 @@
       <module name="components-linkcommunity" target="1.7" />
       <module name="components-logstatisticsovertime" target="1.7" />
       <module name="components-maxflow" target="1.7" />
+      <module name="components-metaanalysis" target="8" />
+      <module name="components-metaanalysis (1)" target="1.5" />
       <module name="components-modularityclustering" target="1.7" />
       <module name="components-mongoexporter" target="1.7" />
       <module name="components-mongoimporter" target="1.7" />
