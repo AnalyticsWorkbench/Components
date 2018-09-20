@@ -81,7 +81,7 @@ public class MetaAnalysisAgent extends Agent {
 			createMetaFile(workflowId, meta);
 			//uploadResults(workflowId, meta);
 			//this.outputFile = "/meta.js";  // FBA worked static address not support Multi user
-			this.outputFile = OutputFileAddressMaker(workflowId);
+			this.outputFile = OutputFileAddressMaker(workflowId); // support multi user
 			System.out.println(outputFile);
 			uploadMetaResult(workflowId, meta);
 			//this.outputFile = "meta.js";
