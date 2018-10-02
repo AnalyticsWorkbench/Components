@@ -39,7 +39,8 @@ public class SISOBProperties {
     private static final String DEFAULT_MANAGERNAMES = "Pajek Manager,Foresighted Graph Layout Manager,AutoMap Manager,ShowResult Manager,Data Uploader Manager,Conceptual Model To CSV Manager,Conceptual Model To CVN Manager,CSV To Conceptual Model Manager,CVN To Conceptual Model Manager,R Wrapper Manager,Crawler Manager,Gate Data Extractor Manager,Slideshow Manager,CVN 2 Pajek .net Manager,Pajek Script Builder Manager,Draw Network Manager, Core-Extractor Manager" ;
     private static final String DEFAULT_COMPONENTNAMES = "Pajek,ForesightedGraphLayout,AutoMap,ShowResult,Data Uploader,Conceptual Model To CSV,Conceptual Model To CVN,CSV To Conceptual Model,CVN To Conceptual Model,R-Analysis,Crawler,Gate Data Extractor,Slideshow,CVN 2 Pajek .net,Pajek Script Builder,Draw Network,Core-Extractor";
 //    private static final String DEFAULT_RESULTSDIR = System.getProperty("user.dir") + File.separator + "results"; // FBA : this was privious addressing
-    private static final String DEFAULT_RESULTSDIR = System.getProperty("user.dir") + File.separator + "results" + File.separator + "/";
+    private static final String DEFAULT_RESULTSDIR = System.getProperty("user.dir") + File.separator + "results" + File.separator ;
+    private static final String DEFAULT_FOR_PUBLICHTML_PATH = System.getProperty("workbench") + File.separator ;
     /** everything that is not equal to "true" is {@link Boolean#FALSE} */
     private static final String DEFAULTDEBUGMODE = "no"; 
     /**
@@ -277,7 +278,9 @@ public class SISOBProperties {
     public static String getResultLocation() {
         return getProperty("results.filelocation",DEFAULT_RESULTSDIR);
     }
-    
+    public static String getUiPublicPass() {
+        return getProperty("filelocation", DEFAULT_FOR_PUBLICHTML_PATH);
+    }
     public static void setResultLocation(String resultLocation) {
     	properties.setProperty("results.filelocation", resultLocation);
     }

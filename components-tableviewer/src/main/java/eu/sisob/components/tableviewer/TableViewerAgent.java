@@ -36,7 +36,9 @@ public class TableViewerAgent extends Agent {
 	public static final String TECHNIQUE_ZIP = "eu/sisob/components/tableviewer/technique.zip";
 
 	// OUTPUT
-	public String output_path = SISOBProperties.getResultLocation();
+	//public String output_path = SISOBProperties.getResultLocation();
+	//public String output_path2 = SISOBProperties.getUiPublicPass();
+	public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results";
 
 	public TableViewerAgent(JsonObject commandMsg) {
 		super(commandMsg);
@@ -68,7 +70,7 @@ public class TableViewerAgent extends Agent {
 		}
 
 		try {
-			String dirName = output_path + workflowId + File.separator + agentInstanceID + File.separator;
+			String dirName = output_path + File.separator+ workflowId + File.separator + agentInstanceID + File.separator;
 			File outDir = new File(dirName);
 			if (!outDir.exists()) {
 				outDir.mkdirs();
@@ -120,7 +122,7 @@ public class TableViewerAgent extends Agent {
 	 * @throws Exception
 	 */
 	private void createDynamicFiles(String workflowId, String data, String filename) throws Exception {
-		String dirName = output_path + workflowId + File.separator + agentInstanceID + File.separator;
+		String dirName = output_path + File.separator+ workflowId + File.separator + agentInstanceID + File.separator;
 		try {
 			File dir = new File(dirName);
 			if (!dir.exists()) {
@@ -163,7 +165,8 @@ public class TableViewerAgent extends Agent {
 	 * @throws IOException
 	 */
 	private void createIndexFile(String workflowId) throws IOException {
-		String directoryPath = output_path + workflowId + File.separator + getAgentInstanceID() + File.separator;
+		//String directoryPath = output_path + workflowId + File.separator + getAgentInstanceID() + File.separator;// FBA previous version
+		String directoryPath = output_path + File.separator + workflowId + File.separator + getAgentInstanceID() + File.separator;
 		File directory = new File(directoryPath);
 		File[] listing = directory.listFiles();
 		File indexFile = new File(directoryPath + "index.html");
@@ -312,7 +315,7 @@ public class TableViewerAgent extends Agent {
 	}
 
 	private void copyTechnique(boolean useZip) throws IOException {
-		String outputDestination = output_path + workflowID + File.separator + getAgentInstanceID() + File.separator;
+		String outputDestination = output_path + File.separator + workflowID + File.separator + getAgentInstanceID() + File.separator;
 		if (useZip) {
 			ClassLoader cl = getClass().getClassLoader();
 			ZipInputStream zis = new ZipInputStream(new BufferedInputStream(cl.getResourceAsStream(TECHNIQUE_ZIP)));
