@@ -200,10 +200,20 @@ public abstract class Agent implements Runnable {
             baseUrl = baseUrl.concat("/");
         }
 
-        String name = "result_" + this.workflowID;
 
-        //String resultInfo = baseUrl + this.workflowID + "/" + this.agentInstanceID + "/" + this.outputFile; // FBA was default
-        String resultInfo = baseUrl + this.outputFile ;
+        String resultInfo;
+
+        String name = "result_" + this.workflowID;
+        System.out.println("=====/////=====/////=====");
+        System.out.println(agentID);
+        System.out.println("=====/////=====/////=====");
+        if (agentID.equals("metaanalysis"))
+        {
+            resultInfo = baseUrl + this.outputFile ; // FBA for the meta analysis
+        }else {
+            resultInfo = baseUrl + this.workflowID + "/" + this.agentInstanceID + "/index.html";
+        }
+        //resultInfo = baseUrl + this.workflowID + "/" + this.agentInstanceID + "/" + this.outputFile; // FBA was default
 
         JsonObject resultJson = new JsonObject();
         resultJson.addProperty("runid", this.workflowID);
@@ -561,6 +571,5 @@ public abstract class Agent implements Runnable {
     public void setFilterParameters(JSONObject parameters) {
         this.filterParameters = parameters;
     }
-
 
 }
