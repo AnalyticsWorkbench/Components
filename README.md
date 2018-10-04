@@ -32,7 +32,8 @@ Stop manualy postgrade
 ```
 pg_ctl -D /usr/local/var/postgres stop -s -m fast
 ```
-
+if you got the "Too many clients issue" please check the guide on the WIKI folder:
+https://github.com/AnalyticsWorkbench/Components/wiki/Bugs-and-errors
 ##  R Project
 	
 - R (https://cran.r-project.org/)
