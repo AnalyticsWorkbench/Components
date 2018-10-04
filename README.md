@@ -74,7 +74,7 @@ or stop/start it:
 /etc/init.d/redis-server stop
 /etc/init.d/redis-server start
  ```
-##On Mac
+## On Mac systems
  ```
 redis-cli shutdown
  ```
