@@ -19,13 +19,12 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
-import java.io.File;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.google.gson.JsonParser; // Salam somaye
+import com.google.gson.JsonParser;
 import com.google.gson.JsonPrimitive;
 
 import eu.sisob.components.framework.Agent;
@@ -45,15 +44,15 @@ import eu.sisob.components.framework.json.util.JSONFile;
  */
 public class MetaAnalysisAgent extends Agent {
 
-//	public String output_path = SISOBProperties.getResultLocation();
-	//"/Users/farbodaprin/Desktop/WorkbenchAnalysis/results"
+	/**
+	 **if you do not put the Component and UI folder in common path you have to set the address manually. for example: "/Users/farbodaprin/Desktop/WorkbenchAnalysis/results"
+	 * * results/result should be in public html folder in the frontend UI path
+	 * for example: public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results/result";
+	 */
+	private File ComponentAddress = new File(SISOBProperties.getDefultUserDictonaryPath());
+	private String ProjectFolder = ComponentAddress.getParent();
 
-//	private String SOSIS = System.getProperty("user.dir") ;
-//
-//	public String output_path = SOSIS + File.separator + "UI/public_html/results/result";
-//
-
-	public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results/result"; // works well replaceyour local address with this
+    private String output_path = ProjectFolder + "/UI/public_html/results/result";
 	/**
 	 * Constructor for the agent. It first calls the constructor of the superclass, then
 	 * the data structure is set, which is used to determine if a received data message is
@@ -65,7 +64,7 @@ public class MetaAnalysisAgent extends Agent {
 		// parameters can be accessed via coordinationMessage.get("parameters").getAsString()
 		// which returns a json string containing all parameters or coordinationMessage.get("parameters").getAsJsonObject()
 		// which returns a json object. If you want to convert the json string to a json object you can use
-		// new Gson().fromJson(jsonString, JsonObject.class).ß
+		// new Gson().fromJson(jsonString, JsonObject.class).
 	}
 
 	/**
@@ -78,7 +77,6 @@ public class MetaAnalysisAgent extends Agent {
 		try {
 			String workflowId = dataMessage.get("runid").getAsString();
 			JsonObject meta = this.analyseInput(dataMessage);
-//			this.SOSIS = deleteComponentFromAddress ( "Compenent",SOSIS);
 			createMetaFile(workflowId, meta);
 			//uploadResults(workflowId, meta);
 			//this.outputFile = "/meta.js";  // FBA worked static address not support Multi user
@@ -143,22 +141,10 @@ public class MetaAnalysisAgent extends Agent {
 		String dataString = (String) x.get("filedata");
 		data = (JsonObject) new JsonParser().parse(dataString);
 
-		System.out.println("=========================================================");
-
-		System.out.println(data);
-		System.out.println(meta);
-
-		System.out.println("=========================================================");
-
-//============================================================On previous master branch===============================================FBA ====
-//		try {
-//			data = (JsonObject) new JsonParser().parse(file.getTextContent()); // orginal
-//		} catch (IllegalContentTypeException e) {
-//			data = new JsonObject();
-//		}
-// @ https://stackoverflow.com/questions/14061944/intellij-idea-what-library-uses-project // FBA
-		// Test for activity streams
-
+//		System.out.println("=========================================================");
+//		System.out.println(data);
+//		System.out.println(meta);
+//		System.out.println("=========================================================");
 
 		try {
 			JsonArray items = (JsonArray) data.get("items");
@@ -170,7 +156,6 @@ public class MetaAnalysisAgent extends Agent {
 					if (sample.get("actor") != null && sample.get("published") != null) {
 						return this.analyseJSONActivityStream(meta, items);
 					}
-					System.out.println(meta);
 				}
 			}
 		} catch (NullPointerException e) {
@@ -265,7 +250,6 @@ public class MetaAnalysisAgent extends Agent {
 	}
 
 	private void createMetaFile(String workflowId, JsonObject meta) throws IOException {
-		System.out.println(meta);
 		//String directoryPath = output_path + workflowId + File.separator + getAgentInstanceID() + File.separator; // FBA here is the orginal line
 		String directoryPath = output_path  + File.separator + workflowId + File.separator + getAgentInstanceID();
 		File outDir = new File(directoryPath);
@@ -277,7 +261,6 @@ public class MetaAnalysisAgent extends Agent {
 	}
 
 	private void uploadMetaResult (String workflowId, JsonObject meta) throws IOException {
-		System.out.println(meta);
 		RestApiImplement api = new RestApiImplement();
 	}
 
