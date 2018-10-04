@@ -1,7 +1,9 @@
+![images](https://user-images.githubusercontent.com/17232450/46471144-51dbf380-c7d9-11e8-96cb-189c0dfac8e5.jpeg)
+
 # Analytics Workbench Setup with netbeans using postgresSQL
 
 After cloning the project please make sure that you put the "Components" and "UI" in the same address and parent folder otherwise you need to change the addresses for output_results in TableViewerAgent.java and MetaAnalysisAgent.java file in their components. 
-Other solution could then set the result in "sisob.config" file which is not recommended.
+Other solution could eddit the result configuration in "sisob.config" file which is not recommended.
 
 <img src="https://user-images.githubusercontent.com/17232450/46470690-d299f000-c7d7-11e8-94af-3ea0532ad12f.png" width="940" height="150">
 
