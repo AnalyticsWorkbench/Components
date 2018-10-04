@@ -36,9 +36,18 @@ public class TableViewerAgent extends Agent {
 	public static final String TECHNIQUE_ZIP = "eu/sisob/components/tableviewer/technique.zip";
 
 	// OUTPUT
+	/**
+	 **if you do not put the Component and UI folder in common path you have to set the address manually. for example: "/Users/farbodaprin/Desktop/WorkbenchAnalysis/results"
+	 * * results/result should be in public html folder in the frontend UI path
+	 * for example: public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results/result";
+	 */
+	private File ComponentAddress = new File(SISOBProperties.getDefultUserDictonaryPath());
+	private String ProjectFolder = ComponentAddress.getParent();
+
+	private String output_path = ProjectFolder + "/UI/public_html/results";
 	//public String output_path = SISOBProperties.getResultLocation();
 	//public String output_path2 = SISOBProperties.getUiPublicPass();
-	public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results";
+	//public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results";
 
 	public TableViewerAgent(JsonObject commandMsg) {
 		super(commandMsg);
