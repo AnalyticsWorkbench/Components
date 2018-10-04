@@ -45,9 +45,9 @@ public class TableViewerAgent extends Agent {
 	private String ProjectFolder = ComponentAddress.getParent();
 
 	private String output_path = ProjectFolder + "/UI/public_html/results";
-	//public String output_path = SISOBProperties.getResultLocation();
-	//public String output_path2 = SISOBProperties.getUiPublicPass();
-	//public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results";
+//	public String output_path = SISOBProperties.getResultLocation();
+//	public String output_path2 = SISOBProperties.getUiPublicPass();
+//	public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results";
 
 	public TableViewerAgent(JsonObject commandMsg) {
 		super(commandMsg);

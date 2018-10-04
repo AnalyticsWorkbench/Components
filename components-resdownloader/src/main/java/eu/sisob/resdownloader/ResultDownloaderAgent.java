@@ -20,9 +20,11 @@ import eu.sisob.components.framework.json.util.JSONFile;
 
 public class ResultDownloaderAgent extends Agent {
 
-    String path = "/home/workbench/public_html/results/";
-    //String path = "aux_resources_directory" + File.separator;
-    
+
+    private File ComponentAddress = new File(SISOBProperties.getDefultUserDictonaryPath());
+    private String ProjectFolder = ComponentAddress.getParent();
+
+    private String path = ProjectFolder + "/UI/public_html/results";
 
     boolean ignoreErrors = false;
 
@@ -36,9 +38,10 @@ public class ResultDownloaderAgent extends Agent {
         setDataStructure(dataStructure);
 
         String tmpPath = SISOBProperties.getSlideshowServerPath();
-        if (tmpPath != null && !tmpPath.trim().isEmpty()) {
-            path = tmpPath;
-        }
+//        if (tmpPath != null && !tmpPath.trim().isEmpty()) {
+//            path = tmpPath;
+//        }
+//        System.out.println(path);
     }
 
     @Override
@@ -102,11 +105,11 @@ public class ResultDownloaderAgent extends Agent {
     private void writeRawDataToDisk(String workflowId, String rawData) throws IOException {
     	//System.out.println("ResultDownloader: rawdata = " + rawData);
     	Vector<JSONFile> fileSet = JSONFile.restoreJSONFileSet(rawData);
-    	JSONFile.writeJSONFileSet(fileSet, path + workflowId + File.separator + getAgentInstanceID() + File.separator);
+    	JSONFile.writeJSONFileSet(fileSet, path + File.separator+ workflowId + File.separator + getAgentInstanceID() + File.separator);
     }
     
     private void createZipFile(String workflowId) throws IOException {
-        String directoryPath = path + workflowId + File.separator + getAgentInstanceID() + File.separator;
+        String directoryPath = path + File.separator+ workflowId + File.separator + getAgentInstanceID() + File.separator;// FBA orginal : path + workflowId + ....
         File directory = new File(directoryPath);
         File[] listing = directory.listFiles();
         ZipOutputStream zos = new ZipOutputStream(new FileOutputStream(directoryPath + workflowId + "_" + getAgentInstanceID() + "_result.zip"));
@@ -126,7 +129,7 @@ public class ResultDownloaderAgent extends Agent {
     }
 
     private void createIndexFile(String workflowId) throws IOException {
-        String directoryPath = path + workflowId + File.separator + getAgentInstanceID() + File.separator;
+        String directoryPath = path + File.separator+ workflowId  + File.separator + getAgentInstanceID() + File.separator;
         File directory = new File(directoryPath);
         File[] listing = directory.listFiles();
         File indexFile = new File(directoryPath + "index.html");
@@ -154,7 +157,7 @@ public class ResultDownloaderAgent extends Agent {
     }
     
     private void modifyExtension(String workflowId) {
-    	String directoryPath = path + workflowId + File.separator + getAgentInstanceID() + File.separator;
+    	String directoryPath = path + File.separator+ workflowId + File.separator + getAgentInstanceID() + File.separator;
         File directory = new File(directoryPath);
         File[] listing = directory.listFiles();
         for (File f : listing) {
