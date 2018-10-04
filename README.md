@@ -64,8 +64,8 @@ To run Redis with the default configuration just type in terminal or cmd:
  % ./redis-server
   ```
   
-  to shut down the redis server 
-  Either connect to node instance and use shutdown command or if you are on ubuntu you can try to restart redis server through init.d:
+ To shut down the redis server 
+ Either connect to node instance and use shutdown command or if you are on ubuntu you can try to restart redis server through init.d:
  ```
 /etc/init.d/redis-server restart
  ```
@@ -74,7 +74,7 @@ or stop/start it:
 /etc/init.d/redis-server stop
 /etc/init.d/redis-server start
  ```
-On Mac
+##On Mac
  ```
 redis-cli shutdown
  ```
