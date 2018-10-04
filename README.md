@@ -1,5 +1,10 @@
 # Analytics Workbench Setup with netbeans using postgresSQL
 
+After cloning the project please make sure that you put the "Components" and "UI" in the same address and parent folder otherwise you need to change the addresses for output_results in TableViewerAgent.java and MetaAnalysisAgent.java file in their components. 
+Other solution could then set the result in "sisob.config" file which is not recommended.
+
+<img src="https://user-images.githubusercontent.com/17232450/46470690-d299f000-c7d7-11e8-94af-3ea0532ad12f.png" width="940" height="150">
+
 ## Components
 
 **Requirements:**
@@ -198,10 +203,6 @@ https://descartes.inf.uni-due.de:3081/workbench
 New interface with react:
 https://descartes.inf.uni-due.de:3081/ClientV2
 
-CLIENTV2META and META DATA ACCESS 
-
-after upload the data on direcet uploader the data will be process in backend part " MetaAnalysis Compnenent ". for more info and configuration for result api please check this video:
-
-[![workbenchsisob](https://user-images.githubusercontent.com/17232450/42764608-56712c00-8916-11e8-84be-ssdb1c4cbd25f7f.jpg)](https://youtu.be/HFGwaJuoVk2g)
-
+contact us for more information: 
+https://www.collide.info/en/mitarbeiter
 
