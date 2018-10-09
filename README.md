@@ -80,12 +80,12 @@ or stop/start it:
 /etc/init.d/redis-server stop
 /etc/init.d/redis-server start
  ```
-- On Mac systems
+On Mac systems
  ```
 redis-cli shutdown
  ```
 
-- NodeJS (https://nodejs.org)
+- ## NodeJS (https://nodejs.org)
   - install necessary module by executing node, navigationg into “webworkbench” and executing „npm install“ (in the terminal/comand line) in the „webworkbench“ directory
   
 ```
