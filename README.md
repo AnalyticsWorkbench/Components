@@ -5,7 +5,7 @@
 After cloning the project please make sure that you put the "Components" and "UI" in the same address and parent folder otherwise you need to change the addresses for output_results in TableViewerAgent.java and MetaAnalysisAgent.java file in their components. 
 Other solution could eddit the result configuration in "sisob.config" file which is not recommended.
 
-<img src="https://user-images.githubusercontent.com/17232450/46470690-d299f000-c7d7-11e8-94af-3ea0532ad12f.png" width="690" height="110">
+<img src="https://user-images.githubusercontent.com/17232450/46470690-d299f000-c7d7-11e8-94af-3ea0532ad12f.png" width="600" height="110">
 
 ## Components
 
@@ -59,7 +59,7 @@ to install with the R user interface please check this [video](https://www.youtu
 ## Redis 
 download the project and follow the readme.md for make and run.https://redis.io/download
 
-<img src="https://user-images.githubusercontent.com/17232450/46662795-a8bc4100-cbbc-11e8-9723-18f1416669e0.png" width="690" height="110">
+<img src="https://user-images.githubusercontent.com/17232450/46662795-a8bc4100-cbbc-11e8-9723-18f1416669e0.png" width="590" height="420">
 
 
 https://redis.io/download or on Windows https://github.com/dmajkic/redis/downloads  or you can clone from Github directly from: (recommanded) extra package:
@@ -80,7 +80,7 @@ or stop/start it:
 /etc/init.d/redis-server stop
 /etc/init.d/redis-server start
  ```
-## On Mac systems
+- On Mac systems
  ```
 redis-cli shutdown
  ```
