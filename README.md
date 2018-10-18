@@ -57,7 +57,7 @@ to install with the R user interface please check this [video](https://www.youtu
 - Redis is requierd to run the workbench.js on the frontend:
 
 ## Redis 
-download the project and follow the readme.md for make and run.https://redis.io/download
+download the project and follow the readme.md for make and run.https://redis.io/download or directly from AnalyticsWorkbench/Redis
 
 <img src="https://user-images.githubusercontent.com/17232450/46662795-a8bc4100-cbbc-11e8-9723-18f1416669e0.png" width="590" height="420">
 
