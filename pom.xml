@@ -91,6 +91,7 @@
         <module>components-graphcomparison</module>
         <module>components-swimlanevisualization</module>
         <module>components-metaanalysis</module>
+        <module>components-api-master</module>
         <!--<module>components-getTopKRecommendations</module>-->
         <!--<module>components-getTopKRecommendations/components-metaanalysis</module>-->
 

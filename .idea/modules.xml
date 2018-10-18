@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/components-api-master/api-data/api-data.iml" filepath="$PROJECT_DIR$/components-api-master/api-data/api-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-2modeto1mode/components-2modeto1mode.iml" filepath="$PROJECT_DIR$/components-2modeto1mode/components-2modeto1mode.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-activitylogsviewer/components-activitylogsviewer.iml" filepath="$PROJECT_DIR$/components-activitylogsviewer/components-activitylogsviewer.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-bicliquetracingvis/components-bicliquetracingvis.iml" filepath="$PROJECT_DIR$/components-bicliquetracingvis/components-bicliquetracingvis.iml" />
@@ -48,6 +49,7 @@
       <module fileurl="file://$PROJECT_DIR$/components-text2network/components-text2network.iml" filepath="$PROJECT_DIR$/components-text2network/components-text2network.iml" />
       <module fileurl="file://$PROJECT_DIR$/text2network_codebook/components-text2network_codebook.iml" filepath="$PROJECT_DIR$/text2network_codebook/components-text2network_codebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/components-timeslicer/components-timeslicer.iml" filepath="$PROJECT_DIR$/components-timeslicer/components-timeslicer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/components-api-master/workbench-apis.iml" filepath="$PROJECT_DIR$/components-api-master/workbench-apis.iml" />
       <module fileurl="file://$PROJECT_DIR$/workbench-components.iml" filepath="$PROJECT_DIR$/workbench-components.iml" />
     </modules>
   </component>

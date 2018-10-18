@@ -11,7 +11,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="components-framework" />
-    <orderEntry type="library" name="Maven: info.collide:api-data:2.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="api-data" />
     <orderEntry type="library" name="Maven: com.googlecode.json-simple:json-simple:1.1" level="project" />
     <orderEntry type="library" name="Maven: com.tinkerpop.blueprints:blueprints-core:2.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jettison:jettison:1.3" level="project" />

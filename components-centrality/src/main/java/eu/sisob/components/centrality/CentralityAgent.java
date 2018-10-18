@@ -6,6 +6,8 @@ import eu.sisob.components.framework.util.ClassLoaderUtility;
 
 import eu.sisob.components.rwrapper.RWrapperAgent;
 
+import java.util.logging.Level;
+
 public class CentralityAgent extends RWrapperAgent {
 
 	String scriptPrefix = "eu/sisob/components/centrality/";
@@ -19,8 +21,9 @@ public class CentralityAgent extends RWrapperAgent {
 		JsonObject jsonObject = new Gson().fromJson(scriptSelectionObject, JsonObject.class);
 		String scriptSelection = jsonObject.get("value1").getAsString();
 
-		String scriptName = null;
-
+		String scriptName = "undirectedgraph_degree_centrality.R";
+		System.out.printf(scriptName);
+		System.out.printf("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 		if (scriptSelection.equals("Degree")) {
 			scriptName = "undirectedgraph_degree_centrality.R";
 		} else if (scriptSelection.equals("Betweenness")) {
@@ -43,6 +46,10 @@ public class CentralityAgent extends RWrapperAgent {
 			scriptName = "in_degree_strength.R";
 		} else if (scriptSelection.equals("Outgoing Strength (weighted Outdegree)")) {
 			scriptName = "out_degree_strength.R";
+		} else if (scriptSelection.equals("0")){
+			scriptSelection = "Degree";
+			scriptName = "undirectedgraph_degree_centrality.R";
+			logger.log(Level.WARNING, "could not find the selected script ++++++ the user choice no centrality filetr! +++ Default is Degree-centrality");
 		}
 
 		if (scriptName != null) {

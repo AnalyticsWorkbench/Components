@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="api-data" />
         <module name="components-2modeto1mode" />
         <module name="components-activitylogsviewer" />
         <module name="components-bicliquetracingvis" />
@@ -55,6 +56,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-data" target="1.7" />
       <module name="components-2modeto1mode" target="1.7" />
       <module name="components-activitylogsviewer" target="1.7" />
       <module name="components-bicliquetracingvis" target="1.7" />
@@ -104,6 +106,7 @@
       <module name="components-text2network" target="1.7" />
       <module name="components-text2network_codebook" target="1.7" />
       <module name="components-timeslicer" target="1.7" />
+      <module name="workbench-apis" target="1.7" />
       <module name="workbench-components" target="1.7" />
     </bytecodeTargetLevel>
   </component>
