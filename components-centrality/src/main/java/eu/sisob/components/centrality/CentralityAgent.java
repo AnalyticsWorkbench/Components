@@ -49,7 +49,7 @@ public class CentralityAgent extends RWrapperAgent {
 		} else if (scriptSelection.equals("0")){
 			scriptSelection = "Degree";
 			scriptName = "undirectedgraph_degree_centrality.R";
-			logger.log(Level.WARNING, "could not find the selected script ++++++ the user choice no centrality filetr! +++ Default is Degree-centrality");
+			logger.log(Level.WARNING, "could not find the selected script ++++++ the user choiced no centrality filetr! +++ Default is Degree-centrality");
 		}
 
 		if (scriptName != null) {
