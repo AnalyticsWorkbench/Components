@@ -3,7 +3,7 @@
 # Analytics Workbench Setup with netbeans using postgresSQL
 
 After cloning the project please make sure that you put the "Components" and "UI" in the same address and parent folder otherwise you need to change the addresses for output_results in TableViewerAgent.java and MetaAnalysisAgent.java file in their components. 
-Other solution could eddit the result configuration in "sisob.config" file which is not recommended.
+Other solution could edit the result configuration in "sisob.config" file which is not recommended.
 
 <img src="https://user-images.githubusercontent.com/17232450/46470690-d299f000-c7d7-11e8-94af-3ea0532ad12f.png" width="600" height="110">
 
@@ -11,14 +11,14 @@ Other solution could eddit the result configuration in "sisob.config" file which
 
 **Requirements:**
 - Current JDK
-- PostgresSQL
+- PostgreSQL
 - R Project
 
 ##  Current JDK
 find the current version according to your operation system [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
 
-##  PostgresSQL
+##  PostgreSQL
 - create database "workbench" and a corresponding user with all rights granted for the DB.
 
 - initialization on [MacOs](https://chartio.com/resources/tutorials/how-to-start-postgresql-server-on-mac-os-x/) 
@@ -28,7 +28,7 @@ Start manualy postgrade, you can observe the connections.
 ```
 postgres -D /usr/local/var/postgres
 ```
-Stop manualy postgrade
+Stop manually postgrade
 ```
 pg_ctl -D /usr/local/var/postgres stop -s -m fast
 ```
