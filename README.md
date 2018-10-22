@@ -42,7 +42,7 @@ https://github.com/AnalyticsWorkbench/Components/wiki/Bugs-and-errors
 	
  Open the cmd of the R enviroment and write the command:
   ```
-- install.packages(c(Runiversal”,”igraph”,”blockmodeling”,”fpc”,"Matrix", "dplyr"))
+ install.packages(c("Runiversal”,”igraph”,”blockmodeling”,”fpc”,"Matrix", "dplyr"))
   ```
 to de bug easier the requirements we can try them seperatly :
  ```
