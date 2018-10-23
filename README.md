@@ -190,10 +190,7 @@ In components folder
 ```
 mvn clean install
 ```
-- Run postgresinit.java in executer folder
-```
-javac PostgresInitializer.java
-```
+- Run postgresinit.java in executer folder with your IDE 
 
 ### 3. Startup
 -- Start the UI
