@@ -93,7 +93,7 @@
         <module>components-metaanalysis</module>
         <module>components-api-master</module>
         <!--<module>components-getTopKRecommendations</module>-->
-        <!--<module>components-getTopKRecommendations/components-metaanalysis</module>-->
+        <module>components-getTopKRecommendations/components-metaanalysis</module>
 
     </modules>
 </project>
