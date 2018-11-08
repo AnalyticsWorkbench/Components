@@ -2,12 +2,134 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bf8f156-33c5-4ced-b88c-dbe781bd2da0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aa701918-efc0-4e0a-890d-0b9238fa0a23/meta/meta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-2modeto1mode/target/classes/eu/sisob/components/tmtom/TwoModeToOneModeAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-2modeto1mode/target/classes/eu/sisob/components/tmtom/TwoModeToOneModeAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/classes/info/collide/workbench/components/activitylogsviewer/ActivityLogsViewerAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/classes/info/collide/workbench/components/activitylogsviewer/ActivityLogsViewerAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-activitylogsviewer/target/classes/info/collide/workbench/components/activitylogsviewer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-activitylogsviewer/target/classes/info/collide/workbench/components/activitylogsviewer/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/clustering/ClusterUtilities.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/clustering/ClusterUtilities.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/activitystreams/ActivityStreamParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/activitystreams/ActivityStreamParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/csv/CSVExcelParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/csv/CSVExcelParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/csv/CSVParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/csv/CSVParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/gml/GMLNetworkParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/gml/GMLNetworkParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/gml/antlrfiles/GMLParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/gml/antlrfiles/GMLParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/pajek/PajekParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/pajek/PajekParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/sisob/SDTParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/sisob/SDTParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/sisob/SGFParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/sisob/SGFParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/tse/TSEParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/tse/TSEParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/ucinetdl/UCINETParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/parser/ucinetdl/UCINETParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/datatable/Dataset.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/datatable/Dataset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/datatable/fields/DataField.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/datatable/fields/DataField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/AbstractLogObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/AbstractLogObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/Actor.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/Actor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/EventLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/EventLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/Generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/ObjectLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/ObjectLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/Target.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/eventlog/fields/Target.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/graph/Dataset.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/graph/Dataset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/graph/fields/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/graph/fields/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/graph/fields/EdgeSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/graph/fields/EdgeSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/graph/fields/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/graph/fields/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/graph/fields/NodeSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/graph/fields/NodeSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/metadata/Metadata.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/metadata/Metadata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/metadata/fields/DataLinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/metadata/fields/DataLinks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/metadata/fields/Properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/metadata/fields/Properties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/metadata/fields/Property.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/api/visualization/format/metadata/fields/Property.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/framework/graph/DynetMLParser$CHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/framework/graph/DynetMLParser$CHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/framework/graph/DynetMLParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/framework/graph/DynetMLParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/framework/graph/parser/FormatFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/framework/graph/parser/FormatFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/framework/json/util/JSONFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/framework/json/util/JSONFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/relationalextractor/connector/DataBaseConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/relationalextractor/connector/DataBaseConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/classes/info/collide/workbench/components/bicliquetracingvis/BicliqueTracingVisAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/classes/info/collide/workbench/components/bicliquetracingvis/BicliqueTracingVisAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bicliquetracingvis/target/classes/info/collide/workbench/components/bicliquetracingvis/HSLColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-bicliquetracingvis/target/classes/info/collide/workbench/components/bicliquetracingvis/HSLColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-bipartite_cpm/target/classes/eu/sisob/components/bipartite_cpm/BipCpmAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-bipartite_cpm/target/classes/eu/sisob/components/bipartite_cpm/BipCpmAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-blockmodel/target/classes/info/collide/components/blockmodel/BlockmodelAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-blockmodel/target/classes/info/collide/components/blockmodel/BlockmodelAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eu/sisob/UI/public_html/results/result/2ee3c82f-0d4d-4f01-a745-be2fa7443461/meta/meta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eu/sisob/UI/public_html/results/result/e585e1e8-caea-4bdc-bce0-7da6a6b5ca88/meta/meta.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/null/UI/public_html/results/result/7a3e3e34-d4cd-462b-ae19-7f39d29ed82e/meta/meta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-combine_similarities/target/classes/info/collide/components/combine_sim/CombineSimAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-combine_similarities/target/classes/info/collide/components/combine_sim/CombineSimAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-datauploader/target/classes/eu/sisob/components/datauploader/DataUploaderAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/classes/eu/sisob/components/datauploader/DataUploaderAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-datauploader/target/classes/eu/sisob/components/datauploader/DataUploaderManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-datauploader/target/classes/eu/sisob/components/datauploader/DataUploaderManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-dynnetvis/target/classes/info/collide/workbench/components/dynnetvis/DynNetVisAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-dynnetvis/target/classes/info/collide/workbench/components/dynnetvis/DynNetVisAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-edgefilter/target/classes/info/collide/workbench/components/edgefilter/EdgeFilterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-edgefilter/target/classes/info/collide/workbench/components/edgefilter/EdgeFilterAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-excelexporter/target/classes/info/collide/components/excelexporter/ExcelExporterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-excelexporter/target/classes/info/collide/components/excelexporter/ExcelExporterAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/src/main/java/eu/sisob/components/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/src/main/java/eu/sisob/components/executor/Executor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/Executor.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/Executor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/ExecutorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/ExecutorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/PostgresInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/classes/eu/sisob/components/executor/PostgresInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-executor/target/classes/executor.properties" beforeDir="false" afterPath="$PROJECT_DIR$/components-executor/target/classes/executor.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/FDGAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/FDGAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-fdg/target/classes/eu/sisob/components/fdg/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-fdg/target/classes/eu/sisob/components/fdg/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-formatfactory/target/classes/eu/sisob/components/ff/FormatFactoryAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-formatfactory/target/classes/eu/sisob/components/ff/FormatFactoryAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/api/visualization/VisualizationAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/api/visualization/VisualizationAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/api/visualization/VisualizationAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/api/visualization/VisualizationAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/Agent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/Agent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/AgentProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/FileHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/FileHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/SISOBProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/SISOBProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/UtilSerialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/UtilSerialize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/BooleanField.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/BooleanField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Container.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Container.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Field.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/IntField.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/IntField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Output.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Output.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/PasswordField.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/PasswordField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/SelectField.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/SelectField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/StringField.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/StringField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/factory/ConnectionClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/factory/ConnectionClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/ftp/FtpDataConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/ftp/FtpDataConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/mqtt/MqttMessageCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/mqtt/MqttMessageCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/mqtt/MqttMessageConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/mqtt/MqttMessageConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/Notifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/Notifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlDataConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlDataConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlMessageConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/connection/postgresql/PostgresqlMessageConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graph_aggregator/target/classes/eu/sisob/components/graph_aggregator/GraphAggregatorAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graph_aggregator/target/classes/eu/sisob/components/graph_aggregator/GraphAggregatorAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphcomparison/target/classes/info/collide/components/graphcomparison/GraphComparisonAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphcomparison/target/classes/info/collide/components/graphcomparison/GraphComparisonAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphdecorator/target/classes/eu/sisob/components/graphdecorator/GraphDecoratorAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphdecorator/target/classes/eu/sisob/components/graphdecorator/GraphDecoratorAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphgenerator/target/classes/org/components/graphgenerator/GraphGeneratorAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphgenerator/target/classes/org/components/graphgenerator/GraphGeneratorAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/classes/info/collide/workbench/components/graphpropertyfilter/GraphPropertyFilterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/classes/info/collide/workbench/components/graphpropertyfilter/GraphPropertyFilterAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-graphpropertyfilter/target/classes/info/collide/workbench/components/graphpropertyfilter/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-graphpropertyfilter/target/classes/info/collide/workbench/components/graphpropertyfilter/Starter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-isolatedNodeFilter/target/classes/info/collide/workbench/components/isolatednodefilter/SingleNodeFilterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-isolatedNodeFilter/target/classes/info/collide/workbench/components/isolatednodefilter/SingleNodeFilterAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/classes/info/collide/workbench/components/logstatisticsovertime/LogStatisticsOverTimeAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/classes/info/collide/workbench/components/logstatisticsovertime/LogStatisticsOverTimeAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-logstatisticsovertime/target/classes/info/collide/workbench/components/logstatisticsovertime/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-logstatisticsovertime/target/classes/info/collide/workbench/components/logstatisticsovertime/Starter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/DbConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/DbConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/TestMongo.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoexporter/target/classes/info/collide/workbench/components/mongoexporter/TestMongo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/DbConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/DbConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/MongoImporterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/MongoImporterAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/MongoImporterManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/MongoImporterManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/RunMImporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mongoimporter/target/classes/info/collide/workbench/components/mongoimporter/RunMImporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-mpa/target/classes/eu/sisob/components/mpa/MpaAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-mpa/target/classes/eu/sisob/components/mpa/MpaAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/ResultDownloaderAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-resdownloader/target/classes/eu/sisob/resdownloader/ResultDownloaderAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresAvailableScriptsConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresAvailableScriptsConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresqlRScriptConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/PostgresqlRScriptConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RScriptNotifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RScriptNotifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RWrapperAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RWrapperAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RWrapperManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/RWrapperManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/ScriptInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-rwrapper/target/classes/eu/sisob/components/rwrapper/ScriptInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-similarity/target/classes/org/components/similarity/SimilarityAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-similarity/target/classes/org/components/similarity/SimilarityAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/ActorSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/ActorSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/EventAbstraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/EventAbstraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SPMAnalysisAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SPMAnalysisAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SequenceDBGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-spmanalysis/target/classes/info/collide/components/spmanalysis/SequenceDBGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-stackedbarchart/target/classes/eu/sisob/components/stackedbarchart/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-stackedbarchart/target/classes/eu/sisob/components/stackedbarchart/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SwimLaneTechnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-swimlanevisualization/target/classes/info/collide/workbench/components/swimlanevisualization/SwimLaneTechnique.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/TableViewerAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-tableviewer/target/classes/eu/sisob/components/tableviewer/TableViewerAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-text2network/target/classes/info/collide/components/text2network/Text2NetworkAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-text2network/target/classes/info/collide/components/text2network/Text2NetworkAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-timeslicer/target/classes/info/collide/workbench/components/timeslicer/TimeSlicerAgentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text2network_codebook/target/classes/info/collide/components/text2network_codebook/Text2NetworkCBAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/text2network_codebook/target/classes/info/collide/components/text2network_codebook/Text2NetworkCBAgent.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/components-bicliquetracingvis/target/" />
     <ignored path="$PROJECT_DIR$/components-datauploader/target/" />
@@ -90,73 +212,86 @@
     <session id="-651774197">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.21" value="2" />
-          <entry key="project.open.time.22" value="2" />
-          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.26" value="2" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.34" value="2" />
-          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.39" value="1" />
           <entry key="project.open.time.40" value="2" />
-          <entry key="project.open.time.41" value="1" />
+          <entry key="project.open.time.41" value="2" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.80" value="1" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.opened" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
           <entry key="R" value="2" />
-          <entry key="class" value="26" />
+          <entry key="bak" value="1" />
+          <entry key="class" value="32" />
           <entry key="conf" value="13" />
+          <entry key="css" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="2" />
           <entry key="iml" value="5" />
-          <entry key="java" value="174" />
-          <entry key="js" value="6" />
-          <entry key="json" value="2" />
-          <entry key="lst" value="4" />
-          <entry key="md" value="3" />
+          <entry key="java" value="206" />
+          <entry key="js" value="10" />
+          <entry key="json" value="4" />
+          <entry key="lst" value="7" />
+          <entry key="md" value="5" />
           <entry key="pom" value="5" />
           <entry key="prefs" value="3" />
-          <entry key="xml" value="58" />
+          <entry key="xml" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="26" />
+          <entry key="CLASS" value="32" />
+          <entry key="CSS" value="1" />
           <entry key="HOCON" value="13" />
+          <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="5" />
-          <entry key="JAVA" value="174" />
-          <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JAVA" value="206" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="10" />
           <entry key="Manifest" value="1" />
-          <entry key="Markdown" value="3" />
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="XML" value="63" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="3" />
           <entry key="conf" value="102" />
-          <entry key="java" value="4478" />
+          <entry key="gitignore" value="41" />
+          <entry key="java" value="4872" />
           <entry key="json" value="4" />
           <entry key="pom" value="8" />
           <entry key="xml" value="171" />
@@ -166,12 +301,16 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="HOCON" value="102" />
-          <entry key="JAVA" value="4478" />
+          <entry key="JAVA" value="4872" />
           <entry key="JSON" value="4" />
+          <entry key="PLAIN_TEXT" value="41" />
           <entry key="XML" value="179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FavoritesManager">
@@ -201,11 +340,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java">
+      <file pinned="true" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/FDGManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+            <state relative-caret-position="165">
+              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+              <folding>
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#904#905#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-activitylogsviewer/src/main/java/info/collide/workbench/components/activitylogsviewer/ActivityLogsViewerAgent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,42 +366,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar!/sun/security/pkcs11/Secmod.class">
+        <entry file="file://$PROJECT_DIR$/components-activitylogsviewer/src/main/resources/info/collide/workbench/components/activitylogsviewer/technique/alv_script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <state relative-caret-position="60">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-executor/src/main/java/eu/sisob/components/executor/Executor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-spmanalysis/src/main/resources/spmanalysis-form.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-graphgenerator/src/main/java/org/components/graphgenerator/GraphGeneratorManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <element signature="e#0#7976#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components-spmanalysis/src/main/resources/spmanalysis-transform-meta.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components-supergraph/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components-swimlane/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components-2modeto1mode/src/main/java/eu/sisob/components/tmtom/TwoModeToOneModeAgent.java">
+        <entry file="file://$PROJECT_DIR$/components-spmanalysis/src/main/resources/spmanalysis-update-form.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -265,15 +445,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>API</find>
-      <find>create</find>
-      <find>MetaAnalysisAgent</find>
-      <find>MetaAnalysisManager</find>
-      <find>FBA</find>
-      <find>MetaAn</find>
-      <find>manager</find>
-      <find>user.dir</find>
-      <find>out</find>
       <find>lock</find>
       <find>agent</find>
       <find>index</find>
@@ -289,12 +460,21 @@
       <find>could not find</find>
       <find>spmf</find>
       <find>closed-snapshots</find>
-      <find>Dwyer Force Directed Graph</find>
       <find>forward burn. [F]`</find>
       <find>could</find>
       <find>null</find>
       <find>json</find>
       <find>5432</find>
+      <find>Dwyer Force Directed Graph</find>
+      <find>getOU</find>
+      <find>Degree</find>
+      <find>MetaAnalysis Agent Created</find>
+      <find>Created</find>
+      <find>The letter in the brackets indicates which fields are used in which method. [R]</find>
+      <find>out</find>
+      <find>name</find>
+      <find>a</find>
+      <find>ORGINAL</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/components-getTopKRecommendations</dir>
@@ -338,14 +518,18 @@
         <option value="$PROJECT_DIR$/components-executor/sisob.conf" />
         <option value="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/RestApiImplement.java" />
         <option value="$PROJECT_DIR$/sisob.conf" />
-        <option value="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" />
         <option value="$PROJECT_DIR$/../../WorkbenchAnalysis copy/Components/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
         <option value="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/SISOBProperties.java" />
         <option value="$PROJECT_DIR$/components-tableviewer/src/main/java/eu/sisob/components/tableviewer/TableViewerAgent.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/execconfig.xml" />
-        <option value="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
+        <option value="$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/FDGAgent.java" />
         <option value="$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
+        <option value="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" />
+        <option value="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/api/visualization/VisualizationAgent.java" />
+        <option value="$PROJECT_DIR$/components-executor/src/main/java/eu/sisob/components/executor/Executor.java" />
       </list>
     </option>
   </component>
@@ -371,15 +555,13 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="1024" />
+    <option name="x" value="-1680" />
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -394,6 +576,252 @@
               <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-activitylogsviewer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-activitylogsviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-activitylogsviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-activitylogsviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-activitylogsviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="activitylogsviewer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-activitylogsviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-activitylogsviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="activitylogsviewer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-activitylogsviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="activitylogsviewer" type="462c0819:PsiDirectoryNode" />
+              <item name="technique" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-fdg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-fdg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-fdg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-fdg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-fdg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fdg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sisob" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sisob" type="462c0819:PsiDirectoryNode" />
+              <item name="visualization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-graphgenerator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-graphgenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-graphgenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-graphgenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-graphgenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="graphgenerator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-graphgenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-metaanalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-metaanalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-metaanalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-metaanalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-metaanalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="metaanalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-spmanalysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-spmanalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-spmanalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workbench-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="components-spmanalysis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -403,11 +831,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="config&#9;FILE&#9;file:///Users/farbodaprin/Desktop/WorkbenchAnalysis/Components/execconfig.xml&#10;module&#9;PSI&#9;JAVA://sun.security.pkcs11.Secmod.Module&#10;jsonObject&#9;PSI&#9;JAVA://eu.sisob.components.framework.json.util.JSONFile#toJSONObject&#10;Vis&#9;PSI&#9;JAVA://eu.sisob.api.visualization.VisualizationAgent&#10;meta&#9;FILE&#9;file:///Users/farbodaprin/Desktop/WorkbenchAnalysis/Components/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" />
+    <property name="SearchEverywhereHistoryKey" value="Created&#9;FILE&#9;file:///Users/farbodaprin/Desktop/WorkbenchAnalysis/Components/components-fdg/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst&#10;config&#9;FILE&#9;file:///Users/farbodaprin/Desktop/WorkbenchAnalysis/Components/execconfig.xml&#10;module&#9;PSI&#9;JAVA://sun.security.pkcs11.Secmod.Module&#10;jsonObject&#9;PSI&#9;JAVA://eu.sisob.components.framework.json.util.JSONFile#toJSONObject&#10;Vis&#9;PSI&#9;JAVA://eu.sisob.api.visualization.VisualizationAgent&#10;meta&#9;FILE&#9;file:///Users/farbodaprin/Desktop/WorkbenchAnalysis/Components/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540477240780" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541682525649" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -415,7 +844,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3889528" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -535,11 +964,19 @@
       <workItem from="1531214694018" duration="1723000" />
       <workItem from="1531731580825" duration="1025000" />
       <workItem from="1531815312173" duration="4176000" />
+      <workItem from="1541445052680" duration="833000" />
+      <workItem from="1541445969524" duration="1233000" />
+      <workItem from="1541499757204" duration="5205000" />
+      <workItem from="1541524998031" duration="525000" />
+      <workItem from="1541527931581" duration="8695000" />
+      <workItem from="1541678552680" duration="371000" />
+      <workItem from="1541679067836" duration="3190000" />
+      <workItem from="1541682825491" duration="2198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47121000" />
+    <option name="totallyTimeSpent" value="69371000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,10 +988,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="1024" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1680" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17285945" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2765568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -565,30 +1001,31 @@
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.32914045" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4981685" weight="0.25510204" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.67948717" weight="0.44444445" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.87118435" visible="true" weight="0.35849056" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.42185593" visible="true" weight="0.35816327" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.86630034" weight="0.2622449" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5934066" weight="0.5" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.74542123" weight="0.34387755" />
       <window_info anchor="bottom" id="Inspection Results" order="9" sideWeight="0.498779" weight="0.32857144" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.32051283" side_tool="true" weight="0.15" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5781441" side_tool="true" weight="0.24285714" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49574015" weight="0.29874215" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.36141637" weight="0.24842767" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.35958487" weight="0.24693878" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32956383" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32956383" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32956383" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19027181" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2765568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -599,27 +1036,28 @@
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.32914045" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4981685" weight="0.25510204" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.67948717" weight="0.38784066" />
-      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.87118435" visible="true" weight="0.31686747" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.42185593" visible="true" weight="0.24285714" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.86630034" weight="0.2622449" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5934066" weight="0.4716981" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.74542123" weight="0.34387755" />
       <window_info anchor="bottom" id="Inspection Results" order="9" sideWeight="0.498779" weight="0.32857144" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.32051283" side_tool="true" weight="0.15" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5781441" side_tool="true" visible="true" weight="0.24285714" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49574015" weight="0.29897958" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.36141637" weight="0.24884793" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49574015" weight="0.29874215" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.35958487" weight="0.24693878" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32956383" />
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32956383" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32956383" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,7 +1097,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java</url>
-          <line>215</line>
+          <line>218</line>
           <properties />
           <option name="timeStamp" value="108" />
         </line-breakpoint>
@@ -671,13 +1109,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java</url>
-          <line>213</line>
+          <line>216</line>
           <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java</url>
-          <line>252</line>
+          <line>256</line>
           <properties />
           <option name="timeStamp" value="115" />
         </line-breakpoint>
@@ -718,82 +1156,106 @@
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>70</line>
+          <url>file://$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/Main.java</url>
+          <line>26</line>
           <properties />
-          <option name="timeStamp" value="147" />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/Main.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java</url>
+          <line>257</line>
+          <properties />
+          <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>79</line>
+          <line>37</line>
           <properties />
-          <option name="timeStamp" value="149" />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java</url>
+          <line>209</line>
+          <properties />
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java</url>
+          <line>200</line>
+          <properties />
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java</url>
+          <line>199</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java</url>
+          <line>205</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java</url>
+          <line>207</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java</url>
+          <line>233</line>
+          <properties />
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java</url>
+          <line>231</line>
+          <properties />
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/Main.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/Main.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="205" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/api/visualization/VisualizationAgent.java</url>
-          <line>158</line>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="152" />
+          <option name="timeStamp" value="213" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>69</line>
+          <url>file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/api/visualization/VisualizationAgent.java</url>
+          <line>65</line>
           <properties />
-          <option name="timeStamp" value="156" />
+          <option name="timeStamp" value="214" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="166" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="172" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="173" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>32</line>
-          <properties />
-          <option name="timeStamp" value="174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="179" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="181" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="182" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="183" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="184" />
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/components-spmanalysis/src/main/resources/spmanalysis-transform-meta.js</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="215" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -804,7 +1266,6 @@
       <configuration name="Application">
         <watch expression="SISOBProperties" language="JAVA" />
         <watch expression="getDataBackend()" />
-        <watch expression="databackend" language="JAVA" />
         <watch expression="this" />
         <watch expression="data.members.entrySet().toArray()[2]" />
       </configuration>
@@ -862,338 +1323,34 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/io/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10380">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-tableviewer/src/main/java/eu/sisob/components/tableviewer/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6480">
-          <caret line="467" column="28" selection-start-line="467" selection-start-column="28" selection-end-line="467" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-tableviewer/src/main/java/eu/sisob/components/tableviewer/TableViewerAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6611#6619#0" expanded="true" />
-            <element signature="e#8181#8189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/com/sun/org/apache/xerces/internal/jaxp/SAXParserImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4200">
-          <caret line="333" column="9" lean-forward="true" selection-start-line="333" selection-start-column="9" selection-end-line="333" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar!/org/postgresql/jdbc3g/AbstractJdbc3gConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41-sources.jar!/org/postgresql/jdbc3/AbstractJdbc3Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41-sources.jar!/org/postgresql/jdbc2/AbstractJdbc2Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/FDGManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-graphgenerator/src/main/java/org/components/graphgenerator/GraphGeneratorManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41-sources.jar!/org/postgresql/core/ConnectionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41-sources.jar!/org/postgresql/core/v3/ConnectionFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="238" selection-start-line="238" selection-end-line="238" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/SISOBProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1050" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/null/UI/public_html/results/result/7a3e3e34-d4cd-462b-ae19-7f39d29ed82e/meta/meta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-api-master/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-executor/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-api-master/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1410">
-          <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sisob.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-api-master/api-data/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-executor/execconfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/components-metaanalysis.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="377" selection-start-line="377" selection-end-line="377" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#9317#9318#0" expanded="true" />
-            <element signature="e#9357#9358#0" expanded="true" />
-            <element signature="e#16669#16670#0" expanded="true" />
-            <element signature="e#16717#16718#0" expanded="true" />
-            <element signature="e#16767#16768#0" expanded="true" />
-            <element signature="e#16809#16810#0" expanded="true" />
-            <element signature="e#17005#17006#0" expanded="true" />
-            <element signature="e#17040#17041#0" expanded="true" />
-            <element signature="e#17083#17084#0" expanded="true" />
-            <element signature="e#17119#17120#0" expanded="true" />
-            <element signature="e#17156#17157#0" expanded="true" />
-            <element signature="e#17189#17190#0" expanded="true" />
-            <element signature="e#17241#17242#0" expanded="true" />
-            <element signature="e#17285#17286#0" expanded="true" />
-            <element signature="e#17328#17329#0" expanded="true" />
-            <element signature="e#17362#17363#0" expanded="true" />
-            <element signature="e#17413#17414#0" expanded="true" />
-            <element signature="e#17479#17480#0" expanded="true" />
-            <element signature="e#17552#17553#0" expanded="true" />
-            <element signature="e#17605#17606#0" expanded="true" />
-            <element signature="e#17647#17648#0" expanded="true" />
-            <element signature="e#17685#17686#0" expanded="true" />
-            <element signature="e#17747#17748#0" expanded="true" />
-            <element signature="e#17801#17802#0" expanded="true" />
-            <element signature="e#17835#17836#0" expanded="true" />
-            <element signature="e#17865#17866#0" expanded="true" />
-            <element signature="e#17911#17912#0" expanded="true" />
-            <element signature="e#17949#17950#0" expanded="true" />
-            <element signature="e#17995#17996#0" expanded="true" />
-            <element signature="e#18030#18031#0" expanded="true" />
-            <element signature="e#18090#18091#0" expanded="true" />
-            <element signature="e#18135#18136#0" expanded="true" />
-            <element signature="e#18167#18168#0" expanded="true" />
-            <element signature="e#18195#18196#0" expanded="true" />
-            <element signature="e#18237#18238#0" expanded="true" />
-            <element signature="e#18271#18272#0" expanded="true" />
-            <element signature="e#18318#18319#0" expanded="true" />
-            <element signature="e#18357#18358#0" expanded="true" />
-            <element signature="e#18419#18420#0" expanded="true" />
-            <element signature="e#18469#18470#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa701918-efc0-4e0a-890d-0b9238fa0a23/meta/meta.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar!/com/google/gson/JsonObject.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/AgentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/connection/postgresql/PostgresqlMessageConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2555">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-rwrapper/src/main/java/eu/sisob/components/rwrapper/RWrapperAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3375">
-          <caret line="267" selection-start-line="267" selection-end-line="267" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-api-master/api-data/src/main/java/eu/sisob/api/parser/sisob/SGFParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-api-master/api-data/src/main/java/eu/sisob/components/framework/json/util/JSONFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="211" column="22" selection-start-line="211" selection-start-column="22" selection-end-line="211" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="208" selection-start-line="208" selection-end-line="208" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/connection/postgresql/Notifier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/api/visualization/VisualizationAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-supergraph/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-2modeto1mode/src/main/java/eu/sisob/components/tmtom/TwoModeToOneModeAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components-swimlane/src/main/java/eu/sisob/components/sl/SLAgent.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/components-swimlane/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workbench-components.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/descriptor.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar!/sun/security/pkcs11/Secmod.class" />
+    <entry file="file://$PROJECT_DIR$/components-fdg/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdparty/showresult99dbd464-4046-4c4a-9827-1106cb4dd43b/4/datatable1538492042873_sdt_table.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdparty/showresult99dbd464-4046-4c4a-9827-1106cb4dd43b/4/tv_style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-resdownloader/src/main/java/eu/sisob/resdownloader/ResultDownloaderManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1203,36 +1360,288 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workbench-components.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/descriptor.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/execconfig.xml">
+    <entry file="file://$PROJECT_DIR$/components-resdownloader/src/main/java/eu/sisob/resdownloader/ResultDownloaderAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="26" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar!/sun/security/pkcs11/Secmod.class">
+    <entry file="file://$PROJECT_DIR$/components-resdownloader/src/main/java/eu/sisob/resdownloader/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state relative-caret-position="-160">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdparty/showresult99dbd464-4046-4c4a-9827-1106cb4dd43b/4/tv_script.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-fdg/target/classes/eu/sisob/components/fdg/FDGAgent.class" />
+    <entry file="file://$PROJECT_DIR$/components-fdg/target/classes/eu/sisob/components/fdg/FDGManager.class" />
+    <entry file="file://$PROJECT_DIR$/components-fdg/target/classes/eu/sisob/components/fdg/Main.class" />
+    <entry file="file://$PROJECT_DIR$/components-mongoexporter/src/main/java/info/collide/workbench/components/mongoexporter/DbConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-metaanalysis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-mongoimporter/src/main/java/info/collide/workbench/components/mongoimporter/MImporterProps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-mongoimporter/src/main/java/info/collide/workbench/components/mongoimporter/RunMImporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.json" />
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/AgentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="149" column="23" lean-forward="true" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-fdg/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-mongoimporter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" selection-start-line="43" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-mongoimporter/src/main/java/info/collide/workbench/components/mongoimporter/DbConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/AgentProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/api/visualization/VisualizationTechnique.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-tableviewer/src/main/java/eu/sisob/components/tableviewer/TableViewerAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="333" column="12" selection-start-line="333" selection-start-column="12" selection-end-line="333" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
           <folding>
-            <element signature="e#0#7976#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/FDGAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#18346#18347#0" expanded="true" />
+            <element signature="e#18384#18385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/ref/Finalizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4418">
+          <caret line="381" column="29" selection-start-line="381" selection-start-column="29" selection-end-line="381" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/SISOBProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-729">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="e#10865#10866#0" expanded="true" />
+            <element signature="e#10942#10943#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/api/visualization/VisualizationAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-104">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-activitylogsviewer/src/main/resources/info/collide/workbench/components/activitylogsviewer/technique/alv_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-activitylogsviewer/src/main/resources/info/collide/workbench/components/activitylogsviewer/technique/alv_script.js.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1878" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
+        <state relative-caret-position="465">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-fdg/src/main/java/eu/sisob/components/fdg/FDGManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#904#905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-spmanalysis/src/main/resources/spmanalysis-update-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-activitylogsviewer/src/main/java/info/collide/workbench/components/activitylogsviewer/ActivityLogsViewerAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-activitylogsviewer/src/main/resources/info/collide/workbench/components/activitylogsviewer/technique/alv_script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-executor/src/main/java/eu/sisob/components/executor/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-spmanalysis/src/main/resources/spmanalysis-form.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-graphgenerator/src/main/java/org/components/graphgenerator/GraphGeneratorManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-spmanalysis/src/main/resources/spmanalysis-transform-meta.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>

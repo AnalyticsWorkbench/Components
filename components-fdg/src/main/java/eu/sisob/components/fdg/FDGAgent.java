@@ -4,8 +4,8 @@ import com.google.gson.JsonObject;
 
 import eu.sisob.api.visualization.VisualizationAgent;
 
-public class FDGAgent extends VisualizationAgent {	
-	
+public class FDGAgent extends VisualizationAgent {
+
 	public FDGAgent(JsonObject coordinationMessage) {
 		super(coordinationMessage);
 	}

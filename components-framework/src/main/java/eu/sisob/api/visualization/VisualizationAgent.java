@@ -1,24 +1,7 @@
 package eu.sisob.api.visualization;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.List;
-import java.util.Vector;
-import java.util.zip.ZipEntry;
-import java.util.zip.ZipInputStream;
-
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.JSONValue;
-
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-
 import eu.sisob.api.parser.sisob.SDTParser;
 import eu.sisob.api.parser.sisob.SGFParser;
 import eu.sisob.api.visualization.format.metadata.fields.DataLinks;
@@ -26,15 +9,28 @@ import eu.sisob.components.framework.Agent;
 import eu.sisob.components.framework.SISOBProperties;
 import eu.sisob.components.framework.json.util.IllegalContentTypeException;
 import eu.sisob.components.framework.json.util.JSONFile;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.JSONValue;
+
+import java.io.*;
+import java.util.List;
+import java.util.Vector;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 public abstract class VisualizationAgent extends Agent {
 
     private Vector<JSONFile> jsonNetworks;
     public final int SISOB_GRAPH_VISUALIZATION_FORMAT = 0;
     public final int SISOB_GRAPH_DATA_TABLE_FORMAT = 1;
-    
+
     public static final int BUFFER = 2048;
-    
+    private File ComponentAddress = new File(SISOBProperties.getDefultUserDictonaryPath());
+    private String ProjectFolder = ComponentAddress.getParent();
+
+    private String path = ProjectFolder + "/UI/public_html/results";
+
     public VisualizationAgent(JsonObject commandMsg) {
         super(commandMsg);
     }
@@ -58,14 +54,16 @@ public abstract class VisualizationAgent extends Agent {
     }
 
     // please override if you need a different behavior!
-    public void createVisualization() throws Exception {			
-		saveVisualizationTechnique(getJsonNetworks());		
-	}
-    
+    public void createVisualization() throws Exception {
+        saveVisualizationTechnique(getJsonNetworks());
+    }
+
     public abstract String getZipPath();
-    
+
     public String getOutputPath() {
-    	return SISOBProperties.getResultLocation() + workflowID + File.separator + getAgentInstanceID() + File.separator;
+        //return SISOBProperties.getResultLocation() + workflowID + File.separator + getAgentInstanceID() + File.separator; // orgin FBA3
+        //return path;
+        return path + File.separator + workflowID + File.separator + getAgentInstanceID() + File.separator; // orgin FBA3
     }
 
     public void saveVisualizationTechnique(Vector<JSONFile> networkData) throws Exception {
@@ -121,10 +119,10 @@ public abstract class VisualizationAgent extends Agent {
             parser.setNetwork(network);
             parser.parse();
             parser.getParsedMetadata().setDatalinks(updatedLinks);
-            
+
             JSONFile newNetwork = new JSONFile(network.getFileName(), network.getFileType(), parser.encode(), JSONFile.TEXT);
             updatedNets.add(newNetwork);
-            
+
 //            network.setData(parser.encode());
 //            updatedNets.add(network);
         }
@@ -141,10 +139,10 @@ public abstract class VisualizationAgent extends Agent {
             parser.setTabledata(table);
             parser.parse();
             parser.getParsedMetadata().setDatalinks(updatedLinks);
-            
+
             JSONFile newTable = new JSONFile(table.getFileName(), table.getFileType(), parser.encode(), JSONFile.TEXT);
             updatedTabs.add(newTable);
-            
+
 //            table.setData(parser.encode());
 //            updatedTabs.add(table);
         }
@@ -193,35 +191,35 @@ public abstract class VisualizationAgent extends Agent {
     public void setJsonNetworks(Vector<JSONFile> jsonNetworks) {
         this.jsonNetworks = jsonNetworks;
     }
-    
+
     void copyTechnique(boolean useZip) throws IOException {
-    	String outputDestination = getOutputPath();
-    	if (useZip) {
-			ClassLoader cl = getClass().getClassLoader();
-			ZipInputStream zis = new ZipInputStream(new BufferedInputStream(cl.getResourceAsStream(getZipPath())));
-			
-			ZipEntry entry;
-			
-			while ((entry = zis.getNextEntry()) != null) {
-				int count;
-				byte[] data = new byte[BUFFER];
-				String outputFileName = outputDestination + entry.getName();
-				if (entry.isDirectory()) {
-					new File(outputFileName).mkdirs();
-				} else {
-					BufferedOutputStream dest = new BufferedOutputStream(new FileOutputStream(outputFileName), BUFFER);
-					
-					while ((count = zis.read(data, 0, BUFFER)) != -1) {
-						dest.write(data, 0, count);
-					}
-					
-					dest.flush();
-					dest.close();							
-				}
-			}
-			
-			zis.close();
-    	}
+        String outputDestination = getOutputPath();
+        if (useZip) {
+            ClassLoader cl = getClass().getClassLoader();
+            ZipInputStream zis = new ZipInputStream(new BufferedInputStream(cl.getResourceAsStream(getZipPath())));
+
+            ZipEntry entry;
+
+            while ((entry = zis.getNextEntry()) != null) {
+                int count;
+                byte[] data = new byte[BUFFER];
+                String outputFileName = outputDestination + entry.getName();
+                if (entry.isDirectory()) {
+                    new File(outputFileName).mkdirs();
+                } else {
+                    BufferedOutputStream dest = new BufferedOutputStream(new FileOutputStream(outputFileName), BUFFER);
+
+                    while ((count = zis.read(data, 0, BUFFER)) != -1) {
+                        dest.write(data, 0, count);
+                    }
+
+                    dest.flush();
+                    dest.close();
+                }
+            }
+
+            zis.close();
+        }
     }
 
 }

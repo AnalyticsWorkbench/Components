@@ -121,7 +121,8 @@ public class Executor {
             printMenu(configuration);
             while (runtime) {
                 System.out.print("Please enter your choice: ");
-                String input = new BufferedReader(new InputStreamReader(System.in)).readLine().toString();
+                //String input = new BufferedReader(new InputStreamReader(System.in)).readLine().toString(); // ORGINAL MASTER
+                String input = new BufferedReader(new InputStreamReader(System.in)).readLine().toString(); //FBA3 B
 
                 if (input.equals("m") || input.equals("?") || input.equals("h") || input.equals("help")) {
                     System.out.println("Printing choices again.");

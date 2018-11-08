@@ -36,10 +36,10 @@ public class CentralityAgent extends RWrapperAgent {
         String scriptName = "undirectedgraph_degree_centrality.R";
         System.out.printf(scriptName);
         if (scriptSelection.equals("Degree")) {
-            scriptName = "undirectedgraph_degree_centrality.R";
+            scriptName = "undirectedgraph_degree_centrality.R"; //1
         } else if (scriptSelection.equals("Betweenness")) {
             scriptName = "undirectedgraph_betweenness_centrality.R";
-        } else if (scriptSelection.equals("Closeness")) {
+        } else if (scriptSelection.equals("Closeness")) {  //2 fklsj dfj    'oksdhfy ewhroq nk;mansdf
             scriptName = "undirectedgraph_closeness_centrality.R";
         } else if (scriptSelection.equals("Indegree")) {
             scriptName = "in_degree_centrality.R";

@@ -52,7 +52,7 @@ public class MetaAnalysisAgent extends Agent {
 	private File ComponentAddress = new File(SISOBProperties.getDefultUserDictonaryPath());
 	private String ProjectFolder = ComponentAddress.getParent();
 
-    private String output_path = ProjectFolder + "/UI/public_html/results/result";
+    private String output_path = ProjectFolder + "/UI/public_html/results/result";  //In this pass meta.js for modules will be generated
 	/**
 	 * Constructor for the agent. It first calls the constructor of the superclass, then
 	 * the data structure is set, which is used to determine if a received data message is
