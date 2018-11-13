@@ -82,10 +82,8 @@ public class CentralityManager extends AgentManager {
 				"Incoming Strength (weighted Indegree)", "Outgoing Strength (weighted Outdegree)" };
 
 		String repolocation = SISOBProperties.getProperty("centrality.scriptrepository");
-
 		if (repolocation != null) {
 			File scriptRepo = new File(repolocation);
-
 			File[] scriptFiles;
 			int oldLength = scripts.length;
 			if (scriptRepo.exists()) {
@@ -99,7 +97,6 @@ public class CentralityManager extends AgentManager {
 				}
 			}
 		}
-
 		return scripts;
 	}
 }

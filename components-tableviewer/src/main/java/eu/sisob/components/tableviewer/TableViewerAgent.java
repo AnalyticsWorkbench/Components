@@ -39,7 +39,7 @@ public class TableViewerAgent extends Agent {
 	/**
 	 **if you do not put the Component and UI folder in common path you have to set the address manually. for example: "/Users/farbodaprin/Desktop/WorkbenchAnalysis/results"
 	 * * results/result should be in public html folder in the frontend UI path
-	 * for example: public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results/result";
+	 * for example: public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results";
 	 */
 	private File ComponentAddress = new File(SISOBProperties.getDefultUserDictonaryPath());
 	private String ProjectFolder = ComponentAddress.getParent();
@@ -105,7 +105,7 @@ public class TableViewerAgent extends Agent {
 		}
 	}
 
-	private void removeUnusedIndexFile(String outDirPath) throws IOException {
+	private void removeUnusedIndexFile(String outDirPath) {
 		File unused = new File(outDirPath + TV_HTML_NAME);
 		if (unused.exists()) {
 			unused.delete();
@@ -128,9 +128,8 @@ public class TableViewerAgent extends Agent {
 	 * @param workflowId
 	 * @param data
 	 * @param filename
-	 * @throws Exception
-	 */
-	private void createDynamicFiles(String workflowId, String data, String filename) throws Exception {
+     */
+	private void createDynamicFiles(String workflowId, String data, String filename) {
 		String dirName = output_path + File.separator+ workflowId + File.separator + agentInstanceID + File.separator;
 		try {
 			File dir = new File(dirName);

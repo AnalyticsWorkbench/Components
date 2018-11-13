@@ -7,7 +7,7 @@ import org.json.simple.JSONObject;
 public class SelectField extends Field {
 
     @SuppressWarnings("unchecked")
-    public SelectField(String label,String rightLabel,  String name, boolean required, String... choices) {
+    public SelectField(String label,String rightLabel, String name, boolean required, String... choices) {
         super(label, rightLabel,name, required, "select" );
         JSONArray selection = new JSONArray();
         for (String choice : choices) {
