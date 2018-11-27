@@ -19,7 +19,7 @@ public class SelectField extends Field {
     private SelectField(){
         super();
     }
-    
+
     public SelectField(String label, String name, boolean required, String... choices) {
         this(label, null, name, required, choices);
     }

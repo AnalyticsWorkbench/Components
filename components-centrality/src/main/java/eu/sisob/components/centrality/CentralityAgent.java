@@ -29,9 +29,9 @@ public class CentralityAgent extends RWrapperAgent {
         }
         if (jsonObject.has("value3")) {
             extendedMetadata = jsonObject.get("value3").getAsBoolean();
-            logger.log(Level.WARNING, "could not find the selected extendedMetadata ++++++ the user deosn't check for checkbox");
         } else {
             extendedMetadata = true;
+            logger.log(Level.WARNING, "could not find the selected extendedMetadata ++++++ the user deosn't check for checkbox");
         }
         String scriptName = "undirectedgraph_degree_centrality.R";
         System.out.printf(scriptName);

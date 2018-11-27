@@ -5,18 +5,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import eu.sisob.components.framework.componentdescription.*;
 import org.json.simple.JSONArray;
 
 import com.google.gson.JsonObject;
 
 import eu.sisob.components.framework.AgentManager;
 import eu.sisob.components.framework.SISOBProperties;
-import eu.sisob.components.framework.componentdescription.BooleanField;
-import eu.sisob.components.framework.componentdescription.Container;
-import eu.sisob.components.framework.componentdescription.Filter;
-import eu.sisob.components.framework.componentdescription.Input;
-import eu.sisob.components.framework.componentdescription.Output;
-import eu.sisob.components.framework.componentdescription.SelectField;
 import eu.sisob.components.framework.util.ConnectionType;
 
 public class CentralityManager extends AgentManager {
@@ -54,6 +49,7 @@ public class CentralityManager extends AgentManager {
 
 		fields.add(new SelectField("centrality measures", "value1", true, this.getAvailableScripts()));
 		fields.add(new BooleanField("keep ids", "value2", true, false));
+		//fields.add(new SelectField("centrality measures","value1" , true, this.getAvailableScripts())); // added by FB4
 		fields.add(new BooleanField("extended metadata", "value3", true, false));
 
 		Container container = new Container(shortDescription, longDescription, inputs, outputs, fields);

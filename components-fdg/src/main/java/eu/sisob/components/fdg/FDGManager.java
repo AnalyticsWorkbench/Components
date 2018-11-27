@@ -13,7 +13,7 @@ import eu.sisob.components.framework.componentdescription.Filter;
 import eu.sisob.components.framework.componentdescription.Input;
 import eu.sisob.components.framework.util.ConnectionType;
 
-public class FDGManager extends AgentManager {
+public class  FDGManager extends AgentManager {
 
 	public static final String COMPONENT_NAME = "Dwyer Force Directed Graph";
 

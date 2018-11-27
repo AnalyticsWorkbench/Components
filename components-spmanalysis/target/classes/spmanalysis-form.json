@@ -46,7 +46,7 @@
 		"required": true,
 		"options": [
 			"published",
-			"actor.id",
+			"actor.id",c
 			"actor.objectType",
 			"verb",
 			"object.id",
