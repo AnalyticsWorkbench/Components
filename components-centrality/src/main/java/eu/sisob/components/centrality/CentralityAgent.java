@@ -17,7 +17,6 @@ public class CentralityAgent extends RWrapperAgent {
 
     public CentralityAgent(JsonObject commandMsg) {
         super(commandMsg);
-
         String scriptSelectionObject = commandMsg.get("parameters").getAsString();
         JsonObject jsonObject = new Gson().fromJson(scriptSelectionObject, JsonObject.class);
         String scriptSelection = jsonObject.get("value1").getAsString();

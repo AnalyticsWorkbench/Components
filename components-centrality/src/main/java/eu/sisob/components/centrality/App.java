@@ -11,7 +11,6 @@ import eu.sisob.components.framework.util.ConnectionType;
 
 /**
  * Hello world!
- *
  */
 public class App 
 {

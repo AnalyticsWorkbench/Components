@@ -44,7 +44,9 @@ import eu.sisob.components.framework.json.util.JSONFile;
  */
 public class MetaAnalysisAgent extends Agent {
 
-	/**
+	/** FBA# path configuration ========================IMPORTANT==============================
+	 *
+	 *
 	 **if you do not put the Component and UI folder in common path you have to set the address manually. for example: "/Users/farbodaprin/Desktop/WorkbenchAnalysis/results"
 	 * * results/result should be in public html folder in the frontend UI path
 	 * for example: public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results/result";
@@ -53,6 +55,8 @@ public class MetaAnalysisAgent extends Agent {
 	private String ProjectFolder = ComponentAddress.getParent();
 
     private String output_path = ProjectFolder + "/UI/public_html/results/";  //In this pass meta.js for modules will be generated
+	private JSONObject object1;
+
 	/**
 	 * Constructor for the agent. It first calls the constructor of the superclass, then
 	 * the data structure is set, which is used to determine if a received data message is
@@ -120,6 +124,10 @@ public class MetaAnalysisAgent extends Agent {
 			case "json": {
 				return this.analyseJSON(file);
 			}
+			case "sgf": {
+				return this.analyseSGF(file);
+			}
+			//Structured Graph Format (SGF)
 			default: {
 				JsonObject meta = new JsonObject();
 				meta.addProperty("fileType", fileType);
@@ -129,6 +137,60 @@ public class MetaAnalysisAgent extends Agent {
 		}
 	}
 
+	/**
+	 * * FBA 4B if the format of the data is SGF Sequence is a list of objects (Nodes) for representing the graph structure
+	 */
+
+	private JsonObject analyseSGF(JSONFile file) {
+		JsonObject meta = new JsonObject();
+//		meta.addProperty("dataType", "Unknown"); // FBA this is orginal
+		meta.addProperty("dataType", "sgf");
+		JsonObject data;
+		System.out.println("receives  sgf format from the input");
+		//data = (JsonObject) new JsonParser().parse(file.toString()); // FBA APRIN was catch here toJSONstring
+		JSONObject x = file.toJSONObject();
+		String dataString = (String) x.get("filedata");
+		data = (JsonObject) new JsonParser().parse(dataString);
+//		System.out.println("==================================================");
+		System.out.println(data);
+		System.out.println(meta);
+//		System.out.println("==================================================");
+		try {
+			JsonObject metadata = (JsonObject) data.get("metadata");
+			if (metadata != null) {
+				JsonArray sample = (JsonArray) metadata.get("edgeproperties");
+				if (sample != null) {
+
+					// Indicator for graphdata SGF FBA 4B
+					/**
+					 ** See: https://searchmicroservices.techtarget.com/definition/Structured-Graph-Format-SGF
+					 * SGF format is jason object but activity string is the array of json
+					 */
+					if (sample.get(0) != null) {
+						System.out.println(metadata);
+
+						JsonPrimitive dataTypeProps = metadata.getAsJsonPrimitive("directed");
+						//JsonPrimitive dataTypeProps = metadata.getAsJsonObject("directed");
+						System.out.println("=====================dataTypeprops=========================");
+						System.out.println(dataTypeProps);
+						//boolean boolise = Boolean.valueOf(String.valueOf(dataTypeProps));
+						if (dataTypeProps.toString().equals(" \"\"false\"\" ")) {
+							meta.addProperty("dataType", "sgf : this is undirected graph");
+						} else {
+							meta.addProperty("dataType", "sgf : this is Directed graph");
+						}
+						meta.add("Meta data for SGF", metadata);
+						System.out.println(meta);
+					}
+				}
+			}
+		} catch (NullPointerException e) {
+			e.printStackTrace();
+		}
+		return meta;
+	}
+
+
 	private JsonObject analyseJSON(JSONFile file) {
 		JsonObject meta = new JsonObject();
 		meta.addProperty("fileType", "json");
@@ -137,8 +199,8 @@ public class MetaAnalysisAgent extends Agent {
 
 		JsonObject data;
 		//data = (JsonObject) new JsonParser().parse(file.toString()); // FBA APRIN was catch here toJSONstring
-		JSONObject x = file.toJSONObject();
-		String dataString = (String) x.get("filedata");
+		JSONObject object1 = file.toJSONObject();
+		String dataString = (String) object1.get("filedata");
 		data = (JsonObject) new JsonParser().parse(dataString);
 
 //		System.out.println("=========================================================");
@@ -164,6 +226,10 @@ public class MetaAnalysisAgent extends Agent {
 
 		return meta;
 	}
+
+	/**
+	 * Here we will add the analys
+	 */
 
 	private JsonObject analyseJSONActivityStream(JsonObject meta, JsonArray items) {
 		HashMap<String, ArrayList<JsonElement>> valuesByField = new HashMap<String, ArrayList<JsonElement>>();

@@ -124,11 +124,9 @@ public class GraphGeneratorAgent extends RWrapperAgent {
 		logger.fine(agentName + ": uploading results");
 
 		if (this.resultFiles.size() == 0) {
-
 			// this.deleteWorkspace(new File(this.workspaceUrl));
 			this.indicateError("No result data available.");
 		} else {
-
 			this.uploadData(this.resultFiles, this.rawOutlet);
 
 //			if ((this.decoratedFiles == null) || (this.decoratedFiles.size() == 0)) {
@@ -141,7 +139,6 @@ public class GraphGeneratorAgent extends RWrapperAgent {
 //			}
 			this.deleteWorkspace(new File(this.workspaceUrl));
 			logger.fine(agentName + ": kill agent");
-
 			this.indicateDone();
 		}
 
