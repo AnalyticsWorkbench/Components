@@ -151,10 +151,9 @@ public class MetaAnalysisAgent extends Agent {
 		JSONObject x = file.toJSONObject();
 		String dataString = (String) x.get("filedata");
 		data = (JsonObject) new JsonParser().parse(dataString);
-//		System.out.println("==================================================");
-		System.out.println(data);
+		System.out.println("==========================meta========================");
 		System.out.println(meta);
-//		System.out.println("==================================================");
+ 	    System.out.println("==========================meta========================");
 		try {
 			JsonObject metadata = (JsonObject) data.get("metadata");
 			if (metadata != null) {
@@ -174,10 +173,11 @@ public class MetaAnalysisAgent extends Agent {
 						System.out.println("=====================dataTypeprops=========================");
 						System.out.println(dataTypeProps);
 						//boolean boolise = Boolean.valueOf(String.valueOf(dataTypeProps));
-						if (dataTypeProps.toString().equals(" \"\"false\"\" ")) {
-							meta.addProperty("dataType", "sgf : this is undirected graph");
+						if (!dataTypeProps.getAsBoolean()) {
+							meta.addProperty("dataType", "sgf : this is Undirected graph");
 						} else {
 							meta.addProperty("dataType", "sgf : this is Directed graph");
+							System.out.println("=====================THAT WAS TRUE=========================");
 						}
 						meta.add("Meta data for SGF", metadata);
 						System.out.println(meta);
@@ -203,11 +203,6 @@ public class MetaAnalysisAgent extends Agent {
 		String dataString = (String) object1.get("filedata");
 		data = (JsonObject) new JsonParser().parse(dataString);
 
-//		System.out.println("=========================================================");
-//		System.out.println(data);
-//		System.out.println(meta);
-//		System.out.println("=========================================================");
-
 		try {
 			JsonArray items = (JsonArray) data.get("items");
 			if (items != null) {
@@ -228,7 +223,7 @@ public class MetaAnalysisAgent extends Agent {
 	}
 
 	/**
-	 * Here we will add the analys
+	 * Here we will add the Analysis
 	 */
 
 	private JsonObject analyseJSONActivityStream(JsonObject meta, JsonArray items) {
