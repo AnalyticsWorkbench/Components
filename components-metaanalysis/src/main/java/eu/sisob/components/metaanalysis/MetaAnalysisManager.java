@@ -66,7 +66,6 @@ public class MetaAnalysisManager extends AgentManager {
 	protected List<Filter> getFilterDescriptions() {
 
 		ArrayList<Filter> filters = new ArrayList<>();
-
 		/*
 		 *  Description to be displayed as short description in the ui
 		 */

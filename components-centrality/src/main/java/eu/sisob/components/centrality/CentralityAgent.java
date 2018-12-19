@@ -13,8 +13,6 @@ public class CentralityAgent extends RWrapperAgent {
     String scriptPrefix = "eu/sisob/components/centrality/";
     private boolean keepIds;
     private boolean extendedMetadata;
-
-
     public CentralityAgent(JsonObject commandMsg) {
         super(commandMsg);
         String scriptSelectionObject = commandMsg.get("parameters").getAsString();
@@ -61,7 +59,6 @@ public class CentralityAgent extends RWrapperAgent {
             scriptName = "undirectedgraph_degree_centrality.R";
             logger.log(Level.WARNING, "could not find the selected script ++++++ the user choiced no centrality filetr! +++ Default is Degree-centrality");
         }
-
         if (scriptName != null) { // FBA never happen always true / we can handle null in front too ReDux
             this.scriptStream = ClassLoaderUtility.getClassLoader().getResourceAsStream(scriptPrefix + scriptName);
         } else {

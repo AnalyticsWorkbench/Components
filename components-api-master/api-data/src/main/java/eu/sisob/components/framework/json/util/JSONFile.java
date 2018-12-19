@@ -1,5 +1,4 @@
 package eu.sisob.components.framework.json.util;
-
 import java.io.BufferedOutputStream;
 import java.io.BufferedWriter;
 import java.io.File;

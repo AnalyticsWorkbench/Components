@@ -1,77 +1,50 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package eu.sisob.components.centrality;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
 import eu.sisob.components.framework.componentdescription.*;
 import org.json.simple.JSONArray;
-
 import com.google.gson.JsonObject;
-
 import eu.sisob.components.framework.AgentManager;
 import eu.sisob.components.framework.SISOBProperties;
 import eu.sisob.components.framework.util.ConnectionType;
+import org.json.simple.JSONObject;
+import eu.sisob.components.framework.componentdescription.Container;
+import eu.sisob.components.framework.componentdescription.Filter;
+import eu.sisob.components.framework.componentdescription.Input;
+import eu.sisob.components.framework.componentdescription.Output;
+import eu.sisob.components.framework.componentdescription.SelectField;
 
-public class CentralityManager extends AgentManager {
+/**
+ *
+ * @author walter
+ *
+ */
+	public class CentralityManager extends AgentManager {
 
-	public CentralityManager(JsonObject commandMsg, String mngId, ConnectionType connectionType) {
-		super(commandMsg, mngId, connectionType);
-	}
-
-	@Override
-	protected void createAgent(JsonObject commandMsg) {
-		System.out.println("create centrality agent");
-		boolean canStart = true;
-		CentralityAgent agent = new CentralityAgent(commandMsg);
-		this.getAgents().add(agent);
-		agent.setAgentListener(this);
-		agent.initializeAgent();
-		if (canStart) {
-			Thread runtime = new Thread(agent);
-			runtime.start();
+		public CentralityManager(JsonObject commandMsg, String mngId, ConnectionType connectionType) {
+			super(commandMsg, mngId, connectionType);
 		}
-	}
-
-	@SuppressWarnings("unchecked")
-	@Override
-	protected List<Filter> getFilterDescriptions() {
-
-		String shortDescription = "This filter calculates centrality.";
-		String longDescription = " The output will be a graph enriched by centrality measures.\n If 'extended metadata' is checked, string-metadata-attributes are kept during format conversions.";
-		JSONArray inputs = new JSONArray();
-		inputs.add(new Input("in", "graph"));
-		JSONArray outputs = new JSONArray();
-		outputs.add(new Output("out_1", "decorated output"));
-
-		JSONArray fields = new JSONArray();
-
-		fields.add(new SelectField("centrality measures", "value1", true, this.getAvailableScripts()));
-		fields.add(new BooleanField("keep ids", "value2", true, false));
-		//fields.add(new SelectField("centrality measures","value1" , true, this.getAvailableScripts())); // added by FB4
-		fields.add(new BooleanField("extended metadata", "value3", true, false));
-
-		Container container = new Container(shortDescription, longDescription, inputs, outputs, fields);
-
-		Filter filter = new Filter("Centrality", "Analysis", container);
-		List<Filter> filters = new ArrayList<Filter>(1);
-		filters.add(filter);
-		return filters;
-		// TODO Auto-generated method stub
-	}
-
+		@Override
+		protected void createAgent(JsonObject commandMsg) {
+			System.out.println("create centrality agent");
+			boolean canStart = true;
+			CentralityAgent agent = new CentralityAgent(commandMsg);
+			this.getAgents().add(agent);
+			agent.setAgentListener(this);
+			agent.initializeAgent();
+			if (canStart) {
+				Thread runtime = new Thread(agent);
+				runtime.start();
+			}
+		}
 	private String[] getAvailableScripts() {
-
-		// String[] scripts = {
-		// "directedgraph_betweenness_centrality",
-		// "undirectedgraph_betweenness_centrality",
-		// "directedgraph_closeness_centrality",
-		// "undirectedgraph_closeness_centrality",
-		// "in_degree_centrality",
-		// "out_degree_centrality",
-		// "undirectedgraph_degree_centrality"
-		// };
 
 		String[] scripts = { "Degree", "Betweenness", "Closeness", "Indegree", "Outdegree", "Directed Betweenness",
 				"Directed Closeness", "Eigenvector", "Strength (weighted Degree)",
@@ -94,5 +67,31 @@ public class CentralityManager extends AgentManager {
 			}
 		}
 		return scripts;
+	}
+	@Override
+	protected List<Filter> getFilterDescriptions() {
+
+		String shortDescription = "This filter calculates centrality.";
+        String longDescription = " The output will be a graph enriched by centrality measures.\n If 'extended metadata' is checked, string-metadata-attributes are kept during format conversions.";
+		JSONArray inputs = new JSONArray();
+		inputs.add(new Input("in_1", "activity stream"));
+		JSONArray outputs = new JSONArray();
+		System.out.println("Centrallity input :");
+		System.out.println(inputs);
+		outputs.add(new Output("out_1", "activity stream"));
+		JSONArray fields = new JSONArray();
+		System.out.println(fields);
+		fields.add(new SelectField("centrality measures", "value1", true, this.getAvailableScripts()));
+		fields.add(new BooleanField("keep ids", "value2", true, false));
+		fields.add(new BooleanField("extended metadata", "value3", true, false));
+
+		String jsTransformMeta = this.readFile("Centrality-transform-meta.js");
+		String jsUpdateForm = this.readFile("Centrality-Update-form.js");
+		JSONObject form = this.readFormJSON("Centrality-form.json");
+		Container container = new Container(shortDescription, longDescription, inputs, outputs, fields, null , null , jsTransformMeta); // FBA 3 MATADATA
+		Filter filter = new Filter("Centrality", "Analysis", container);
+		List<Filter> filters = new ArrayList<Filter>(1);
+		filters.add(filter);
+		return filters;
 	}
 }

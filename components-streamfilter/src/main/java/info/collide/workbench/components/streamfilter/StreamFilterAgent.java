@@ -13,14 +13,11 @@ import java.util.List;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import org.codehaus.jettison.json.JSONException;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-
 import eu.sisob.api.parser.LogParser;
 import eu.sisob.api.parser.activitystreams.ActivityStreamParser;
 import eu.sisob.api.visualization.format.eventlog.fields.EventLog;
@@ -44,7 +41,7 @@ public class StreamFilterAgent extends Agent {
         this.results = new ArrayList<JSONFile>();
 
         dataStructure.addProperty("runid", commandMsg.get("runid").getAsString());
-        dataStructure.addProperty("pipes", commandMsg.get("pipes").getAsString());
+        dataStructure.addProperty("pipes", commandMsg.get("pipes").getAsString() );
         setDataStructure(dataStructure);
     }
 
