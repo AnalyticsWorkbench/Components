@@ -13,11 +13,8 @@ public class CentralityAgent extends RWrapperAgent {
     String scriptPrefix = "eu/sisob/components/centrality/";
     private boolean keepIds;
     private boolean extendedMetadata;
-
-
     public CentralityAgent(JsonObject commandMsg) {
         super(commandMsg);
-
         String scriptSelectionObject = commandMsg.get("parameters").getAsString();
         JsonObject jsonObject = new Gson().fromJson(scriptSelectionObject, JsonObject.class);
         String scriptSelection = jsonObject.get("value1").getAsString();
@@ -29,17 +26,17 @@ public class CentralityAgent extends RWrapperAgent {
         }
         if (jsonObject.has("value3")) {
             extendedMetadata = jsonObject.get("value3").getAsBoolean();
-            logger.log(Level.WARNING, "could not find the selected extendedMetadata ++++++ the user deosn't check for checkbox");
         } else {
             extendedMetadata = true;
+            logger.log(Level.WARNING, "could not find the selected extendedMetadata ++++++ the user deosn't check for checkbox");
         }
         String scriptName = "undirectedgraph_degree_centrality.R";
         System.out.printf(scriptName);
         if (scriptSelection.equals("Degree")) {
-            scriptName = "undirectedgraph_degree_centrality.R";
+            scriptName = "undirectedgraph_degree_centrality.R"; //1
         } else if (scriptSelection.equals("Betweenness")) {
             scriptName = "undirectedgraph_betweenness_centrality.R";
-        } else if (scriptSelection.equals("Closeness")) {
+        } else if (scriptSelection.equals("Closeness")) {  //2 fklsj dfj    'oksdhfy ewhroq nk;mansdf
             scriptName = "undirectedgraph_closeness_centrality.R";
         } else if (scriptSelection.equals("Indegree")) {
             scriptName = "in_degree_centrality.R";
@@ -62,7 +59,6 @@ public class CentralityAgent extends RWrapperAgent {
             scriptName = "undirectedgraph_degree_centrality.R";
             logger.log(Level.WARNING, "could not find the selected script ++++++ the user choiced no centrality filetr! +++ Default is Degree-centrality");
         }
-
         if (scriptName != null) { // FBA never happen always true / we can handle null in front too ReDux
             this.scriptStream = ClassLoaderUtility.getClassLoader().getResourceAsStream(scriptPrefix + scriptName);
         } else {

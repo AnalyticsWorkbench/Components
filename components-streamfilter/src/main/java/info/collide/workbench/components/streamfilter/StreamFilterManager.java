@@ -20,7 +20,6 @@ import eu.sisob.components.framework.componentdescription.Input;
 import eu.sisob.components.framework.componentdescription.Output;
 import eu.sisob.components.framework.componentdescription.SelectField;
 import eu.sisob.components.framework.componentdescription.StringField;
-
 /**
  *
  * @author walter
@@ -30,7 +29,6 @@ public class StreamFilterManager extends AgentManager {
     public StreamFilterManager(JsonObject commandMsg, String mngId, ConnectionType connectionType) {
         super(commandMsg, mngId, connectionType);
     }
-
     @Override
     protected void createAgent(JsonObject coordinationMessage) {
         StreamFilterAgent agent = new StreamFilterAgent(coordinationMessage);
@@ -40,8 +38,6 @@ public class StreamFilterManager extends AgentManager {
         Thread runtime = new Thread(agent);
         runtime.start();
     }
-
-
     @Override
     protected List<Filter> getFilterDescriptions() {
         
@@ -51,7 +47,6 @@ public class StreamFilterManager extends AgentManager {
         inputs.add(new Input("in_1", "activity stream"));
     	JSONArray outputs = new JSONArray();
     	outputs.add(new Output("out_1", "activity stream"));
-    	
     	JSONArray fields = new JSONArray();            
     	fields.add(new SelectField("include/exclude", "value1", true, new String[]{"include", "exclude"}));
     	fields.add(new StringField("verb", "value2", false));
@@ -61,18 +56,13 @@ public class StreamFilterManager extends AgentManager {
     	fields.add(new StringField("object:objectType", "value6", false));
     	fields.add(new StringField("target:objectType", "value7", false));
     	fields.add(new StringField("generator:id", "value8", false));
-        
         JSONObject form = this.readFormJSON("streamfilter-form.json");
     	String jsUpdateForm = this.readFile("streamfilter-update-form.js");
     	String jsTransformMeta = this.readFile("streamfilter-transform-meta.js");
-        
     	Container container = new Container(shortDescription, longDescription, inputs, outputs, fields, form, jsUpdateForm, jsTransformMeta);
-    	
     	Filter filter = new Filter("Stream Filter", "Tools", container);
         List<Filter> filters = new ArrayList<Filter>(1);
         filters.add(filter);
-        
     	return filters;
     }
-    
 }

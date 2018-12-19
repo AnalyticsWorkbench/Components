@@ -47,8 +47,9 @@ public class Container extends JSONObject {
     public Container(String shortDescription, String longDescription, JSONArray inputs, JSONArray outputs,
 			JSONArray fields, JSONObject form, String jsUpdateForm, String jsTransformMeta) {
 		this(shortDescription, longDescription, inputs, outputs, fields, form);
+        this.put("js_transform_meta", jsTransformMeta);
 		this.put("js_update_form", jsUpdateForm);
-		this.put("js_transform_meta", jsTransformMeta);
+
 	}
 
 	public String getXType() {

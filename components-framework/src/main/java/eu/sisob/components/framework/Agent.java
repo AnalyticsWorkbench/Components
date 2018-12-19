@@ -64,7 +64,7 @@ public abstract class Agent implements Runnable {
     protected ReentrantLock lock;
 
     protected boolean outputAgent;
-    //  protected String outputFile = " meta.js" ; // FBA
+    //  protected String outputFile = " meta.js" ; // FBA line deleted handeled in MetaAnalysis itself
     public String outputFile;
 
     private boolean unregister = false;
@@ -206,14 +206,18 @@ public abstract class Agent implements Runnable {
         String name = "result_" + this.workflowID;
         System.out.println("=====/////=====/////=====");
         System.out.println(agentID);
-        System.out.println("=====/////=====/////=====");
+        System.out.println("=====/////=====/////=====");// Dwyer Force Directed Graph
         if (agentID.equals("metaanalysis"))
         {
-            resultInfo = baseUrl + this.outputFile ; // FBA for the meta analysis
-        }else {
+            resultInfo = baseUrl + this.outputFile ; // FBA for the meta analysis, here we set the server that where is our output file
+        }else if (agentID.equals("Dwyer Force Directed Graph"))
+        {
+            resultInfo = baseUrl + this.workflowID + "/" + this.agentInstanceID + "/index.html";
+        } else {
             resultInfo = baseUrl + this.workflowID + "/" + this.agentInstanceID + "/index.html";
         }
         //resultInfo = baseUrl + this.workflowID + "/" + this.agentInstanceID + "/" + this.outputFile; // FBA was default
+        //return("result" + File.separator + workflowId + File.separator + getAgentInstanceID() + File.separator + "meta.js");
 
         JsonObject resultJson = new JsonObject();
         resultJson.addProperty("runid", this.workflowID);

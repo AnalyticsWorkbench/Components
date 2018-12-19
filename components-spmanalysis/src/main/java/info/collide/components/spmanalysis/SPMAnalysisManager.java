@@ -52,12 +52,12 @@ public class SPMAnalysisManager extends AgentManager {
     	outputs.add(new Output("out_1", "data table"));
 
     	JSONArray fields = new JSONArray();
-    	fields.add(new SelectField("Input for analysis", "input_encoding", true, new String[]{"\u003C verb \u003E _ \u003C object:objectType \u003E", "\u003C verb \u003E _ \u003C object:objectType \u003E _ \u003C object:name \u003E"}));
+    	fields.add(new SelectField("Input for analysis", "input_encoding", true, "\u003C verb \u003E _ \u003C object:objectType \u003E", "\u003C verb \u003E _ \u003C object:objectType \u003E _ \u003C object:name \u003E"));
     	fields.add(new StringField("Select min_sup (relative to the number of input sequences) ", "support", true, "0.2"));
     	fields.add(new BooleanField("Only allow continuous sequences?", "continuous", true, false));
     	fields.add(new SelectField("Select output type", "output", true, "SiSOB table", "Excel file"));
     	
-    	JSONObject form = this.readFormJSON("spmanalysis-form.json");
+    	JSONObject form = this.readFormJSON("spmanalysis-form.json");// FBA3 - B here we render the form from Jason Data
     	String jsUpdateForm = this.readFile("spmanalysis-update-form.js");
     	String jsTransformMeta = this.readFile("spmanalysis-transform-meta.js");
     	
