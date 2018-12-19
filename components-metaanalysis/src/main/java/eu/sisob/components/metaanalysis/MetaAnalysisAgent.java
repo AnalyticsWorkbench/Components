@@ -144,6 +144,7 @@ public class MetaAnalysisAgent extends Agent {
 	private JsonObject analyseSGF(JSONFile file) {
 		JsonObject meta = new JsonObject();
 //		meta.addProperty("dataType", "Unknown"); // FBA this is orginal
+		meta.addProperty("fileType", "sgf");
 		meta.addProperty("dataType", "sgf");
 		JsonObject data;
 		System.out.println("receives  sgf format from the input");
@@ -174,9 +175,9 @@ public class MetaAnalysisAgent extends Agent {
 						System.out.println(dataTypeProps);
 						//boolean boolise = Boolean.valueOf(String.valueOf(dataTypeProps));
 						if (!dataTypeProps.getAsBoolean()) {
-							meta.addProperty("dataType", "sgf : this is Undirected graph");
+							meta.addProperty("dataType", " Undirected graph");
 						} else {
-							meta.addProperty("dataType", "sgf : this is Directed graph");
+							meta.addProperty("dataType", "  Directed graph");
 							System.out.println("=====================THAT WAS TRUE=========================");
 						}
 						meta.add("Meta data for SGF", metadata);

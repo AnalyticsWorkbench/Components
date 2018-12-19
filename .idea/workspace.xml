@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bf8f156-33c5-4ced-b88c-dbe781bd2da0" name="Default" comment="just change the metaAnalyser result path from results/result to results">
-      <change afterPath="$PROJECT_DIR$/components-centrality/src/main/resources/Centrality-Update-form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-centrality/src/main/resources/Centrality-form.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-centrality/src/main/resources/Centrality-transform-meta.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/src/main/java/eu/sisob/components/framework/json/util/JSONFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/src/main/java/eu/sisob/components/framework/json/util/JSONFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/framework/json/util/JSONFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-api-master/api-data/target/classes/eu/sisob/components/framework/json/util/JSONFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-centrality/target/classes/eu/sisob/components/centrality/CentralityManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/componentdescription/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/componentdescription/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Container.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-framework/target/classes/eu/sisob/components/framework/componentdescription/Container.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components/metaanalysis/MetaAnalysisManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/target/classes/eu/sisob/components/metaanalysis/MetaAnalysisManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-streamfilter/src/main/java/info/collide/workbench/components/streamfilter/StreamFilterAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/src/main/java/info/collide/workbench/components/streamfilter/StreamFilterAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-streamfilter/src/main/java/info/collide/workbench/components/streamfilter/StreamFilterManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/src/main/java/info/collide/workbench/components/streamfilter/StreamFilterManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterAgent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/components-streamfilter/target/classes/info/collide/workbench/components/streamfilter/StreamFilterManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/components-bicliquetracingvis/target/" />
     <ignored path="$PROJECT_DIR$/components-datauploader/target/" />
@@ -128,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components-streamfilter/src/main/java/info/collide/workbench/components/streamfilter/StreamFilterManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="61" column="135" selection-start-line="61" selection-start-column="131" selection-end-line="61" selection-end-column="135" />
+            <state relative-caret-position="871">
+              <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,10 +122,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="147" column="44" lean-forward="true" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="181">
+              <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
               <folding>
                 <element signature="e#0#8777#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -191,6 +187,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components-streamfilter/src/main/resources/streamfilter-form.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="226">
@@ -210,15 +215,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components-centrality/src/main/resources/Centrality-Update-form.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -254,7 +250,6 @@
       <find>results</find>
       <find>no meta</find>
       <find>JSONFile</find>
-      <find>uploadResults</find>
       <find>commandMsg</find>
       <find>scripts</find>
       <find>output</find>
@@ -264,6 +259,7 @@
       <find>BooleanField</find>
       <find>getAvailableScripts</find>
       <find>form</find>
+      <find>uploadResults</find>
       <find>form</find>
     </findStrings>
     <dirStrings>
@@ -322,7 +318,6 @@
         <option value="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/Agent.java" />
         <option value="$PROJECT_DIR$/components-spmanalysis/src/main/resources/spmanalysis-update-form.js" />
         <option value="$PROJECT_DIR$/../UI/clientV2/example_data/Example Network Data/coa_all.sgf" />
-        <option value="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
         <option value="$PROJECT_DIR$/components-centrality/src/main/resources/Centrality-transform-meta.js" />
         <option value="$PROJECT_DIR$/components-centrality/src/main/resources/eu/sisob/components/centrality/Centrality-Update-Form-Data.js" />
         <option value="$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/componentdescription/Container.java" />
@@ -333,6 +328,7 @@
         <option value="$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java" />
         <option value="$PROJECT_DIR$/components-streamfilter/src/main/java/info/collide/workbench/components/streamfilter/StreamFilterAgent.java" />
         <option value="$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityManager.java" />
+        <option value="$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java" />
       </list>
     </option>
   </component>
@@ -647,7 +643,7 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545230004940" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545233823379" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSON" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -802,7 +798,7 @@
       <workItem from="1544523798443" duration="24614000" />
       <workItem from="1544891924791" duration="235000" />
       <workItem from="1545126369452" duration="12162000" />
-      <workItem from="1545210764938" duration="11443000" />
+      <workItem from="1545210764938" duration="13254000" />
     </task>
     <task id="LOCAL-00001" summary="just change the metaAnalyser result path from results/result to results">
       <created>1542117245455</created>
@@ -815,7 +811,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173276000" />
+    <option name="totallyTimeSpent" value="175087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -830,7 +826,7 @@
     <frame x="-1680" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18742369" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18742369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -842,12 +838,12 @@
       <window_info anchor="bottom" id="Dependency Viewer" order="0" weight="0.32914045" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" sideWeight="0.4981685" weight="0.25510204" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.42185593" visible="true" weight="0.23061225" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.42185593" weight="0.23061225" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.86630034" weight="0.24183674" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32857144" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.74542123" weight="0.28367347" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.74542123" visible="true" weight="0.28367347" />
       <window_info anchor="bottom" id="Inspection Results" order="9" sideWeight="0.498779" weight="0.32857144" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5781441" side_tool="true" weight="0.24285714" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -1431,16 +1427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3396">
-          <caret line="81" column="71" selection-start-line="81" selection-start-column="71" selection-end-line="81" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components-centrality/src/main/resources/eu/sisob/components/centrality/Centrality-Update-Form-Data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1462,13 +1448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-streamfilter/src/main/resources/streamfilter-form.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1513,23 +1492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components-streamfilter/src/main/resources/streamfilter-transform-meta.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components-streamfilter/src/main/java/info/collide/workbench/components/streamfilter/StreamFilterAgent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3910">
-          <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityAgent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -1547,16 +1509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components-streamfilter/src/main/java/info/collide/workbench/components/streamfilter/StreamFilterManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="61" column="135" selection-start-line="61" selection-start-column="131" selection-end-line="61" selection-end-column="135" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components-framework/src/main/java/eu/sisob/components/framework/componentdescription/BooleanField.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1564,14 +1516,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components-streamfilter/src/main/resources/streamfilter-form.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-streamfilter/src/main/java/info/collide/workbench/components/streamfilter/StreamFilterAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3910">
+          <caret line="230" lean-forward="true" selection-start-line="230" selection-end-line="230" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-streamfilter/src/main/resources/streamfilter-transform-meta.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components-centrality/src/main/java/eu/sisob/components/centrality/CentralityManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="181">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
           <folding>
             <element signature="e#0#8777#0" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="e#7381#7389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-streamfilter/src/main/java/info/collide/workbench/components/streamfilter/StreamFilterManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components-metaanalysis/src/main/java/eu/sisob/components/metaanalysis/MetaAnalysisAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="147" column="44" lean-forward="true" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
