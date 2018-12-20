@@ -86,9 +86,9 @@ import eu.sisob.components.framework.componentdescription.SelectField;
 		fields.add(new BooleanField("extended metadata", "value3", true, false));
 
 		String jsTransformMeta = this.readFile("Centrality-transform-meta.js");
-		String jsUpdateForm = this.readFile("Centrality-Update-form.js");
+		String jsUpdateForm = this.readFile("Centrality-update-form.js");
 		JSONObject form = this.readFormJSON("Centrality-form.json");
-		Container container = new Container(shortDescription, longDescription, inputs, outputs, fields, null , null , jsTransformMeta); // FBA 3 MATADATA
+		Container container = new Container(shortDescription, longDescription, inputs, outputs, fields, form , jsUpdateForm , jsTransformMeta); // FBA 3 MATADATA
 		Filter filter = new Filter("Centrality", "Analysis", container);
 		List<Filter> filters = new ArrayList<Filter>(1);
 		filters.add(filter);

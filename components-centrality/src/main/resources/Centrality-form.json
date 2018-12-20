@@ -1,0 +1,34 @@
+{
+    "value1": {
+        "rank": 0,
+        "type": "Select",
+        "required": true,
+        "label": "centrality measures",
+        "default": "Degree",
+        "options": {
+            "Degree":"Degree",
+            "Betweenness":"Betweenness",
+            "Closeness":"Closeness",
+            "Indegree":"Indegree",
+            "Outdegree":"Outdegree",
+            "Directed Betweenness":"Directed Betweenness",
+            "Directed Closeness":"Directed Closeness",
+            "Eigenvector":"Eigenvector",
+            "Strength (weighted Degree)":"Strength (weighted Degree)",
+            "Incoming Strength (weighted Indegree)":"Incoming Strength (weighted Indegree)",
+            "Outgoing Strength (weighted Outdegree)":"Outgoing Strength (weighted Outdegree)"
+        }
+    },
+    "value2": {
+        "label": "keep ids",
+        "type": "boolean",
+        "value": false,
+        "required": true
+    },
+    "value3": {
+        "label": "extended metadata",
+        "type": "boolean",
+        "value": false,
+        "required": true
+    }
+}
