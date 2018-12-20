@@ -52,7 +52,8 @@ public class MetaAnalysisAgent extends Agent {
 	private File ComponentAddress = new File(SISOBProperties.getDefultUserDictonaryPath());
 	private String ProjectFolder = ComponentAddress.getParent();
 
-    private String output_path = ProjectFolder + "/UI/public_html/results/result";
+    private String output_path = SISOBProperties.getResultLocation();
+            //ProjectFolder + "/UI/public_html/results/result";
 	/**
 	 * Constructor for the agent. It first calls the constructor of the superclass, then
 	 * the data structure is set, which is used to determine if a received data message is
@@ -91,7 +92,7 @@ public class MetaAnalysisAgent extends Agent {
 	}
 
 	private String OutputFileAddressMaker(String workflowId) {
-		return("result" + File.separator + workflowId + File.separator + getAgentInstanceID() + File.separator + "meta.js");
+		return(File.separator + workflowId + File.separator + getAgentInstanceID() + File.separator + "meta.js");
 	}
 
 	private String deleteComponentFromAddress(String unwanted, String sentence)
@@ -128,7 +129,7 @@ public class MetaAnalysisAgent extends Agent {
 			}
 		}
 	}
-
+        
 	private JsonObject analyseJSON(JSONFile file) {
 		JsonObject meta = new JsonObject();
 		meta.addProperty("fileType", "json");
