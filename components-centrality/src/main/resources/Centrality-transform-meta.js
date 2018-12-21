@@ -1,5 +1,7 @@
 function main(form, state, metaByInput) {
-    if (metaByInput.in_1.nodeproperties.some(n => n.property === 'dc')) {
+    
+    if (metaByInput.in_1.properties && metaByInput.in_1.properties.nodeproperties && 
+            !metaByInput.in_1.properties.nodeproperties.some(n => n.property === 'dc')) {
         
         var nodeproperty = {
             name: "Degree centrality", 
@@ -7,7 +9,7 @@ function main(form, state, metaByInput) {
             parsingtype: "double"
         };
         
-        metaByInput.in_1.nodeproperties.push(nodeproperty);
+        metaByInput.in_1.properties.nodeproperties.push(nodeproperty);
     }
  
     return metaByInput.in_1;
