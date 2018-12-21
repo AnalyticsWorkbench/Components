@@ -1,4 +1,5 @@
 package eu.sisob.components.metaanalysis;
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -34,8 +35,8 @@ import eu.sisob.components.framework.json.util.JSONFile;
 
 /**
  * This is the agent belonging to the {@link MetaAnalysisManager}. Actually,
- * this agent does no analysis. Instead it prints details about recieved data and passes
- * the data without changing anything.
+ * this agent does no analysis. Instead it prints details about recieved data
+ * and passes the data without changing anything.
  *
  * @author remberg
  *
@@ -44,244 +45,297 @@ import eu.sisob.components.framework.json.util.JSONFile;
  */
 public class MetaAnalysisAgent extends Agent {
 
-	/**
-	 **if you do not put the Component and UI folder in common path you have to set the address manually. for example: "/Users/farbodaprin/Desktop/WorkbenchAnalysis/results"
-	 * * results/result should be in public html folder in the frontend UI path
-	 * for example: public String output_path = "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results/result";
-	 */
-	private File ComponentAddress = new File(SISOBProperties.getDefultUserDictonaryPath());
-	private String ProjectFolder = ComponentAddress.getParent();
+    /**
+     **if you do not put the Component and UI folder in common path you have to
+     * set the address manually. for example:
+     * "/Users/farbodaprin/Desktop/WorkbenchAnalysis/results" * results/result
+     * should be in public html folder in the frontend UI path for example:
+     * public String output_path =
+     * "/Users/farbodaprin/Desktop/WorkbenchAnalysis/UI/public_html/results/result";
+     */
+    private File ComponentAddress = new File(SISOBProperties.getDefultUserDictonaryPath());
+    private String ProjectFolder = ComponentAddress.getParent();
 
     private String output_path = SISOBProperties.getResultLocation();
-            //ProjectFolder + "/UI/public_html/results/result";
-	/**
-	 * Constructor for the agent. It first calls the constructor of the superclass, then
-	 * the data structure is set, which is used to determine if a received data message is
-	 * for this agent. This is used by specifying the runid und the ingoing pipes
-	 * @param coordinationMessage coordination message which is passed from the {@link MetaAnalysisManager}
-	 */
-	public MetaAnalysisAgent(JsonObject coordinationMessage) {
-		super(coordinationMessage);
-		// parameters can be accessed via coordinationMessage.get("parameters").getAsString()
-		// which returns a json string containing all parameters or coordinationMessage.get("parameters").getAsJsonObject()
-		// which returns a json object. If you want to convert the json string to a json object you can use
-		// new Gson().fromJson(jsonString, JsonObject.class).
-	}
+    //ProjectFolder + "/UI/public_html/results/result";
 
-	/**
-	 * Here the Analysis would take place. In this case, we only inspect the data and then pass it on
-	 * @param dataMessage
-	 */
+    /**
+     * Constructor for the agent. It first calls the constructor of the
+     * superclass, then the data structure is set, which is used to determine if
+     * a received data message is for this agent. This is used by specifying the
+     * runid und the ingoing pipes
+     *
+     * @param coordinationMessage coordination message which is passed from the
+     * {@link MetaAnalysisManager}
+     */
+    public MetaAnalysisAgent(JsonObject coordinationMessage) {
+        super(coordinationMessage);
+        // parameters can be accessed via coordinationMessage.get("parameters").getAsString()
+        // which returns a json string containing all parameters or coordinationMessage.get("parameters").getAsJsonObject()
+        // which returns a json object. If you want to convert the json string to a json object you can use
+        // new Gson().fromJson(jsonString, JsonObject.class).
+    }
 
-	@Override
-	public void executeAgent(JsonObject dataMessage) {
-		try {
-			String workflowId = dataMessage.get("runid").getAsString();
-			JsonObject meta = this.analyseInput(dataMessage);
-			createMetaFile(workflowId, meta);
-			//uploadResults(workflowId, meta);
-			//this.outputFile = "/meta.js";  // FBA worked static address not support Multi user
-			this.outputFile = OutputFileAddressMaker(workflowId); // support multi user
-			System.out.println(outputFile);
-			uploadMetaResult(workflowId, meta);
-			//this.outputFile = "meta.js";
-			indicateDone();
-		} catch (Exception g) {
-			indicateError(null, g);
-		}
-	}
+    /**
+     * Here the Analysis would take place. In this case, we only inspect the
+     * data and then pass it on
+     *
+     * @param dataMessage
+     */
+    @Override
+    public void executeAgent(JsonObject dataMessage) {
+        try {
+            String workflowId = dataMessage.get("runid").getAsString();
+            JsonObject meta = this.analyseInput(dataMessage);
+            createMetaFile(workflowId, meta);
+            //uploadResults(workflowId, meta);
+            //this.outputFile = "/meta.js";  // FBA worked static address not support Multi user
+            this.outputFile = OutputFileAddressMaker(workflowId); // support multi user
+            System.out.println(outputFile);
+            uploadMetaResult(workflowId, meta);
+            //this.outputFile = "meta.js";
+            indicateDone();
+        } catch (Exception g) {
+            indicateError(null, g);
+        }
+    }
 
-	private String OutputFileAddressMaker(String workflowId) {
-		return(File.separator + workflowId + File.separator + getAgentInstanceID() + File.separator + "meta.js");
-	}
+    private String OutputFileAddressMaker(String workflowId) {
+        return (File.separator + workflowId + File.separator + getAgentInstanceID() + File.separator + "meta.js");
+    }
 
-	private String deleteComponentFromAddress(String unwanted, String sentence)
-	{
-		StringTokenizer st = new StringTokenizer(sentence);
-		String remainder = "";
+    private String deleteComponentFromAddress(String unwanted, String sentence) {
+        StringTokenizer st = new StringTokenizer(sentence);
+        String remainder = "";
 
-		while(st.hasMoreTokens())
-		{
-			String temp = st.nextToken();
+        while (st.hasMoreTokens()) {
+            String temp = st.nextToken();
 
-			if(!temp.equals(unwanted))
-			{
-				remainder += temp+" ";
-			}
-		}
+            if (!temp.equals(unwanted)) {
+                remainder += temp + " ";
+            }
+        }
 
-		return remainder.trim();
-	}
+        return remainder.trim();
+    }
 
-	private JsonObject analyseInput(JsonObject dataMessage) {
-		Vector<JSONFile> data = JSONFile.restoreJSONFileSet(new Gson().toJson(dataMessage.get("payload")));
-		JSONFile file = data.get(0);
-		String fileType = file.getFileType();
-		switch(fileType) {
-			case "json": {
-				return this.analyseJSON(file);
-			}
-			default: {
-				JsonObject meta = new JsonObject();
-				meta.addProperty("fileType", fileType);
-				meta.addProperty("dataType", "Unknown");
-				return meta;
-			}
-		}
-	}
-        
-	private JsonObject analyseJSON(JSONFile file) {
-		JsonObject meta = new JsonObject();
-		meta.addProperty("fileType", "json");
+    private JsonObject analyseInput(JsonObject dataMessage) {
+        Vector<JSONFile> data = JSONFile.restoreJSONFileSet(new Gson().toJson(dataMessage.get("payload")));
+        JSONFile file = data.get(0);
+        String fileType = file.getFileType();
+        switch (fileType) {
+            case "json": {
+                return this.analyseJSON(file);
+            }
+            case "sgf": {
+                return this.analyseSGF(file);
+            }
+            //Structured Graph Format (SGF)
+            default: {
+                JsonObject meta = new JsonObject();
+                meta.addProperty("fileType", fileType);
+                meta.addProperty("dataType", "Unknown");
+                return meta;
+            }
+        }
+    }
+
+    /**
+     * * FBA 4B if the format of the data is SGF Sequence is a list of objects
+     * (Nodes) for representing the graph structure
+     */
+    private JsonObject analyseSGF(JSONFile file) {
+        JsonObject meta = new JsonObject();
 //		meta.addProperty("dataType", "Unknown"); // FBA this is orginal
-		meta.addProperty("dataType", "ActivityStream");
+        meta.addProperty("fileType", "sgf");
+        meta.addProperty("dataType", "graph");
+        JsonObject data;
+        JSONObject x = file.toJSONObject();
+        String dataString = (String) x.get("filedata");
+        data = (JsonObject) new JsonParser().parse(dataString);
 
-		JsonObject data;
-		//data = (JsonObject) new JsonParser().parse(file.toString()); // FBA APRIN was catch here toJSONstring
-		JSONObject x = file.toJSONObject();
-		String dataString = (String) x.get("filedata");
-		data = (JsonObject) new JsonParser().parse(dataString);
+        try {
+            JsonObject metadata = (JsonObject) data.get("metadata");
+            if (metadata != null) {
+
+                JsonPrimitive dataTypeProps = metadata.getAsJsonPrimitive("directed");
+
+                if (!dataTypeProps.getAsBoolean()) {
+                    meta.addProperty("dataType", "Undirected graph");
+                } else {
+                    meta.addProperty("dataType", "Directed graph");
+                }
+                meta.add("Meta data for SGF", metadata);
+            }
+
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
+        return meta;
+    }
+
+    private JsonObject analyseJSON(JSONFile file) {
+        JsonObject meta = new JsonObject();
+        meta.addProperty("fileType", "json");
+//		meta.addProperty("dataType", "Unknown"); // FBA this is orginal
+        meta.addProperty("dataType", "ActivityStream");
+
+        JsonObject data;
+        //data = (JsonObject) new JsonParser().parse(file.toString()); // FBA APRIN was catch here toJSONstring
+        JSONObject x = file.toJSONObject();
+        String dataString = (String) x.get("filedata");
+        data = (JsonObject) new JsonParser().parse(dataString);
 
 //		System.out.println("=========================================================");
 //		System.out.println(data);
 //		System.out.println(meta);
 //		System.out.println("=========================================================");
+        try {
+            JsonArray items = (JsonArray) data.get("items");
+            if (items != null) {
+                JsonObject sample = (JsonObject) items.get(0);
+                if (sample != null) {
+                    // Indicator for activity streams
+                    // See: http://activitystrea.ms/specs/json/1.0/#activity
+                    if (sample.get("actor") != null && sample.get("published") != null) {
+                        return this.analyseJSONActivityStream(meta, items);
+                    }
+                }
+            }
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+        }
 
-		try {
-			JsonArray items = (JsonArray) data.get("items");
-			if (items != null) {
-				JsonObject sample = (JsonObject) items.get(0);
-				if (sample != null) {
-					// Indicator for activity streams
-					// See: http://activitystrea.ms/specs/json/1.0/#activity
-					if (sample.get("actor") != null && sample.get("published") != null) {
-						return this.analyseJSONActivityStream(meta, items);
-					}
-				}
-			}
-		} catch (NullPointerException e) {
-			e.printStackTrace();
-		}
+        return meta;
+    }
 
-		return meta;
-	}
+    private JsonObject analyseJSONActivityStream(JsonObject meta, JsonArray items) {
+        HashMap<String, ArrayList<JsonElement>> valuesByField = new HashMap<String, ArrayList<JsonElement>>();
+        int l = items.size();
 
-	private JsonObject analyseJSONActivityStream(JsonObject meta, JsonArray items) {
-		HashMap<String, ArrayList<JsonElement>> valuesByField = new HashMap<String, ArrayList<JsonElement>>();
-		int l = items.size();
+        Instant minDate = null;
+        Instant maxDate = null;
 
-		Instant minDate = null;
-		Instant maxDate = null;
+        for (int i = 0; i < l; i++) {
+            JsonObject item = (JsonObject) items.get(i);
+            this.collectJSONActivityStreamFieldValues(valuesByField, item, null);
 
-		for(int i = 0; i < l; i++) {
-			JsonObject item = (JsonObject) items.get(i);
-			this.collectJSONActivityStreamFieldValues(valuesByField, item, null);
+            try {
+                String published = item.get("published").getAsString();
+                Instant itemDate = Instant.parse(published);
+                if (minDate == null || minDate.isAfter(itemDate)) {
+                    minDate = itemDate;
+                }
+                if (maxDate == null || maxDate.isBefore(itemDate)) {
+                    maxDate = itemDate;
+                }
+            } catch (Exception e) {
+                // swallow
+            }
+        }
 
-			try {
-				String published = item.get("published").getAsString();
-				Instant itemDate = Instant.parse(published);
-				if (minDate == null || minDate.isAfter(itemDate)) minDate = itemDate;
-				if (maxDate == null || maxDate.isBefore(itemDate)) maxDate = itemDate;
-			} catch(Exception e) {
-				// swallow
-			}
-		}
+        meta.addProperty("dataType", "ActivityStream");
+        JsonArray fields = new JsonArray();
 
-		meta.addProperty("dataType", "ActivityStream");
-		JsonArray fields = new JsonArray();
+        JsonObject values = new JsonObject();
+        for (Map.Entry<String, ArrayList<JsonElement>> entry : valuesByField.entrySet()) {
+            String key = entry.getKey();
+            ArrayList<JsonElement> value = entry.getValue();
+            JsonArray arr = new JsonArray();
+            for (JsonElement v : value) {
+                arr.add(v);
+            }
+            fields.add(new JsonPrimitive(key));
+            values.add(key, arr);
+        }
 
+        meta.add("values", values);
+        meta.add("fields", fields);
 
-		JsonObject values = new JsonObject();
-		for(Map.Entry<String, ArrayList<JsonElement>> entry : valuesByField.entrySet()) {
-			String key = entry.getKey();
-			ArrayList<JsonElement> value = entry.getValue();
-			JsonArray arr = new JsonArray();
-			for (JsonElement v: value) arr.add(v);
-			fields.add(new JsonPrimitive(key));
-			values.add(key, arr);
-		}
+        JsonArray dateRange = new JsonArray();
+        dateRange.add(new JsonPrimitive(minDate.toString()));
+        dateRange.add(new JsonPrimitive(maxDate.toString()));
+        meta.add("dateRange", dateRange);
+        return meta;
+    }
 
-		meta.add("values", values);
-		meta.add("fields", fields);
+    private void collectJSONActivityStreamFieldValues(HashMap<String, ArrayList<JsonElement>> values, JsonObject jo, String path) {
+        Set<Map.Entry<String, JsonElement>> entries = jo.entrySet();
+        for (Map.Entry<String, JsonElement> entry : entries) {
+            JsonElement value = entry.getValue();
+            String key = entry.getKey();
+            if (value instanceof JsonObject) {
+                this.collectJSONActivityStreamFieldValues(values, (JsonObject) value, key);
+            } else {
+                // String strValue = (String) value.toString(); // FBA this line was comment
+                int intValue;
+                Boolean isInt;
 
-		JsonArray dateRange = new JsonArray();
-		dateRange.add(new JsonPrimitive(minDate.toString()));
-		dateRange.add(new JsonPrimitive(maxDate.toString()));
-		meta.add("dateRange", dateRange);
-		return meta;
-	}
+                try {
+                    intValue = value.getAsInt();
+                    isInt = true;
+                } catch (Exception e) {
+                    isInt = false;
+                }
 
-	private void collectJSONActivityStreamFieldValues(HashMap<String, ArrayList<JsonElement>> values, JsonObject jo, String path) {
-		Set<Map.Entry<String, JsonElement>> entries = jo.entrySet();
-		for (Map.Entry<String, JsonElement> entry: entries) {
-			JsonElement value = entry.getValue();
-			String key = entry.getKey();
-			if(value instanceof JsonObject) {
-				this.collectJSONActivityStreamFieldValues(values, (JsonObject) value, key);
-			} else {
-				// String strValue = (String) value.toString(); // FBA this line was comment
-				int intValue;
-				Boolean isInt;
+                String prop = key;
+                if (path != null) {
+                    prop = path + '.' + prop;
+                }
 
-				try {
-					intValue = value.getAsInt();
-					isInt = true;
-				} catch(Exception e) {
-					isInt = false;
-				}
+                ArrayList<JsonElement> list;
+                if (!values.containsKey(prop)) {
+                    list = new ArrayList<JsonElement>();
+                    values.put(prop, list);
+                } else {
+                    list = values.get(prop);
+                }
 
-				String prop = key;
-				if (path != null) prop = path + '.' + prop;
+                if (!list.contains(value)) {
+                    if (isInt || prop.equals("published")) {
+                        continue;
+                    }
+                    list.add(value);
+                }
 
-				ArrayList<JsonElement> list;
-				if (!values.containsKey(prop)) {
-					list = new ArrayList<JsonElement>();
-					values.put(prop, list);
-				} else {
-					list = values.get(prop);
-				}
+            }
+        }
+    }
 
-				if (!list.contains(value)) {
-					if (isInt || prop.equals("published")) continue;
-					list.add(value);
-				}
+    private void createMetaFile(String workflowId, JsonObject meta) throws IOException {
+        //String directoryPath = output_path + workflowId + File.separator + getAgentInstanceID() + File.separator; // FBA here is the orginal line
+        String directoryPath = output_path + File.separator + workflowId + File.separator + getAgentInstanceID();
+        File outDir = new File(directoryPath);
+        if (!outDir.exists()) {
+            outDir.mkdirs();
+        }
+        File metaFile = new File(directoryPath + File.separator + "meta.js");
+        FileWriter fw = new FileWriter(metaFile);
+        fw.write("(function() { window['" + workflowId + "'] = (" + meta.toString() + "); })()");
+        fw.close();
+    }
 
-			}
-		}
-	}
+    private void uploadMetaResult(String workflowId, JsonObject meta) throws IOException {
+        RestApiImplement api = new RestApiImplement();
+    }
 
-	private void createMetaFile(String workflowId, JsonObject meta) throws IOException {
-		//String directoryPath = output_path + workflowId + File.separator + getAgentInstanceID() + File.separator; // FBA here is the orginal line
-		String directoryPath = output_path  + File.separator + workflowId + File.separator + getAgentInstanceID();
-		File outDir = new File(directoryPath);
-		if (!outDir.exists()) outDir.mkdirs();
-		File metaFile = new File(directoryPath + File.separator +"meta.js");
-		FileWriter fw = new FileWriter(metaFile);
-		fw.write("(function() { window['" + workflowId + "'] = (" + meta.toString() + "); })()");
-		fw.close();
-	}
+    /**
+     * This method would be used it there are multiple data messages coming in.
+     * Here we do not need this method.
+     *
+     * @param dataMessages list with incoming data messages
+     */
+    @Override
+    public void executeAgent(List<JsonObject> dataMessages) {
+        // no op
+    }
 
-	private void uploadMetaResult (String workflowId, JsonObject meta) throws IOException {
-		RestApiImplement api = new RestApiImplement();
-	}
-
-	/**
-	 * This method would be used it there are multiple data messages coming in.
-	 * Here we do not need this method.
-	 * @param dataMessages list with incoming data messages
-	 */
-	@Override
-	public void executeAgent(List<JsonObject> dataMessages) {
-		// no op
-	}
-
-	/**
-	 *  Here the results of our analysis are handled
-	 */
-	@Override
-	protected void uploadResults() {
-		// no op
-	}
-
+    /**
+     * Here the results of our analysis are handled
+     */
+    @Override
+    protected void uploadResults() {
+        // no op
+    }
 
 }
