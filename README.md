@@ -203,6 +203,22 @@ mvn clean install
 ## Kick off workbench run local server video 
 [![workbenchsisob](https://user-images.githubusercontent.com/17232450/42764608-56712c00-8916-11e8-84be-b1c4cbd25f7f.jpg)](https://youtu.be/FDGwaJuoVkg)
 
+
+### PROBABLE ERRORS 
+
+ ### Package does not exist 
+
+After execution if you got error 
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.TemporalAccessor;
+
+Package does not exist, it might be the IDE change your defult java version because of other projects. e.g. from JAVA 8 to JAVA 10. 
+accepteble version for current Workbench is 1.8 according to this figure:
+
+<img src="https://user-images.githubusercontent.com/17232450/51902218-bf7be300-23b9-11e9-8cc6-1c12600dc7dc.png" width="600" height="110">
+
+
+
 need to surf on server to know more about Sisob Workbench ? 
 https://descartes.inf.uni-due.de:3081/workbench
 
