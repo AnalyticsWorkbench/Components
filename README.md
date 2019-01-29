@@ -215,7 +215,7 @@ import java.time.temporal.TemporalAccessor;
 Package does not exist, it might be the IDE change your defult java version because of other projects. e.g. from JAVA 8 to JAVA 10. 
 accepteble version for current Workbench is 1.8 according to this figure:
 
-<img src="https://user-images.githubusercontent.com/17232450/51902218-bf7be300-23b9-11e9-8cc6-1c12600dc7dc.png" width="600" height="110">
+<img src="https://user-images.githubusercontent.com/17232450/51902218-bf7be300-23b9-11e9-8cc6-1c12600dc7dc.png" width="400" height="410">
 
 
 
