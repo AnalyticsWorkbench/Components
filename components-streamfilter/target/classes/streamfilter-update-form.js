@@ -6,7 +6,7 @@ function main(form, state, metaByInput) {
 	var values = input.values;
 	var min = input.dateRange[0];
 	var max = input.dateRange[1];
-
+	debugger;
 	return Object.assign({}, form, {
 		filters: Object.assign({}, form.filters, {
 			dependencies: [{

@@ -147,7 +147,11 @@ public class Container extends JSONObject {
         } else {
             form = null;
         }
-
+    /**
+     *
+     * js_transform_meta if exist inside transformation of each module then we use it !
+     *
+    * */
         Container newContainer = new Container(
         	json.get("legend") != null ? json.get("legend").toString() : null, 
         	json.get("descriptionText") != null ? json.get("descriptionText").toString() : null, 

@@ -1,0 +1,19 @@
+,
+"text": {
+    "type": {
+        "type": "Checkbox",
+            "rank": 1,
+            "label": "Keep Id",
+            "default": true,
+            "description": "sosis"
+    }
+},
+"text": {
+    "type": {
+        "type": "Checkbox",
+            "rank": 1,
+            "label": "Extended Metadata",
+            "default": true,
+            "description": "sosis"
+    }
+}

@@ -35,7 +35,7 @@ public class App
     }
     
     public static String[] loadServerData() {
-            String serverdata[] = new String[2];
+        String[] serverdata = new String[2];
             try {
                 BufferedReader reader = new BufferedReader(new FileReader("server.conf"));
                 // server location
