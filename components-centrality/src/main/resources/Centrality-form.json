@@ -1,13 +1,13 @@
 {
   "filters": {
-    "rank": 4,
+    "rank": 0,
     "type": "Table",
-    "label": "Filter",
+    "label": "Centrality measures (Updated)",
     "columns": {
       "type": {
         "type": "Select",
-        "rank": 0,
-        "label": "Centrality measures (Updated)",
+        "rank": 2,
+        "label": "Degree",
         "options": [
           "Degree",
           "Betweenness",
@@ -23,6 +23,20 @@
         ]
       }
     }
+  },
+  "Checkbox": {
+    "type": "Checkbox",
+    "rank": 1,
+    "label": "Extended Metadata",
+    "default": true,
+    "description": "Extended Metadata"
+  },
+  "KeepID": {
+    "type": "Checkbox",
+    "rank": 2,
+    "label": "Keep Id",
+    "default": true,
+    "description": "KeepID 2"
   }
 }
 
