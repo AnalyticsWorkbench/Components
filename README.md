@@ -215,9 +215,12 @@ import java.time.temporal.TemporalAccessor;
 Package does not exist, it might be the IDE change your defult java version because of other projects. e.g. from JAVA 8 to JAVA 10. 
 accepteble version for current Workbench is 1.8 according to this figure:
 
-<img src="https://user-images.githubusercontent.com/17232450/51902218-bf7be300-23b9-11e9-8cc6-1c12600dc7dc.png" width="420" height="360">
+<img src="https://user-images.githubusercontent.com/17232450/51902218-bf7be300-23b9-11e9-8cc6-1c12600dc7dc.png" width="720" height="560">
 
+### JDK Version problem
 
+Error:java: javacTask: source release 7 requires target release 1.7
+<img src="https://user-images.githubusercontent.com/46486706/58264984-2107f900-7d7f-11e9-8fae-835dd43599e2.png" width="720" height="560">
 
 need to surf on server to know more about Sisob Workbench ? 
 https://descartes.inf.uni-due.de:3081/workbench
